@@ -2,6 +2,39 @@
 //- like so './images/image.jpg',
 //- and not './../images/image.jpg'
 
-header
-  h1 Hello world!
-  img(src='./images/js-logo.svg' alt='js logo' width='200')
+div.layout_header
+  div.region_header
+    div.header_logo
+      img(src="images/logo.png", alt="miid logo")
+    div.header_nav
+      ul.header_menu
+        li.header_menu_li
+          a.header_menu_item(href="#") главная
+        li.header_menu_li
+          a.header_menu_item(href="#") услуги
+        li.header_menu_li
+          a.header_menu_item(href="#") недвижимость
+        li.header_menu_li
+          a.header_menu_item(href="#") застройщикам
+        li.header_menu_li
+          a.header_menu_item(href="#") о компании
+        li.header_menu_li
+          a.header_menu_item(href="#") контакты
+    div.header_navigation
+      ul.nav_list
+        li.nav_list_li.nav_phone +7 (495) 249-90-40
+        li.nav_list_li
+          a.nav_enter(href="#") войти
+          a.nav_enter_two(href="#")
+        li.nav_list_li
+          a.nav_lang(href="#") EN
+        li.nav_list_li
+          a.nav_find(href="#")
+            img.ellipse(src="images/Ellipse.png")
+            img.line(src="images/Line.png")
+          a.nav_find_two(href="#")
+            input.find_input(type="text")
+
+
+
+

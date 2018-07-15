@@ -1,0 +1,221 @@
+.layout_header .region_header {
+  width: 1900px;
+  height: 121px;
+}
+
+.header_logo {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 121px;
+  vertical-align: middle;
+  margin-right: 195px;
+}
+
+.header_logo img {
+  position: absolute;
+  left: 72px;
+  top: 39px;
+}
+
+.header_nav {
+  display: inline-block;
+  margin: 50px 48px 56px 0;
+}
+
+.header_menu_li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 87px;
+}
+
+.header_menu_item {
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header_navigation {
+  display: inline-block;
+  margin: 49px 0 54px 0;
+}
+
+.nav_list_li {
+  display: inline-block;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.nav_phone {
+  margin-right: 47px;
+}
+
+.nav_enter {
+  margin-right: 31px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_enter_two {
+  display: none;
+}
+
+.nav_lang {
+  padding: 8px 40px 8px 30px;
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-image: url(../images/Polygon.png);
+  background-repeat: no-repeat;
+  background-position: 62% 45%;
+}
+
+.nav_find {
+  position: relative;
+}
+
+.nav_find_two {
+  display: none;
+}
+
+.ellipse {
+  position: absolute;
+  top: -17px;
+  left: 30px;
+}
+
+.line {
+  position: absolute;
+  left: 45px;
+  top: -3px;
+}
+
+@media(max-width: 768px) {
+  .layout_header .region_header {
+    height: 96px;
+  }
+
+  .header_logo {
+    width: 210px;
+    height: 60px;
+    margin-right: 29px;
+  }
+
+  .header_logo img {
+    width: 152px;
+    height: 32px;
+    left: 50px;
+    top: 22px;
+  }
+
+  .header_nav {
+    display: block;
+    margin: 29px 13px 15px 50px;
+  }
+
+  .header_menu_li {
+    margin-right: 46px;
+  }
+
+  .header_navigation {
+    margin: 30px 0 29px 0;
+  }
+  .nav_phone {
+    margin-right: 17px;
+  }
+  .nav_enter {
+    display: none;
+  }
+
+  .nav_enter_two {
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background-image: url(../images/enter_icon.png);
+    background-repeat: no-repeat;
+  }
+
+  .nav_lang {
+    border: none;
+    background-image: none;
+  }
+
+  .nav_find {
+    display: none;
+  }
+
+  .nav_find_two {
+    display: inline-block;
+  }
+
+  .find_input {
+    width: 230px;
+    height: 30px;
+    background: #FFFFFF;
+    background-image: url(../images/find.png);
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+    border: 0.5px solid #C4C4C4;
+    outline: 0;
+  }
+}
+
+@media(max-width: 320px) {
+  .layout_header .region_header {
+    height: 46px;
+  }
+
+  .header_logo {
+    width: 145px;
+    height: 46px;
+    margin-right: 8px;
+  }
+
+  .header_logo img {
+    width: 132px;
+    height: 28px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .header_navigation {
+    margin: 15px 0 19px 0;
+  }
+
+  .nav_phone {
+    margin-right: 17px;
+  }
+  .nav_enter {
+    display: none;
+  }
+
+  .nav_enter_two {
+    display: none;
+  }
+
+  .nav_lang {
+    display: none;
+  }
+
+  .nav_find {
+    display: none;
+  }
+
+  .nav_find_two {
+    display: none;
+  }
+
+  .find_input {
+    display: none;
+  }
+}
