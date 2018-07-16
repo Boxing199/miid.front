@@ -1,6 +1,8 @@
 .layout_header .region_header {
-  width: 1900px;
+  width: 100%;
+  max-width: 1920px;
   height: 121px;
+  margin: 0 auto;
 }
 
 .header_logo {
