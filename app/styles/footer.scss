@@ -1,6 +1,4 @@
 .layout_footer {
-  max-width: 1920px;
-  height: 520px;
   margin: 0 auto;
 }
 
@@ -9,9 +7,13 @@
   justify-content: space-between;
   max-width: 999px;
   margin: 0 auto;
-  margin-top: 62px;
+  padding-top: 62px;
+  padding-bottom: 154px;
   margin-left: 390px;
-  margin-bottom: 154px;
+}
+
+.footer_column_one {
+  margin-right: 61px;
 }
 
 .region_footer a {
@@ -20,8 +22,6 @@
 
 .footer_logo {
   display: block;
-  max-width: 222px;
-  max-height: 48px;
   padding-bottom: 22px;
 }
 
@@ -33,11 +33,14 @@
 .footer_info {
   padding-left: 32px;
   font-size: 12px;
-  color: #858585;
 }
 
 .footer_info_nav {
   margin-bottom: 20px;
+}
+
+.footer_info_nav a {
+  color: #858585;
 }
 
 .footer_adress {
@@ -49,23 +52,39 @@
 .footer_adress_img, .footer_phone_img, .footer_email_img {
   position: absolute;
   top: 0;
-  left: -19px;
+  left: -30px;
 }
 
 .footer_phone, .footer_email {
   display: block;
   position: relative;
 }
+
+.footer_navigation {
+  display: inline-block;
+  margin-right: 60px;
+}
+
 .footer_columns {
   max-width: 703px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 41px;
+}
+
+.footer_column_two {
+  margin-right: 198px;
+}
+
+.footer_column_tree {
+  margin-right: 90px;
 }
 
 .footer_pro, .footer_sale_item, .footer_cont {
   display: block;
   color: black;
   font-size: 15px;
+  font-weight: bold;
   margin-top: 9px;
   margin-bottom: 29px;
   text-transform: uppercase;
@@ -88,15 +107,16 @@
 }
 .footer_vk_img, .footer_fb_img, .footer_tw_img, .footer_ok_img, {
   position: absolute;
-  left: 10px;
+  left: 0;
 }
 
 .footer_buttons {
   display: inline-block;
+  margin-bottom: 80px;
 }
 
 .footer_button {
-  display: block;
+  display: inline-block;
   width: 226px;
   height: 53px;
   line-height: 17px;
@@ -106,6 +126,7 @@
   box-sizing: border-box;
   border-radius: 50px;
   padding: 18px 45px 17px 92px;
+  margin-right: 65px;
 }
 .feedback{
   background-image: url(../images/todo.png);
@@ -118,3 +139,4 @@
   background-repeat: no-repeat;
   background-position: 25% 50%;
 }
+
