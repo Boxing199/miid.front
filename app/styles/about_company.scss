@@ -1,3 +1,7 @@
+.content_two_wrapper_about_company {
+  padding-top: 0px;
+}
+
 .content_two_about {
   margin-right: 143px;
 }
@@ -25,8 +29,18 @@
   font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
+  margin-bottom: 38px;
 }
 
+.content_two_a {
+  padding: 12px 90px 13px 34px;
+  border: solid black 1px;
+  color: black;
+  text-decoration: none;
+  background-image: url(../images/about_company/Arrow.png);
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+}
 .content_two_image_block {
   width: 432px;
   height: 428px;
