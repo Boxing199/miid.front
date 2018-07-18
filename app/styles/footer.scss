@@ -11,13 +11,8 @@ body {
 .layout_footer {
   display: flex;
   flex-direction: column;
-  height: 100%;
   margin: 0 auto;
   font-family: 'Exo 2', sans-serif;
-}
-
-.main {
-  flex: 1 0 auto;
 }
 
 .region_footer {
@@ -25,7 +20,6 @@ body {
   justify-content: space-between;
   max-width: 999px;
   margin: 0 auto;
-  padding-left: 390px;
   flex: 0 0 auto;
 }
 
