@@ -1,16 +1,27 @@
 .content_two_wrapper_about_company {
-  padding-top: 0px;
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 27px;
 }
 
 .content_two_about {
-  margin-right: 143px;
+  max-width: 630px;
+  padding-left: 24px;
+}
+
+.content_two_right_about {
+  width: 465px;
+}
+
+.content_two_image_block_about {
+  margin-top: 35px;
 }
 
 .content_two_h3 {
-  font-weight: bold;
   font-size: 34px;
   line-height: 41px;
   margin-bottom: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .h3_span_green {
@@ -22,7 +33,7 @@
   content: "";
   border: black solid 1px;
   width: 103px;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .content_two_p {
@@ -33,14 +44,19 @@
 }
 
 .content_two_a {
+  position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
   color: black;
   text-decoration: none;
-  background-image: url(../images/about_company/Arrow.png);
-  background-repeat: no-repeat;
-  background-position: 80% 50%;
 }
+
+.content_two_a_arrow {
+  position: absolute;
+  right: 31px;
+  top: 16px;
+}
+
 .content_two_image_block {
   width: 432px;
   height: 428px;
