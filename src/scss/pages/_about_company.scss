@@ -1,0 +1,71 @@
+.content_two_wrapper_about_company {
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 27px;
+}
+
+.content_two_about {
+  max-width: 630px;
+  padding-left: 24px;
+}
+
+.content_two_right_about {
+  width: 465px;
+}
+
+.content_two_image_block_about {
+  margin-top: 35px;
+}
+
+.content_two_h3 {
+  font-size: 34px;
+  line-height: 41px;
+  margin-bottom: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.h3_span_green {
+  color: #27AE60;
+}
+
+.h3_span_green:before {
+  display: inline-block;
+  content: "";
+  border: black solid 1px;
+  width: 103px;
+  vertical-align: bottom;
+}
+
+.content_two_p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #AEAEAE;
+  margin-bottom: 38px;
+}
+
+.content_two_a {
+  position: relative;
+  padding: 12px 90px 13px 34px;
+  border: solid black 1px;
+  color: black;
+  text-decoration: none;
+}
+
+.content_two_a_arrow {
+  position: absolute;
+  right: 31px;
+  top: 16px;
+}
+
+.content_two_image_block {
+  width: 432px;
+  height: 428px;
+  position: relative;
+  border: solid 2px #E2E2E2;
+}
+
+.content_two_image {
+  position: absolute;
+  top: 35px;
+  left: 27px;
+}
