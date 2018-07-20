@@ -31,9 +31,12 @@
 .h3_span_green:before {
   display: inline-block;
   content: "";
-  border: black solid 1px;
-  width: 103px;
-  vertical-align: bottom;
+  //border: black solid 1px;
+  //width: 103px;
+  //vertical-align: bottom;
+  //display: none;
+  border: none;
+  width: .25em;
 }
 
 .content_two_p {
