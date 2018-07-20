@@ -11,19 +11,23 @@
 
 .header_logo {
   display: inline-block;
-  margin-right: 201px;
   padding: 39px 0 34px 72px;
 }
 
 .header_nav {
+  width: calc(100% - 560px);
   display: inline-block;
   padding: 50px 48px 56px 0;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header_menu_li {
   display: inline-block;
   list-style-type: none;
-  margin-right: 87px;
 }
 
 .header_menu_item {
