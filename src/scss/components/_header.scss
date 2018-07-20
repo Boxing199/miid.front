@@ -4,7 +4,6 @@
 }
 
 .region_header {
-  max-width: 1920px;
   display: flex;
   justify-content: space-between;
 }
@@ -15,7 +14,6 @@
 }
 
 .header_nav {
-  width: calc(100% - 560px);
   display: inline-block;
   padding: 50px 48px 56px 0;
 }
@@ -28,6 +26,7 @@
 .header_menu_li {
   display: inline-block;
   list-style-type: none;
+  margin: 0 10px;
 }
 
 .header_menu_item {
@@ -40,7 +39,10 @@
 
 .header_navigation {
   display: inline-block;
-  padding: 49px 0 54px 0;
+  margin-left: 15px;
+}
+.nav_list {
+  display: flex;
 }
 
 .nav_list_li {
