@@ -49,6 +49,17 @@
   border: solid black 1px;
   color: black;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content_two_a:hover {
+  background-color: #f4efef;
+  transition: 0.6s;
+}
+
+.content_two_a:active {
+  background-color: #e0dbdb;
+  transition: 0.6s;
 }
 
 .content_two_a_arrow {
@@ -68,4 +79,29 @@
   position: absolute;
   top: 35px;
   left: 27px;
+}
+
+.content_two_search {
+  color: #9E9E9E;
+  background: rgba(255,255,255,0.5);
+}
+
+.content_two_search:hover {
+  border-color: #bfbfbf;
+  transition: 0.3s;
+}
+
+.content_two_search:focus {
+  border-color: #a09f9f;
+  transition: 0.5s;
+}
+
+.button_call:hover {
+  background-color: #227f49;
+  transition: 0.6s;
+}
+
+.button_call:active {
+  background-color: #20633c;
+  transition: 0.6s;
 }

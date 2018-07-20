@@ -26,10 +26,13 @@ body {
 .region_footer a {
   text-decoration: none;
 }
+
 .region_footer a:hover {
   color: #494949;
+  text-decoration: underline;
   transition: 0.5s;
 }
+
 .footer_column_one {
   margin-right: 61px;
 }
