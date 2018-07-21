@@ -3,16 +3,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.region_content::before{
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color:rgba(0,0,0,0.5);
-  content: " ";
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: " ";
+  }
 }
 
 .content {
@@ -41,14 +40,14 @@
   color: #FFFFFF;
 }
 
-.region_content_two {
+.region_for_developers {
   background-image: url("../images/for_developers/bg_content_two.png");
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: -270px;
+  background-position-y: -550px;
 }
 
-.content_two_wrapper {
+.for_developers_wrapper {
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   max-width: 1183px;
   margin: 0 auto;

@@ -1,5 +1,12 @@
-.content_two_wrapper_about_company {
+.about_company_wrapper {
   padding-top: 27px;
+}
+
+.region_about_company {
+  background-image: url("../images/about_company/bg_about.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: -130px;
 }
 
 .about_company {
@@ -16,7 +23,7 @@
   width: 465px;
 }
 
-.about_text_title {
+.about_title {
   font-size: 34px;
   line-height: 41px;
   margin-bottom: 25px;
@@ -24,7 +31,7 @@
   text-transform: uppercase;
 }
 
-.about_text_title span {
+.about_title span {
   color: #27AE60;
   &:before {
   display: inline-block;
@@ -42,7 +49,7 @@
   margin-bottom: 38px;
 }
 
-.more_button {
+.button_more {
   position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
