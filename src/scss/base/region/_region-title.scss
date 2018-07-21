@@ -1,0 +1,16 @@
+.region-title {
+    font-size: 34px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+
+    &:before {
+        content: "";
+        width: 104px;
+        display: inline-block;
+        vertical-align: middle;
+        border-top: 1px solid black;
+        margin-right: 22px;
+        position: relative;
+        top: -7px;
+    }
+}
