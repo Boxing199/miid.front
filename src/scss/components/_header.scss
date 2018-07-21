@@ -1,21 +1,13 @@
-.layout_header, .region_header {
+.layout_header,.region_header {
   margin: 0 auto;
-  font-family: 'Exo 2', sans-serif;
 }
 
-.region_header {
+.header {
   display: flex;
   justify-content: space-between;
-}
-
-.header_logo {
-  display: inline-block;
-  padding: 39px 0 34px 72px;
-}
-
-.header_nav {
-  display: inline-block;
-  padding: 50px 48px 56px 0;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 39px 48px 34px 72px;
 }
 
 .header_menu {
@@ -24,32 +16,16 @@
 }
 
 .header_menu_li {
-  display: inline-block;
+  display: flex;
   list-style-type: none;
-  margin: 0 10px;
+  margin-top: 11px;
 }
 
-.header_menu_item {
-  color: black;
-  font-family: 'Exo 2', sans-serif;
+.header_menu_li a {
+  color: #000000;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.header_navigation {
-  display: inline-block;
-  margin-left: 15px;
-}
-.nav_list {
-  display: flex;
-}
-
-.nav_list_li {
-  display: inline-block;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 12px;
-  line-height: 17px;
 }
 
 .nav_phone {
@@ -58,9 +34,6 @@
 
 .nav_enter {
   margin-right: 31px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
 }
 
 .nav_enter_two {
@@ -71,16 +44,19 @@
   padding: 8px 40px 8px 30px;
   border-left: black solid 1px;
   border-right: black solid 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
   background-image: url(../images/Polygon.png);
   background-repeat: no-repeat;
   background-position: 62% 45%;
 }
+
 .nav_find {
   padding-left: 31px;
 }
+
+.find_input {
+  display: none;
+}
+
 .nav_find_two {
   display: none;
 }

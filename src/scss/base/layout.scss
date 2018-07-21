@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.layout_main {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  transition: 0.5s;
+}

@@ -1,18 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
 .layout_footer {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  font-family: 'Exo 2', sans-serif;
 }
 
 .region_footer {
@@ -137,6 +126,12 @@ body {
   padding: 18px 43px 17px 92px;
   margin-right: 65px;
 }
+
+.footer_button:hover {
+  background: #A1A1A1;
+  color: #FFFFFF;
+}
+
 .feedback{
   background-image: url(../images/todo.png);
   background-repeat: no-repeat;

@@ -1,22 +1,22 @@
 .content_two_wrapper_about_company {
-  font-family: 'Exo 2', sans-serif;
   padding-top: 27px;
 }
 
-.content_two_about {
-  max-width: 630px;
-  padding-left: 24px;
+.about_company {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 101px;
 }
 
-.content_two_right_about {
+.about_left {
+  max-width: 630px;
+}
+
+.about_right {
   width: 465px;
 }
 
-.content_two_image_block_about {
-  margin-top: 35px;
-}
-
-.content_two_h3 {
+.about_text_title {
   font-size: 34px;
   line-height: 41px;
   margin-bottom: 25px;
@@ -24,84 +24,54 @@
   text-transform: uppercase;
 }
 
-.h3_span_green {
+.about_text_title span {
   color: #27AE60;
-}
-
-.h3_span_green:before {
+  &:before {
   display: inline-block;
   content: "";
   border: black solid 1px;
   width: 103px;
   vertical-align: bottom;
+  }
 }
 
-.content_two_p {
+.about_text {
   font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
   margin-bottom: 38px;
 }
 
-.content_two_a {
+.more_button {
   position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  &:active {
+    background-color: #000000;
+    color: #ffffff;
+  }
 }
 
-.content_two_a:hover {
-  background-color: #f4efef;
-  transition: 0.6s;
-}
-
-.content_two_a:active {
-  background-color: #e0dbdb;
-  transition: 0.6s;
-}
-
-.content_two_a_arrow {
-  position: absolute;
-  right: 31px;
-  top: 16px;
-}
-
-.content_two_image_block {
+.about_img_block {
   width: 432px;
   height: 428px;
   position: relative;
   border: solid 2px #E2E2E2;
+  margin-top: 35px;
 }
 
-.content_two_image {
+.about_img {
   position: absolute;
   top: 35px;
   left: 27px;
 }
 
-.content_two_search {
-  color: #9E9E9E;
-  background: rgba(255,255,255,0.5);
-}
 
-.content_two_search:hover {
-  border-color: #bfbfbf;
-  transition: 0.3s;
-}
 
-.content_two_search:focus {
-  border-color: #a09f9f;
-  transition: 0.5s;
-}
-
-.button_call:hover {
-  background-color: #227f49;
-  transition: 0.6s;
-}
-
-.button_call:active {
-  background-color: #20633c;
-  transition: 0.6s;
-}
