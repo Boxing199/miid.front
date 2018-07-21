@@ -22,18 +22,7 @@ html(lang="en")
             div.cooperation_right.about_right
               div.about_img_block
                 img.about_img(src="assets/images/about_company/about_compaty_img.jpg")
-          div.partners
-            img.partners_img(src="assets/images/for_developers/partner_logo.png", alt="partner logo")
-            img.partners_img(src="assets/images/for_developers/partner_logo_2.png", alt="partner logo")
-            img.partners_img(src="assets/images/for_developers/partner_logo.png", alt="partner logo")
-            img.partners_img(src="assets/images/for_developers/partner_logo_2.png", alt="partner logo")
-          div.callback
-            div.callback_left
-              p.callback_question Не нашли что искали?
-              a.button_callback(href="#") заявка на звонок
-            div.callback_right
-              form.callback_form(name="callback")
-                input.callback_search(type="text", placeholder="Поиск", name="callback")
-
+          include ../mixins/partners
+          include ../mixins/callback
 
         include ../mixins/footer.pug
