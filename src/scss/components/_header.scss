@@ -4,49 +4,76 @@
 
 .header {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  padding: 0 10px;
+}
+
+.header_menu, .header_contacts {
+  display: flex;
   justify-content: space-between;
-  max-width: 1920px;
-  margin: 0 auto;
-  padding: 39px 48px 34px 72px;
+  align-items: center;
 }
 
 .header_menu {
-  display: flex;
-  justify-content: space-between;
+  margin: 0 20px;
+  min-width: 500px;
 }
 
 .header_menu_li {
-  display: flex;
   list-style-type: none;
-  margin-top: 11px;
 }
 
-.header_menu_li a {
+.header_menu_li:last-child {
+  margin-right: 0;
+}
+
+.header_menu_li a, .header_contacts_li  a {
   color: #000000;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.header_contacts {
+  min-width: 350px;
+}
+
+.header_contacts_li {
+  display: inline-block;
+  vertical-align: middle;
+  height: 19px;
+  margin-left: 2px;
+}
+
+.header_contacts_li:first-child {
+  margin-left: 0;
 }
 
 .nav_phone {
-  margin-right: 47px;
+  line-height: 17px;
 }
 
-.nav_enter {
-  margin-right: 31px;
+.nav_lang_item, .nav_enter_item  {
+  padding-right: 25px;
+  border-right: 0.5px solid #000000;
 }
 
-.nav_enter_two {
-  display: none;
+.nav_lang_label {
+  width: 37px;
+  overflow: hidden;
+  display: inline-block;
+  background: url("../images/ArrowSelect.png") no-repeat right;
 }
 
 .nav_lang {
-  padding: 8px 40px 8px 30px;
-  border-left: black solid 1px;
-  border-right: black solid 1px;
-  background-image: url(../images/Polygon.png);
-  background-repeat: no-repeat;
-  background-position: 62% 45%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 48px;
+  font-size: 12px;
 }
 
 .nav_find {
@@ -54,17 +81,61 @@
 }
 
 .find_input {
-  display: none;
+  text-indent: 5px;
+  width: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: url("../images/glass.png") no-repeat transparent;
 }
 
-.nav_find_two {
-  display: none;
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+  }
+  .header_contacts {
+    display: flex;
+    order: 1;
+  }
+  .header_menu {
+    order: 2;
+  }
+  .nav_phone_item {
+    order: 1;
+  }
+  .find_input_item {
+    order: 2;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    margin: 0 10px;
+  }
+  .find_input {
+    width: 230px;
+    height: 30px;
+    background: url("../images/glass.png") 5px 5px no-repeat #FFFFFF;
+  }
+  .nav_lang_item {
+    order: 3;
+    border-right: none;
+  }
+  .nav_enter_item {
+    order: 4;
+    border-right: none;
+    cursor: pointer;
+    background: url("../images/enter_icon.png") 2px 8px no-repeat;
+  }
+  .header_contacts_li {
+    height: 30px;
+    line-height: 30px;
+    .nav_enter {
+      font-size: 0;
+    }
+  }
 }
 
 @media(max-width: 768px) {
   .header_logo {
     margin-right: 29px;
-    padding: 22px 0 34px 50px;
   }
 
   .header_logo img {
@@ -72,101 +143,12 @@
     height: 32px;
   }
 
-  .header_nav {
-    display: block;
-    padding: 29px 13px 15px 50px;
-  }
-
-  .header_menu_li {
-    margin-right: 46px;
-  }
-
-  .header_navigation {
-    padding: 30px 0 29px 0;
-  }
-  .nav_phone {
-    margin-right: 17px;
-  }
-  .nav_enter {
+  .nav_enter_item, .nav_lang_item, .find_input_item {
     display: none;
   }
 
-  .nav_enter_two {
-    display: inline-block;
-    width: 19px;
-    height: 17px;
-    background-image: url(../images/enter_icon.png);
-    background-repeat: no-repeat;
+  .header_menu {
+    flex-direction: column;
   }
 
-  .nav_lang {
-    border: none;
-    background-image: none;
-  }
-
-  .nav_find {
-    display: none;
-  }
-
-  .nav_find_two {
-    display: inline-block;
-  }
-
-  .find_input {
-    width: 230px;
-    height: 30px;
-    background: #FFFFFF;
-    background-image: url(../images/find.png);
-    background-repeat: no-repeat;
-    background-position: 3% 50%;
-    border: 0.5px solid #C4C4C4;
-    outline: 0;
-  }
-}
-
-@media(max-width: 320px) {
-  .header_logo {
-    margin-right: 8px;
-    padding: 10px 0 10px 0
-  }
-
-  .header_logo img {
-    width: 132px;
-    height: 28px;
-  }
-
-  .header_nav {
-    display: none;
-  }
-
-  .header_navigation {
-    padding: 15px 0 19px 0;
-  }
-
-  .nav_phone {
-    margin-right: 17px;
-  }
-  .nav_enter {
-    display: none;
-  }
-
-  .nav_enter_two {
-    display: none;
-  }
-
-  .nav_lang {
-    display: none;
-  }
-
-  .nav_find {
-    display: none;
-  }
-
-  .nav_find_two {
-    display: none;
-  }
-
-  .find_input {
-    display: none;
-  }
 }
