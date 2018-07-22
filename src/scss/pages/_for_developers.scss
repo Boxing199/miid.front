@@ -51,7 +51,11 @@
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   max-width: 1183px;
   margin: 0 auto;
-  padding: 137px 0 140px 23px;
+  padding: 137px 23px 140px 23px;
+
+  @media (max-width: 1024px) {
+    padding: 137px 0 140px 0;
+  }
 }
 
 .cooperation {

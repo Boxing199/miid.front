@@ -1,0 +1,23 @@
+.news-slider-arrow-right {
+    right: 135px;
+
+     &:before {
+        content: "";
+        height: 16px;
+        width: 25px;
+        display: inline-block;
+        background-image: url(/assets/images/main/news_arrow.png);
+        background-size: cover;
+        margin-right: 21px;
+       vertical-align: middle;
+    }
+
+    &:hover {
+        &:before {
+            background-image: url(/assets/images/main/news_arrow_black.png);
+            transform: rotate(180deg);
+            // need to rewrite
+            margin-top: 2px;
+        }
+    }
+}

@@ -4,6 +4,8 @@
 // Feel free with using ES6 here.
 
 import DE from './modules/dots';
+import ABOUT from './modules/about_us';
+import NEWS from './modules/news';
 
 ( ($) => {
   'use strict';
@@ -11,6 +13,8 @@ import DE from './modules/dots';
   // When DOM is ready
   $(() => {
     DE.dotsEffect();
+    ABOUT.aboutUsSlider();
+    NEWS.newsSlider();
   });
 
 })(jQuery);

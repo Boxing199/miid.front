@@ -1,0 +1,32 @@
+.about-us-slider {
+    margin-top: 38px;
+    max-width: 1140px;
+
+    .slick-dots {
+        text-align: center;
+        margin: 21px 0 79px 0;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 6px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        & {
+            width: 340px;
+            margin: auto;
+
+            .slick-list {
+                overflow: visible;
+            }
+        }
+    }
+
+    @media (max-width: 320px){
+        & {
+            width: 320px;
+        }
+    }
+}

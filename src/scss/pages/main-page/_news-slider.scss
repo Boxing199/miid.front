@@ -1,0 +1,30 @@
+.news-slider {
+    margin: 48px 0 124px 0;
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-list {
+        margin: 0 -10px;
+        overflow: visible;
+    }
+
+    @media (max-width: 1024px) {
+        & {
+            max-width: 640px;
+            width: 100%;
+            margin: 48px auto 124px auto;
+
+        }
+
+        .slick-list {
+            overflow: visible;
+        }
+    }
+
+    @media (max-width: 720px) {
+      max-width: 240px;
+      width: 100%;
+   }
+}
