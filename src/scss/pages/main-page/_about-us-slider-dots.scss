@@ -1,0 +1,17 @@
+.about-us-slider-dots {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #C8C8C8;
+    display: flex;
+
+    .slick-active &:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: #C8C8C8;
+        border-radius: 50%;
+        display: inline-block;
+        margin: auto;
+    }
+}

@@ -1,0 +1,40 @@
+//- In 'includes' all paths to assets should be relative to the index.pug file,
+//- like so './assets/images/image.jpg',
+//- and not './../assets/images/image.jpg'
+
+div.layout_header
+  div.region_header
+    div.header
+      div.header_logo
+        a.header_logo_a(href="#")
+          img(src="assets/images/logo.png", alt="miid logo")
+      div.header_nav
+        ul.header_menu
+          li.header_menu_li
+            a.header_menu_item(href="#") главная
+          li.header_menu_li
+            a.header_menu_item(href="#") услуги
+          li.header_menu_li
+            a.header_menu_item(href="#") недвижимость
+          li.header_menu_li
+            a.header_menu_item(href="#") застройщикам
+          li.header_menu_li
+            a.header_menu_item(href="#") о компании
+          li.header_menu_li
+            a.header_menu_item(href="#") контакты
+          li.header_menu_li
+            a.nav_phone(href="tel:+74952499040") +7 (495) 249-90-40
+          li.header_menu_li
+            a.nav_enter(href="#") войти
+            a.nav_enter_two(href="#")
+          li.header_menu_li
+             a.nav_lang(href="#") EN
+          li.header_menu_li
+             a.nav_find(href="#")
+               img.glass(src="assets/images/glass.png")
+               a.nav_find_two(href="#")
+               input.find_input(type="text")
+
+
+
+

@@ -1,0 +1,137 @@
+.region_content {
+  background-image: url("../images/for_developers/bg_content_one.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: " ";
+  }
+}
+
+.content {
+  max-width: 894px;
+  margin: 0 auto;
+  padding: 128px 0 150px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.content_banner {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 84px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.content_text {
+  max-width: 889px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.region_for_developers {
+  background-image: url("../images/for_developers/bg_content_two.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: -550px;
+}
+
+.for_developers_wrapper {
+  background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
+  max-width: 1183px;
+  margin: 0 auto;
+  padding: 143px 5px 140px 23px;
+
+  @media (max-width: 1024px) {
+    padding: 137px 0 140px 0;
+  }
+}
+
+.cooperation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 139px;
+}
+
+.cooperation_title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+
+.cooperation_subtitle {
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.cooperation_right {
+  display: flex;
+}
+
+.form_of_cooperation {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.cooperation_input {
+  max-width: 582px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: solid #5B5B5B 1px;
+  margin-bottom: 9px;
+  padding: 12px 0 13px 34px;
+  background: rgba(255,255,255,0.5);
+
+  &:hover {
+    border-color: #bfbfbf;
+  }
+
+  &:focus {
+    border-color: #3399ff;
+  }
+  &::placeholder {
+    color: #C1C1C1;
+  }
+}
+
+.input_last {
+  margin-bottom: 19px;
+}
+
+.button_send {
+  max-width: 205px;
+  width: 100%;
+  background-color: #27AE60;
+  padding: 12px 64px 13px 63px;
+  margin-left: 340px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+    &:hover {
+      background-color: #1c894a;
+    }
+
+    &:active {
+      background-color: #176638;
+    }
+}
