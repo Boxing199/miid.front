@@ -1,4 +1,4 @@
-.about_company_wrapper {
+.about_wrapper {
   padding-top: 27px;
 }
 
@@ -24,29 +24,32 @@
 }
 
 .about_title {
+  display: flex;
   font-size: 34px;
   line-height: 41px;
-  margin-bottom: 25px;
   font-weight: normal;
   text-transform: uppercase;
+  margin-bottom: 10px
 }
 
 .about_title span {
   color: #27AE60;
-  &:before {
+}
+
+.about_line_deal:after {
   display: inline-block;
   content: "";
-  border: black solid 1px;
-  width: 103px;
-  vertical-align: bottom;
-  }
+  border-bottom: black solid 1px;
+  width: 114px;
+  position: relative;
+  left: 20px;
 }
 
 .about_text {
   font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
-  margin-bottom: 38px;
+  margin-bottom: 47px;
 }
 
 .button_more {
@@ -54,6 +57,8 @@
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
   color: black;
+  font-size: 14px;
+  line-height: 25px;
   text-decoration: none;
   text-transform: uppercase;
   &:hover {

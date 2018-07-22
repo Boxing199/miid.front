@@ -30,7 +30,7 @@ span {
   text-transform: uppercase;
   font-size: 34px;
   line-height: 41px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 
 .services_subtitle {
@@ -53,7 +53,6 @@ span {
 .services_right {
   width: 475px;
   position: relative;
-
 }
 
 .servises_image_block {
@@ -98,6 +97,9 @@ span {
   content: "";
   border-bottom: black solid 1px;
   width: 131px;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
 }
 
 .services_line_approval:before {

@@ -51,7 +51,7 @@
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   max-width: 1183px;
   margin: 0 auto;
-  padding: 137px 23px 140px 23px;
+  padding: 143px 5px 140px 23px;
 
   @media (max-width: 1024px) {
     padding: 137px 0 140px 0;
@@ -65,22 +65,14 @@
 }
 
 .cooperation_title {
+  display: flex;
+  justify-content: space-between;
   font-size: 34px;
   line-height: 41px;
-  margin-bottom: 25px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
-.cooperation_title span {
-  color: #27AE60;
-  &:before {
-    display: inline-block;
-    content: "";
-    border: black solid 1px;
-    width: 103px;
-    vertical-align: middle;
-  }
-}
 
 .cooperation_subtitle {
   font-size: 25px;
@@ -98,8 +90,9 @@
 }
 
 .cooperation_input {
-  width: 512px;
-  height: 23px;
+  max-width: 582px;
+  width: 100%;
+  height: 50px;
   outline: none;
   border: solid #5B5B5B 1px;
   margin-bottom: 9px;
@@ -124,6 +117,7 @@
 
 .button_send {
   max-width: 205px;
+  width: 100%;
   background-color: #27AE60;
   padding: 12px 64px 13px 63px;
   margin-left: 340px;
