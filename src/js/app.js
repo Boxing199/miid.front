@@ -5,6 +5,7 @@
 
 import DE from './modules/dots';
 import ABOUT from './modules/about_us';
+import NEWS from './modules/news';
 
 ( ($) => {
   'use strict';
@@ -13,6 +14,7 @@ import ABOUT from './modules/about_us';
   $(() => {
     DE.dotsEffect();
     ABOUT.aboutUsSlider();
+    NEWS.newsSlider();
   });
 
 })(jQuery);
