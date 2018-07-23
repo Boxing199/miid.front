@@ -1,0 +1,23 @@
+.callback-search {
+  width: 792px;
+  height: 59px;
+  margin-left: 35px;
+  flex: 1;
+  padding: 18px 19px 17px 19px;
+  background: rgb(249,249,249);
+  color: #9E9E9E;
+  border: solid #D9D9D9 0.5px;
+  outline: none;
+
+  &:hover {
+    border-color: #bfbfbf;
+  }
+
+  &:focus {
+    border-color: #3399ff;
+  }
+
+  &:placeholder {
+    color: #D9D9D9;
+  }
+}
