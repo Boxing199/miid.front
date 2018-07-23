@@ -1,6 +1,12 @@
-.servises_wrapper {
+.region_services {
+  background: url("../images/services/backgroundServices.png") no-repeat;
+}
+
+.services_wrapper {
   background: rgba(255,255,255,0.5);
-  padding: 26px 0 0 9px;
+  padding-top: 26px;
+  max-width: 1183px;
+  margin: 0 auto;
 }
 
 .services {
@@ -13,18 +19,19 @@
   position: relative;
 }
 
-.servises_deal_block {
+.services_deal_block {
   left: -20px;
   top: 35px;
 }
 
-.servises_hypothec_block {
+.services_hypothec_block, .services_developers_block {
   right: -25px;
   top: -25px;
 }
 
-.servises_insurance_block {
-
+.services_insurance_block, .services_property_block {
+  left: -25px;
+  top: -25px;
 }
 
 .services_title {
@@ -47,6 +54,10 @@
   margin-bottom: 16px;
 }
 
+.services_subtitle_right {
+  text-align: right;
+}
+
 .services_list {
   max-width: 500px;
   width: 100%;
@@ -61,7 +72,7 @@
   color: #424242;
 }
 
-.servises_image_block {
+.services_image_block {
   position: absolute;
   width: 423px;
   height: 339px;

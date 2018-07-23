@@ -579,9 +579,14 @@ a:hover, a:active {
   .button_send:active {
     background-color: #176638; }
 
-.servises_wrapper {
+.region_services {
+  background: url("../images/services/backgroundServices.png") no-repeat; }
+
+.services_wrapper {
   background: rgba(255, 255, 255, 0.5);
-  padding: 26px 0 0 9px; }
+  padding-top: 26px;
+  max-width: 1183px;
+  margin: 0 auto; }
 
 .services {
   display: -webkit-box;
@@ -595,12 +600,16 @@ a:hover, a:active {
 .cooperation_image {
   position: relative; }
 
-.servises_deal_block {
+.services_deal_block {
   left: -20px;
   top: 35px; }
 
-.servises_hypothec_block {
+.services_hypothec_block, .services_developers_block {
   right: -25px;
+  top: -25px; }
+
+.services_insurance_block, .services_property_block {
+  left: -25px;
   top: -25px; }
 
 .services_title {
@@ -625,6 +634,9 @@ a:hover, a:active {
   line-height: 41px;
   margin-bottom: 16px; }
 
+.services_subtitle_right {
+  text-align: right; }
+
 .services_list {
   max-width: 500px;
   width: 100%;
@@ -637,7 +649,7 @@ a:hover, a:active {
   line-height: 25px;
   color: #424242; }
 
-.servises_image_block {
+.services_image_block {
   position: absolute;
   width: 423px;
   height: 339px;
@@ -1373,5 +1385,27 @@ a:hover, a:active {
     color: #D9D9D9; }
   .callback_search::placeholder {
     color: #D9D9D9; }
+
+.button_more {
+  position: relative;
+  padding: 12px 90px 13px 34px;
+  border: solid black 1px;
+  color: black;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block; }
+  .button_more:hover {
+    background-color: #000000;
+    color: #ffffff; }
+    .button_more:hover .button_img {
+      -webkit-filter: invert(100%);
+              filter: invert(100%); }
+
+.button_img {
+  position: absolute;
+  top: 17px;
+  right: 24px; }
 
 /*# sourceMappingURL=style.min.css.map */
