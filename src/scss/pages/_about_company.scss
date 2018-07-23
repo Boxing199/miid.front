@@ -52,7 +52,7 @@
   margin-bottom: 47px;
 }
 
-.button_more {
+.button {
   position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
@@ -62,13 +62,30 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
+
   &:hover {
     background-color: #000000;
     color: #ffffff;
   }
+
   &:active {
     background-color: #000000;
     color: #ffffff;
+  }
+}
+
+.button-white {
+  border-color: white;
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+
+  &:active {
+    background-color: white;
+    color: black;
   }
 }
 

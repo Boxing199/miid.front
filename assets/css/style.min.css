@@ -734,7 +734,7 @@ a:hover, a:active {
   color: #AEAEAE;
   margin-bottom: 47px; }
 
-.button_more {
+.button {
   position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
@@ -744,12 +744,22 @@ a:hover, a:active {
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block; }
-  .button_more:hover {
+  .button:hover {
     background-color: #000000;
     color: #ffffff; }
-  .button_more:active {
+  .button:active {
     background-color: #000000;
     color: #ffffff; }
+
+.button-white {
+  border-color: white;
+  color: white; }
+  .button-white:hover {
+    background-color: white;
+    color: black; }
+  .button-white:active {
+    background-color: white;
+    color: black; }
 
 .about_img_block {
   width: 432px;
