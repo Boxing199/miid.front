@@ -1,8 +1,8 @@
-.region_content {
-  background-image: url("../images/for_developers/bg_content_one.png");
+.region-banner {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
   &::before {
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@
   z-index: 2;
 }
 
-.content_banner {
+.content-title {
   font-weight: bold;
   font-size: 50px;
   line-height: 84px;
@@ -33,7 +33,7 @@
   text-transform: uppercase;
 }
 
-.content_text {
+.content-subtitle {
   max-width: 889px;
   font-size: 18px;
   line-height: 26px;

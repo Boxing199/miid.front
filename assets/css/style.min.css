@@ -446,12 +446,11 @@ a:hover, a:active {
   -o-transition: 0.5s;
   transition: 0.5s; }
 
-.region_content {
-  background-image: url("../images/for_developers/bg_content_one.png");
+.region-banner {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
-  .region_content::before {
+  .region-banner::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -468,7 +467,7 @@ a:hover, a:active {
   position: relative;
   z-index: 2; }
 
-.content_banner {
+.content-title {
   font-weight: bold;
   font-size: 50px;
   line-height: 84px;
@@ -477,7 +476,7 @@ a:hover, a:active {
   margin-bottom: 35px;
   text-transform: uppercase; }
 
-.content_text {
+.content-subtitle {
   max-width: 889px;
   font-size: 18px;
   line-height: 26px;
@@ -840,6 +839,18 @@ a:hover, a:active {
 
 .news {
   overflow: hidden; }
+
+.main-banner .content {
+  padding: 230px 0 300px 0; }
+
+.main-banner .content-title {
+  font-size: 60px;
+  margin-bottom: 0; }
+
+.main-banner .content-subtitle {
+  font-size: 50px;
+  line-height: 84px;
+  text-transform: uppercase; }
 
 .news-slider {
   margin: 48px 0 124px 0; }
