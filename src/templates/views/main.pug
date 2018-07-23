@@ -8,8 +8,11 @@ html(lang="en")
         link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
         link(media="all", rel="stylesheet", href="assets/css/style.min.css")
         link(media="all", rel="stylesheet", href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
-    body
-        div.layout_main
+    body.layout-main
+        div.layout-content
+            // header
+            include ../mixins/header.pug
+
             // todo: rename `for_developers_wrapper` to some more actual
             div.for_developers_wrapper
                 div.about_company_wrapper
@@ -61,22 +64,51 @@ html(lang="en")
                                 img.about-us-slider-avatar(src="assets/images/main/user_avatar.png")
                                 h3.about-us-slider-title Александр Иванов
                                 h4.about-us-slider-subtitle ООО “Консаддинг плюс”
-                                p.about-us-slider-text Экология: С экологией повезло, водохранилища очень близко. . Стоимость кв.м. : Цена вменяемая, как на мой взгляд. . Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого. . Расположение и транспорт: Часто стою в пробках по пути в. Экология: С экологией повезло, водохранилища очень близко.
+                                p.about-us-slider-text
+                                    | Экология: С экологией повезло, водохранилища очень близко.
+                                    | Стоимость кв.м. : Цена вменяемая, как на мой взгляд.
+                                    | Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого.
+                                    | Расположение и транспорт: Часто стою в пробках по пути в. Экология:
+                                    | С экологией повезло, водохранилища очень близко.
                             .about-us-slider-item
                                 img.about-us-slider-avatar(src="assets/images/main/user_avatar.png")
                                 h3.about-us-slider-title Александр Иванов
                                 h4.about-us-slider-subtitle ООО “Консаддинг плюс”
-                                p.about-us-slider-text Экология: С экологией повезло, водохранилища очень близко. . Стоимость кв.м. : Цена вменяемая, как на мой взгляд. . Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого. . Расположение и транспорт: Часто стою в пробках по пути в. Экология: С экологией повезло, водохранилища очень близко.
+                                p.about-us-slider-text
+                                    | Экология: С экологией повезло, водохранилища очень близко.
+                                    | Стоимость кв.м. : Цена вменяемая, как на мой взгляд.
+                                    | Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого.
+                                    | Расположение и транспорт: Часто стою в пробках по пути в. Экология:
+                                    | С экологией повезло, водохранилища очень близко.
                             .about-us-slider-item
                                 img.about-us-slider-avatar(src="assets/images/main/user_avatar.png")
                                 h3.about-us-slider-title Александр Иванов
                                 h4.about-us-slider-subtitle ООО “Консаддинг плюс”
-                                p.about-us-slider-text Экология: С экологией повезло, водохранилища очень близко. . Стоимость кв.м. : Цена вменяемая, как на мой взгляд. . Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого. . Расположение и транспорт: Часто стою в пробках по пути в. Экология: С экологией повезло, водохранилища очень близко.
+                                p.about-us-slider-text
+                                    | Экология: С экологией повезло, водохранилища очень близко.
+                                    | Стоимость кв.м. : Цена вменяемая, как на мой взгляд.
+                                    | Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого.
+                                    | Расположение и транспорт: Часто стою в пробках по пути в. Экология:
+                                    | С экологией повезло, водохранилища очень близко.
                             .about-us-slider-item
                                 img.about-us-slider-avatar(src="assets/images/main/user_avatar.png")
                                 h3.about-us-slider-title Александр Иванов
                                 h4.about-us-slider-subtitle ООО “Консаддинг плюс”
-                                p.about-us-slider-text Экология: С экологией повезло, водохранилища очень близко. . Стоимость кв.м. : Цена вменяемая, как на мой взгляд. . Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого. . Расположение и транспорт: Часто стою в пробках по пути в. Экология: С экологией повезло, водохранилища очень близко.
+                                p.about-us-slider-text
+                                    | Экология: С экологией повезло, водохранилища очень близко.
+                                    | Стоимость кв.м. : Цена вменяемая, как на мой взгляд.
+                                    | Концепция и архитектура: Обычный дом - ничего выдающегося и ничего плохого.
+                                    | Расположение и транспорт: Часто стою в пробках по пути в. Экология:
+                                    | С экологией повезло, водохранилища очень близко.
+
+                    // partners
+                    include ../mixins/partners
+
+                    // callback form
+                    include ../mixins/callback
+
+        // footer
+        include ../mixins/footer.pug
 
     script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
     script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")

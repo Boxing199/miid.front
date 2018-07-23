@@ -10,11 +10,17 @@ html(lang="en")
   body
     include ../mixins/header.pug
 
-    div.layout_main
+    div.layout-content
       div.region_content
         div.content
-          div.content_banner Мы сотрудничаем с крупнейшими застройщиками Москвы и Московской Области
-          p.content_text Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*, а думаешь, что голова Тебе всегда, такой вальяжной, усмешечка кривила рот… Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде, руля шикарный Мерседес Тебя подталкивает бес! Итак, рули пока рулится — пока в России смута прет…
+          div.content_banner
+            | Мы сотрудничаем с крупнейшими застройщиками Москвы и Московской Области
+          p.content_text
+            | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
+            | а думаешь, что голова Тебе всегда, такой вальяжной, усмешечка кривила рот…
+            | Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде,
+            | руля шикарный Мерседес Тебя подталкивает бес! Итак, рули пока рулится —
+            | пока в России смута прет…
       div.region_for_developers
         div.for_developers_wrapper
           div.cooperation
@@ -22,10 +28,8 @@ html(lang="en")
               div.cooperation_title.services_line_deal
                 div Для сотрудничества
               span заполните форму
-              div.cooperation_subtitle
-                |И наш директор
-                br
-                |обязательно свяжется с Вами
+              div.cooperation_subtitle И наш директор
+                br обязательно свяжется с Вами
             div.cooperation_right
               form.form_of_cooperation(name="cooperation")
                 input.cooperation_input(type="text", placeholder="ИМЯ", name="cooperation")
@@ -33,6 +37,7 @@ html(lang="en")
                 input.cooperation_input(type="text", placeholder="E-MAIL", name="cooperation")
                 input.cooperation_input.input_last(type="text", placeholder="КОМПАНИЯ", name="cooperation")
                 button.button_send(type="submit", name="cooperation") отправить
+
           include ../mixins/partners
           include ../mixins/callback
 
