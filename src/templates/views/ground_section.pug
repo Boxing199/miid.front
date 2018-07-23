@@ -7,5 +7,13 @@ html(lang="en")
         title Document
         link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
         link(media="all", rel="stylesheet", href="assets/css/style.min.css")
-    body
-        include ../mixins/header.pug
+    body.layout-main
+        div.layout-content
+            // header
+            include ../mixins/header.pug
+
+            // todo: rename `for_developers_wrapper` to some more actual
+            div.for_developers_wrapper
+
+        // footer
+        include ../mixins/footer.pug

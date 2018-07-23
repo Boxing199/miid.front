@@ -1,0 +1,23 @@
+.button-callback {
+  width: 313px;
+  padding: 15px 38px 14px 38px;
+  flex: initial;
+  font-size: 23px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #27AE60;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+
+  &:hover {
+    background-color: #227f49;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #20633c;
+  }
+}
