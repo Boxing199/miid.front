@@ -6,6 +6,7 @@
 import DE from './modules/dots';
 import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
+import HEADER from './modules/header';
 
 ( ($) => {
   'use strict';
@@ -15,6 +16,8 @@ import NEWS from './modules/news';
     DE.dotsEffect();
     ABOUT.aboutUsSlider();
     NEWS.newsSlider();
+    HEADER.menuToggle();
+    HEADER.searchToggle();
   });
 
 })(jQuery);

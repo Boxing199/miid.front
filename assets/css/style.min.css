@@ -596,9 +596,16 @@ a:hover, a:active {
           justify-content: space-between;
   padding-bottom: 90px; }
 
-.services_left {
-  max-width: 659px;
-  padding: 5px 0 0 12px; }
+.cooperation_image {
+  position: relative; }
+
+.servises_deal_block {
+  left: -20px;
+  top: 35px; }
+
+.servises_hypothec_block {
+  right: -25px;
+  top: -25px; }
 
 .services_title {
   display: -webkit-box;
@@ -613,7 +620,7 @@ a:hover, a:active {
   line-height: 41px;
   padding-bottom: 10px; }
 
-.services_deal {
+.services_subtitle {
   display: block;
   color: #27AE60;
   font-weight: bold;
@@ -622,59 +629,27 @@ a:hover, a:active {
   line-height: 41px;
   margin-bottom: 16px; }
 
-.services_subtitle {
-  text-align: right; }
-
 .services_list {
-  max-width: 552px;
+  max-width: 500px;
   width: 100%;
   padding-left: 5px;
-  margin-bottom: 44px; }
+  margin-bottom: 44px;
+  list-style: disc; }
 
 .services_list_item {
   font-size: 14px;
   line-height: 25px;
   color: #424242; }
 
-.services_right {
-  width: 475px;
-  position: relative;
-  padding: 14px 0 0 39px; }
-
 .servises_image_block {
   position: absolute;
   width: 423px;
   height: 339px;
-  border: solid 2px #e2e2e2;
-  margin-top: 35px;
-  left: 12px; }
+  border: solid 2px #e2e2e2; }
 
 .services_img {
+  position: relative;
   z-index: 2; }
-
-/*
-.services_img_approval {
-  position: relative;
-  top: 28px;
-  right: 63px;
-}
-
-.services_img_insurance {
-  position: relative;
-  top: 28px;
-  left: 27px;
-}
-
-.services_img_developers {
-  position: relative;
-  top: 25px;
-  right: 61px;
-}
-*/
-.order_two {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2; }
 
 .services_line_deal:after {
   display: inline-block;
@@ -768,7 +743,8 @@ a:hover, a:active {
   font-size: 14px;
   line-height: 25px;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block; }
   .button_more:hover {
     background-color: #000000;
     color: #ffffff; }
@@ -995,7 +971,8 @@ a:hover, a:active {
       -ms-flex-align: center;
           align-items: center;
   height: 120px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  position: relative; }
 
 .header_menu, .header_contacts {
   display: -webkit-box;
@@ -1068,6 +1045,33 @@ a:hover, a:active {
   cursor: pointer;
   background: url("../images/glass.png") no-repeat transparent; }
 
+.find_input__active {
+  width: 230px;
+  height: 20px;
+  border: 0.5px solid #C4C4C4;
+  -webkit-transition: width 0.5s ease-out;
+  -o-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out; }
+
+.toggle_menu {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 5; }
+
+.toggle_menu_item {
+  display: none;
+  width: 20px;
+  height: 3px;
+  background-color: #191e23;
+  margin-bottom: 3px; }
+  .toggle_menu_item:last-child {
+    margin-bottom: 0; }
+
+.show.show {
+  display: block; }
+
 @media (max-width: 1024px) {
   .header {
     -ms-flex-wrap: wrap;
@@ -1118,18 +1122,40 @@ a:hover, a:active {
       font-size: 0; } }
 
 @media (max-width: 768px) {
-  .header_logo {
-    margin-right: 29px; }
+  .header {
+    padding: 10px;
+    height: 52px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .header_logo img {
-    width: 152px;
-    height: 32px; }
+    width: 132px;
+    height: 28px; }
   .nav_enter_item, .nav_lang_item, .find_input_item {
     display: none; }
+  .nav_phone_item {
+    padding-right: 40px; }
   .header_menu {
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; } }
+            flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 100vh;
+    z-index: 3; }
+  .header_menu_li {
+    padding: 20px 0; }
+  .header_contacts {
+    min-width: 110px; }
+  .toggle_menu_item {
+    display: block; } }
 
 .layout-footer {
   -ms-flex-negative: 0;
