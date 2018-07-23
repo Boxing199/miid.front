@@ -13,7 +13,7 @@ const HEADER = {
 
     find_input_item.click(function () {
       find_input.toggleClass("find_input__active");
-    })
+    });
   }
 };
 
