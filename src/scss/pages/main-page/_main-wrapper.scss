@@ -1,4 +1,13 @@
 .main-wrapper {
     padding: 50px 23px 50px 23px;
     background: transparent;
+
+    @media (max-width: 1160px) {
+        & .region-title {
+            width: 100%;
+            margin: auto;
+            font-size: 20px;
+            padding-left: 70px;
+        }
+    }
 }
