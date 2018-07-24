@@ -1,0 +1,22 @@
+.main-gallery-more-search-icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    background: #27AE60;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+
+    &:after {
+        width: 60px;
+        height: 60px;
+        content: "";
+        display: inline-block;
+        background: url(../images/main/zoom.png);
+        background-size: contain;
+        margin: auto;
+    }
+}

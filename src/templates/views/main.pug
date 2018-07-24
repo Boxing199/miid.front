@@ -21,6 +21,7 @@ html(lang="en")
                         span подробнее
                         img.button-img(src="assets/images/arrow-white.png")
 
+            // about
             .main-about-wrapper
                 .about.main-about
                     .cooperation_left.about_left
@@ -37,7 +38,7 @@ html(lang="en")
                             | Тебя подталкивает бес! Итак, рули пока рулится — пока в России смута прет…
                             | Но знай: беда уже стучится! Твой час последний глухо бьет… (Ф. И. Тютчев)
 
-                        a.button(href="#")
+                        a.button.mobile-hidden(href="#")
                             span подробнее
                             img.button-img(src="assets/images/ArrowBlack.png")
 
@@ -45,15 +46,53 @@ html(lang="en")
                         div.about-img-block
                             img.about-img(src="assets/images/main/about.png")
 
-            div.for_developers_wrapper
-                div.about_company_wrapper
+                    div
+                        a.button.hidden.mobile-show(href="#")
+                            span подробнее
+                            img.button-img(src="assets/images/ArrowBlack.png")
+            .main-background
+                .for_developers_wrapper.main-wrapper
+                    .about_company_wrapper
+
+                        // gallery
+                        .main-gallery
+                            p.region-title выбирай
+                                span.region-title-paint  только лучшее
+
+                            .main-gallery-wrapper
+                                a.main-gallery-item.new-building(href="#")
+                                    .main-gallery-background(style="background-image: url(assets/images/main/gallery-1.png)")
+                                        .main-gallery-info
+                                            .main-gallery-text Новое жилье
+
+                                a.main-gallery-item.new-building.main-gallery-more(href="#")
+                                    .main-gallery-background(style="background-image: url(assets/images/main/gallery-2.png)")
+                                        .main-gallery-more-text Смотреть подробнее
+                                        .main-gallery-more-search-icon
+
+
+                                a.main-gallery-item.new-building(href="#")
+                                    .main-gallery-background(style="background-image: url(assets/images/main/gallery-3.png)")
+                                        .main-gallery-info
+                                            .main-gallery-text Загородная недвижимость
+
+                                a.main-gallery-item.new-building(href="#")
+                                    .main-gallery-background(style="background-image: url(assets/images/main/gallery-4.png)")
+                                        .main-gallery-info
+                                            .main-gallery-text Вторичное жилье
+
+                                a.main-gallery-item.new-building(href="#")
+                                    .main-gallery-background(style="background-image: url(assets/images/main/gallery-5.png)")
+                                        .main-gallery-info
+                                            .main-gallery-text Земельные участки
+
 
                     // news
                     .news
                         p.region-title Наши
-                            span.region-title-paint новости
+                            span.region-title-paint  новости
                         .news-slider
-                            .news-slider-item
+                            a.news-slider-item(href="#")
                                 .news-slider-img(style="background-image:url(assets/images/main/news1.png)")
                                 .news-slider-footer
                                     .news-slider-info
@@ -61,7 +100,7 @@ html(lang="en")
                                         p про Сингапур
                                     p.news-slider-description Лучшие здания мира за 2017 год
 
-                            .news-slider-item
+                            a.news-slider-item(href="#")
                                 .news-slider-img(style="background-image:url(assets/images/main/news3.png)")
                                 .news-slider-footer
                                     .news-slider-info
@@ -69,7 +108,7 @@ html(lang="en")
                                         p про Сингапур
                                     p.news-slider-description Лучшие здания мира за 2017 год
 
-                            .news-slider-item
+                            a.news-slider-item(href="#")
                                 .news-slider-img(style="background-image:url(assets/images/main/news2.png)")
                                 .news-slider-footer
                                     .news-slider-info
@@ -77,7 +116,7 @@ html(lang="en")
                                         p про Сингапур
                                     p.news-slider-description Лучшие здания мира за 2017 год
 
-                            .news-slider-item
+                            a.news-slider-item(href="#")
                                 .news-slider-img(style="background-image:url(assets/images/main/news1.png)")
                                 .news-slider-footer
                                     .news-slider-info
