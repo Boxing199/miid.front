@@ -13,14 +13,45 @@ html(lang="en")
             // header
             include ../mixins/header.pug
 
-            // todo: rename `for_developers_wrapper` to some more actual
+            div.region-banner.main-banner(style="background-image: url('assets/images/main/banner.png');")
+                div.content
+                    div.content-title Построй свою мечту
+                    p.content-subtitle в новом доме
+                    a.button.button-white(href="#")
+                        span подробнее
+                        img.button-img(src="assets/images/arrow-white.png")
+
+            .main-about-wrapper
+                .about.main-about
+                    .cooperation_left.about_left
+                        .about_title.about-line-deal
+                            div Дом №1- Первый дом
+                        span.about-subtitle европейского уровня
+                        p.about_text
+                            | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
+                            | а думаешь, что голова.
+                            br
+                            | Тебе всегда, такой вальяжной, усмешечка кривила рот…
+                            | Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде, руля
+                            | шикарный Мерседес — не знаешь ты: к какой «награде»
+                            | Тебя подталкивает бес! Итак, рули пока рулится — пока в России смута прет…
+                            | Но знай: беда уже стучится! Твой час последний глухо бьет… (Ф. И. Тютчев)
+
+                        a.button(href="#")
+                            span подробнее
+                            img.button-img(src="assets/images/ArrowBlack.png")
+
+                    div.cooperation_right.about_right
+                        div.about-img-block
+                            img.about-img(src="assets/images/main/about.png")
+
             div.for_developers_wrapper
                 div.about_company_wrapper
 
                     // news
                     .news
                         p.region-title Наши
-                            span.region-title-paint  новости
+                            span.region-title-paint новости
                         .news-slider
                             .news-slider-item
                                 .news-slider-img(style="background-image:url(assets/images/main/news1.png)")

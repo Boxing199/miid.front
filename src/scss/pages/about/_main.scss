@@ -1,5 +1,6 @@
 .about_wrapper {
   padding-top: 27px;
+  background-image: radial-gradient(white 35%, transparent);
 }
 
 .region_about {
@@ -32,11 +33,16 @@
   margin-bottom: 10px
 }
 
-.about_title span {
+.about-subtitle {
   color: #27AE60;
+  display: flex;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 25px
 }
 
-.about_line_deal:after {
+.about-line-deal:after {
   display: inline-block;
   content: "";
   border-bottom: black solid 1px;
@@ -50,41 +56,21 @@
   line-height: 25px;
   color: #AEAEAE;
   margin-bottom: 47px;
+  padding-right: 80px;
 }
 
-.button_more {
-  position: relative;
-  padding: 12px 90px 13px 34px;
-  border: solid black 1px;
-  color: black;
-  font-size: 14px;
-  line-height: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  &:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
-  &:active {
-    background-color: #000000;
-    color: #ffffff;
-  }
-}
-
-.about_img_block {
+.about-img-block {
   width: 432px;
   height: 428px;
   position: relative;
   border: solid 2px #E2E2E2;
-  margin-top: 35px;
+  margin-top: 39px;
 }
 
-.about_img {
+.about-img {
   position: absolute;
   top: 35px;
   left: 27px;
 }
 
-
-
+@import "about-wrapper";

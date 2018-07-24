@@ -1,0 +1,7 @@
+.about-wrapper {
+    @media (max-width: 1024px) {
+        & .about-line-deal:after {
+            width: 33px;
+        }
+    }
+}

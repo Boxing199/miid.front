@@ -1,4 +1,4 @@
-.button_more {
+.button {
   position: relative;
   padding: 12px 90px 13px 34px;
   border: solid black 1px;
@@ -8,17 +8,15 @@
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
+
   &:hover {
     background-color: #000000;
     color: #ffffff;
-    .button_img {
-      filter: invert(100%);
-    }
-  }
-}
 
-.button_img {
-  position: absolute;
-  top: 17px;
-  right: 24px;
+    .button-img {
+      filter: invert(100%);
+      transition: filter 0.5s;
+    }
+
+  }
 }
