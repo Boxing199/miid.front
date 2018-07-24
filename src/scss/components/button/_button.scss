@@ -1,0 +1,22 @@
+.button {
+  position: relative;
+  padding: 12px 90px 13px 34px;
+  border: solid black 1px;
+  color: black;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+
+    .button-img {
+      filter: invert(100%);
+      transition: filter 0.5s;
+    }
+
+  }
+}

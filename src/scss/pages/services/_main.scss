@@ -1,0 +1,123 @@
+.region_services {
+  background: url("../images/services/backgroundServices.png") no-repeat;
+}
+
+.services_wrapper {
+  background: rgba(255,255,255,0.5);
+  padding-top: 26px;
+  max-width: 1183px;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.cooperation_image {
+  position: relative;
+}
+
+.services_deal_block {
+  left: -20px;
+  top: 35px;
+}
+
+.services_hypothec_block, .services_developers_block {
+  right: -25px;
+  top: -25px;
+}
+
+.services_insurance_block, .services_property_block {
+  left: -25px;
+  top: -25px;
+}
+
+.services_title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 41px;
+  padding-bottom: 10px;
+  }
+
+.services_subtitle {
+  display: block;
+  color: #27AE60;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 41px;
+  margin-bottom: 16px;
+}
+
+.services_subtitle_right {
+  text-align: right;
+}
+
+.services_list {
+  max-width: 500px;
+  width: 100%;
+  padding-left: 5px;
+  margin-bottom: 44px;
+  list-style: disc;
+}
+
+.services_list_item {
+  font-size: 14px;
+  line-height: 25px;
+  color: #424242;
+}
+
+.services_image_block {
+  position: absolute;
+  width: 423px;
+  height: 339px;
+  border: solid 2px #e2e2e2;
+}
+
+.services_img {
+  position: relative;
+  z-index: 2;
+}
+
+.services_line_deal:after {
+  display: inline-block;
+  content: "";
+  border-bottom: black solid 1px;
+  width: 131px;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.services_line_approval:before {
+  display: inline-block;
+  content: "";
+  border-bottom: black solid 1px;
+  width: 331px;
+}
+
+.services_line_insurance:after {
+  display: inline-block;
+  content: "";
+  border-bottom: black solid 1px;
+  width: 332px;
+}
+
+.line_serveces:before {
+  display: inline-block;
+  content: "";
+  border-bottom: black solid 1px;
+  width: 228px;
+}
+
+.services_line_property:after {
+  display: inline-block;
+  content: "";
+  border-bottom: black solid 1px;
+  width: 332px;
+}
