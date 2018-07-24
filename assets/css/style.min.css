@@ -1057,6 +1057,42 @@ a:hover, a:active {
       margin: 0;
       padding: 0 40px; } }
 
+.region_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.search_wrapper {
+  width: 1140px; }
+
+.search_category {
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.land {
+  width: 400px;
+  height: 60px;
+  border: 1px solid #27AE60;
+  outline: none;
+  font-size: 14px;
+  border-radius: 0;
+  border-right: none; }
+
+.area, .land_category {
+  width: 370px;
+  height: 60px;
+  border: 1px solid #27AE60;
+  outline: none;
+  font-size: 14px;
+  border-radius: 0; }
+
+.area {
+  border-right: none; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
