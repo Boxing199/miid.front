@@ -1,13 +1,17 @@
-.about_wrapper {
-  padding-top: 27px;
+.about-wrapper {
+  padding: 27px 20px 0;
   background-image: radial-gradient(white 35%, rgba(0,0,0,0));
+  max-width: 1183px;
+  margin: 0 auto;
+  @media (max-width: 1024px) {
+    & {
+      padding: 26px 50px 0;
+    }
+  }
 }
 
 .region_about {
-  background-image: url("../images/about_company/bg_about.png");
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: -130px;
+  background: url("../images/about_company/bg_about.png") 50% -130px no-repeat;
 }
 
 .about {
@@ -16,25 +20,19 @@
   padding-bottom: 101px;
 }
 
-.about_left {
-  max-width: 630px;
-}
-
 .about_right {
   width: 465px;
 }
 
-.about_title {
-  display: flex;
+.about-title {
   font-size: 34px;
   line-height: 41px;
-  font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
+  white-space: nowrap;
 
   @media (max-width: 1024px) {
     & {
-      font-size: 20px;
       font-size: 20px;
       line-height: 1.5;
     }
@@ -66,26 +64,74 @@
   left: 20px;
 }
 
-.about_text {
+.about-text-wrapper {
+  display: flex;
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.about-text {
   font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
   margin-bottom: 47px;
   padding-right: 80px;
+  max-width: 630px;
+  order: 1;
+  @media (max-width: 1024px) {
+    & {
+      display: inline;
+    }
+  }
+}
+
+.about-image-wrapper {
+  display: inline-block;
+  float: none;
+  position: relative;
+  order: 2;
+  .about-img-block {
+    top: -28px;
+    left: -27px;
+  }
+  @media (max-width: 1024px) {
+    & {
+      float: right;
+      margin-left: 37px;
+    }
+  }
+  @media (max-width: 768px) {
+    & {
+      float: none;
+      display: block;
+    }
+  }
 }
 
 .about-img-block {
-  width: 432px;
-  height: 428px;
-  position: relative;
+  width: 423px;
+  height: 423px;
+  position: absolute;
+  z-index: 2;
   border: solid 2px #E2E2E2;
-  margin-top: 39px;
+  @media (max-width: 1024px) {
+    & {
+      width: 240px;
+      height: 172px;
+    }
+  }
 }
 
 .about-img {
-  position: absolute;
-  top: 35px;
-  left: 27px;
+  position: relative;
+  z-index: 3;
+  @media (max-width: 1024px) {
+    & {
+      width: 260px;
+      height: 186px;
+    }
+  }
 }
 
 @import "about-wrapper";

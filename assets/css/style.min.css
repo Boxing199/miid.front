@@ -562,11 +562,6 @@ a:hover, a:active {
   font-size: 25px;
   line-height: 36px; }
 
-.cooperation_right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 .form_of_cooperation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,17 +727,19 @@ a:hover, a:active {
   border-bottom: black solid 1px;
   width: 332px; }
 
-.about_wrapper {
-  padding-top: 27px;
+.about-wrapper {
+  padding: 27px 20px 0;
   background-image: -webkit-radial-gradient(white 35%, rgba(0, 0, 0, 0));
   background-image: -o-radial-gradient(white 35%, rgba(0, 0, 0, 0));
-  background-image: radial-gradient(white 35%, rgba(0, 0, 0, 0)); }
+  background-image: radial-gradient(white 35%, rgba(0, 0, 0, 0));
+  max-width: 1183px;
+  margin: 0 auto; }
+  @media (max-width: 1024px) {
+    .about-wrapper {
+      padding: 26px 50px 0; } }
 
 .region_about {
-  background-image: url("../images/about_company/bg_about.png");
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: -130px; }
+  background: url("../images/about_company/bg_about.png") 50% -130px no-repeat; }
 
 .about {
   display: -webkit-box;
@@ -753,24 +750,17 @@ a:hover, a:active {
           justify-content: space-between;
   padding-bottom: 101px; }
 
-.about_left {
-  max-width: 630px; }
-
 .about_right {
   width: 465px; }
 
-.about_title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.about-title {
   font-size: 34px;
   line-height: 41px;
-  font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  white-space: nowrap; }
   @media (max-width: 1024px) {
-    .about_title {
-      font-size: 20px;
+    .about-title {
       font-size: 20px;
       line-height: 1.5; } }
 
@@ -796,24 +786,65 @@ a:hover, a:active {
   position: relative;
   left: 20px; }
 
-.about_text {
+.about-text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 1024px) {
+    .about-text-wrapper {
+      display: block; } }
+
+.about-text {
   font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
   margin-bottom: 47px;
-  padding-right: 80px; }
+  padding-right: 80px;
+  max-width: 630px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
+  @media (max-width: 1024px) {
+    .about-text {
+      display: inline; } }
+
+.about-image-wrapper {
+  display: inline-block;
+  float: none;
+  position: relative;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2; }
+  .about-image-wrapper .about-img-block {
+    top: -28px;
+    left: -27px; }
+  @media (max-width: 1024px) {
+    .about-image-wrapper {
+      float: right;
+      margin-left: 37px; } }
+  @media (max-width: 768px) {
+    .about-image-wrapper {
+      float: none;
+      display: block; } }
 
 .about-img-block {
-  width: 432px;
-  height: 428px;
-  position: relative;
-  border: solid 2px #E2E2E2;
-  margin-top: 39px; }
+  width: 423px;
+  height: 423px;
+  position: absolute;
+  z-index: 2;
+  border: solid 2px #E2E2E2; }
+  @media (max-width: 1024px) {
+    .about-img-block {
+      width: 240px;
+      height: 172px; } }
 
 .about-img {
-  position: absolute;
-  top: 35px;
-  left: 27px; }
+  position: relative;
+  z-index: 3; }
+  @media (max-width: 1024px) {
+    .about-img {
+      width: 260px;
+      height: 186px; } }
 
 @media (max-width: 1024px) {
   .about-wrapper .about-line-deal:after {
@@ -1120,6 +1151,12 @@ a:hover, a:active {
   .main-about .about-line-deal:after {
     width: 243px;
     left: 50px; }
+  .main-about .main-image-wrapper {
+    position: relative;
+    margin-top: 40px; }
+    .main-about .main-image-wrapper .about-img-block {
+      top: 0;
+      left: -27px; }
   @media (max-width: 1252px) {
     .main-about .about-line-deal:after {
       width: 43px; }
@@ -1135,7 +1172,7 @@ a:hover, a:active {
       padding: 40px 97px 30px 70px; }
     .main-about .about-line-deal:after {
       display: none; }
-    .main-about .about_text {
+    .main-about .about-text {
       margin-bottom: 20px;
       height: 9em;
       overflow: hidden; }
@@ -1148,7 +1185,7 @@ a:hover, a:active {
       width: 279px;
       height: 238px; } }
   @media (max-width: 700px) {
-    .main-about .about_text {
+    .main-about .about-text {
       display: none; }
     .main-about {
       display: -webkit-box;
