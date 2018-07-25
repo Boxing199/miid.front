@@ -16,18 +16,14 @@
 
     @media (max-width: 1024px) {
         & {
-            max-width: 640px;
             width: 100%;
             margin: auto;
+            font-size: 20px;
+            padding-left: 70px;
         }
     }
 
     @media (max-width: 620px) {
-        & {
-            font-size: 20px;
-            padding-left: 10px;
-        }
-
         &:before {
             width: 46px;
             top: -5px;

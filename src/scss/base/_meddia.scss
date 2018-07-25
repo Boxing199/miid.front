@@ -1,5 +1,21 @@
+.hidden.hidden {
+    display: none;
+}
+
 @media (max-width: 1024px) {
     .tablet-hidden {
         display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .mobile-hidden.mobile-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .mobile-show.mobile-show {
+        display: inline-block;
     }
 }
