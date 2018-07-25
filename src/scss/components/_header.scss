@@ -1,9 +1,9 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 120px;
-  padding: 0 10px;
+  padding: 0 72px;
   position: relative;
 }
 
@@ -15,13 +15,13 @@
 
 .header_menu {
   margin: 0 20px;
-  min-width: 500px;
+  max-width: 750px;
+  width: 100%;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1240px) {
     & {
-      margin: 0 20px;
+      margin: 0;
       min-width: 100%;
-      padding: 0 30px;
     }
   }
 }
@@ -43,7 +43,7 @@
 }
 
 .header_contacts {
-  min-width: 350px;
+  min-width: 320px;
 }
 
 .header_contacts_li {
@@ -95,10 +95,11 @@
 }
 
 .find_input__active {
-  width: 230px;
+  width: 150px;
   height: 20px;
   border: 0.5px solid #C4C4C4;
   transition: width 0.5s ease-out;
+  background: none;
 }
 
 .toggle_menu {
@@ -125,9 +126,10 @@
   display: block;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
   .header {
     flex-wrap: wrap;
+    padding: 0 50px;
   }
   .header_contacts {
     display: flex;
@@ -141,15 +143,16 @@
   }
   .find_input_item {
     order: 2;
-    border: 0.5px solid #C4C4C4;
     box-sizing: border-box;
-    margin: 0 10px;
+    margin: 0 10px 0 17px;
   }
   .find_input {
     width: 230px;
     height: 30px;
+    border: 0.5px solid #C4C4C4;
     background: url("../images/glass.png") 5px 5px no-repeat #FFFFFF;
   }
+
   .nav_lang_item {
     order: 3;
     border-right: none;
@@ -194,7 +197,6 @@
     flex-direction: column;
     width: 100%;
     background-color: #fff;
-    padding: 20px;
     margin: 0;
     position: absolute;
     top: 40px;
@@ -203,8 +205,13 @@
     z-index: 3;
   }
 
-  .header_menu_li {
-    padding: 20px 0;
+  .header_menu_li a {
+    height: calc((100vh - 52px) / 6 );
+    line-height: calc((100vh - 52px) / 6 );
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.52);
   }
 
   .header_contacts {

@@ -9,13 +9,13 @@ html(lang="en")
         link(media="all", rel="stylesheet", href="assets/css/style.min.css")
         link(media="all", rel="stylesheet", href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
     body.layout-main
-        div.layout-content
+        .layout-content
             // header
             include ../mixins/header.pug
 
-            div.region-banner.main-banner(style="background-image: url('assets/images/main/banner.png');")
-                div.content
-                    div.content-title Построй свою мечту
+            .region-banner.main-banner(style="background-image: url('assets/images/main/banner.png');")
+                .content
+                    .content-title Построй свою мечту
                     p.content-subtitle в новом доме
                     a.button.button-white(href="#")
                         span подробнее
@@ -42,8 +42,8 @@ html(lang="en")
                             span подробнее
                             img.button-img(src="assets/images/ArrowBlack.png")
 
-                    div.cooperation_right.about_right
-                        div.about-img-block
+                    .cooperation_right.about_right
+                        .about-img-block
                             img.about-img(src="assets/images/main/about.png")
 
                     div

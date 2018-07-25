@@ -893,14 +893,24 @@ a:hover, a:active {
   font-weight: bold;
   color: black; }
 
-@media (max-width: 1024px) {
-  .about-us {
-    overflow: hidden;
-    width: 100%;
-    padding-top: 50px; } }
+.about-us {
+  padding-left: 27px;
+  padding-right: 27px; }
+  @media (max-width: 1024px) {
+    .about-us {
+      overflow: hidden;
+      width: 100%;
+      padding-top: 50px; } }
 
 .news {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 5px;
+  margin-right: 27px;
+  margin-left: 27px; }
+
+.main-gallery {
+  padding-left: 27px;
+  padding-right: 27px; }
 
 .main-gallery-info {
   height: 95px;
@@ -1162,7 +1172,7 @@ a:hover, a:active {
   background: #F9F9F9; }
 
 .main-wrapper {
-  padding: 50px 23px 50px 23px;
+  padding: 50px 0 50px 0;
   background: transparent; }
   @media (max-width: 1160px) {
     .main-wrapper .region-title {
@@ -1331,13 +1341,14 @@ a:hover, a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 120px;
-  padding: 0 10px;
+  padding: 0 72px;
   position: relative; }
 
 .header_menu, .header_contacts {
@@ -1353,12 +1364,12 @@ a:hover, a:active {
 
 .header_menu {
   margin: 0 20px;
-  min-width: 500px; }
-  @media (max-width: 1024px) {
+  max-width: 750px;
+  width: 100%; }
+  @media (max-width: 1240px) {
     .header_menu {
-      margin: 0 20px;
-      min-width: 100%;
-      padding: 0 30px; } }
+      margin: 0;
+      min-width: 100%; } }
 
 .header_menu_li {
   list-style-type: none; }
@@ -1374,7 +1385,7 @@ a:hover, a:active {
   white-space: nowrap; }
 
 .header_contacts {
-  min-width: 350px; }
+  min-width: 320px; }
 
 .header_contacts_li {
   display: inline-block;
@@ -1417,12 +1428,13 @@ a:hover, a:active {
   background: url("../images/glass.png") no-repeat transparent; }
 
 .find_input__active {
-  width: 230px;
+  width: 150px;
   height: 20px;
   border: 0.5px solid #C4C4C4;
   -webkit-transition: width 0.5s ease-out;
   -o-transition: width 0.5s ease-out;
-  transition: width 0.5s ease-out; }
+  transition: width 0.5s ease-out;
+  background: none; }
 
 .toggle_menu {
   cursor: pointer;
@@ -1443,10 +1455,11 @@ a:hover, a:active {
 .show.show {
   display: block; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
   .header {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    padding: 0 50px; }
   .header_contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1466,13 +1479,13 @@ a:hover, a:active {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    border: 0.5px solid #C4C4C4;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin: 0 10px; }
+    margin: 0 10px 0 17px; }
   .find_input {
     width: 230px;
     height: 30px;
+    border: 0.5px solid #C4C4C4;
     background: url("../images/glass.png") 5px 5px no-repeat #FFFFFF; }
   .nav_lang_item {
     -webkit-box-ordinal-group: 4;
@@ -1514,15 +1527,19 @@ a:hover, a:active {
             flex-direction: column;
     width: 100%;
     background-color: #fff;
-    padding: 20px;
     margin: 0;
     position: absolute;
     top: 40px;
     left: 0;
     height: 100vh;
     z-index: 3; }
-  .header_menu_li {
-    padding: 20px 0; }
+  .header_menu_li a {
+    height: calc((100vh - 52px) / 6);
+    line-height: calc((100vh - 52px) / 6);
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.52); }
   .header_contacts {
     min-width: 110px; }
   .toggle_menu_item {
@@ -1725,7 +1742,9 @@ a:hover, a:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-left: 27px;
+  padding-right: 27px; }
   @media (max-width: 1024px) {
     .partners {
       max-width: 600px;
@@ -1738,6 +1757,10 @@ a:hover, a:active {
 @media (max-width: 1024px) {
   .partners-images {
     margin: 24px 30px; } }
+
+.callback {
+  padding-left: 27px;
+  padding-right: 27px; }
 
 .callback-right {
   width: 100%;
