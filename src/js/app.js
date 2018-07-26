@@ -8,8 +8,6 @@ import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
 import HEADER from './modules/header';
 
-import select2 from 'select2';
-
 
 ( ($) => {
   'use strict';

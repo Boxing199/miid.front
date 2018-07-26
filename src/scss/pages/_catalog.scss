@@ -1,0 +1,85 @@
+.region_catalog {
+  margin-bottom: 76px;
+}
+
+.banner {
+  width: 100%;
+  margin: 30px 0 40px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.catalog {
+  font-size: 14px;
+
+  &_header {
+    width: 100%;
+    display: flex;
+
+    .select2 {
+      width: 33.3% !important;
+    }
+  }
+
+  &_body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  &_search_result {
+    color: #424242;
+    margin-bottom: 8px;
+  }
+
+  &_sidebar {
+    width: 368px;
+    flex: 0;
+    margin-left: 16px;
+
+    .catalog_item {
+      width: 100%;
+    }
+  }
+
+  &_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: -16px;
+  }
+
+  &_item {
+    margin: 0 0 16px;
+    width: calc(50% - 8px);
+    border: 1px solid #27AE60;
+    cursor: pointer;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    &_content {
+      padding: 0 10px 16px;
+    }
+
+    &_field {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    &_name, &_cost {
+      font-weight: bold;
+    }
+
+    &_cost {
+      color: #27AE60;
+    }
+  }
+}
