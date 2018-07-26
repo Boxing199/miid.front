@@ -1,18 +1,7 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
-        link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
-        link(media="all", rel="stylesheet", href="assets/css/style.min.css")
-        link(media="all", rel="stylesheet", href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
-    body.layout-main
-        .layout-content
-            // header
-            include ../mixins/header.pug
+extends ../base/layout
 
+block content
+    .layout-content
             .region-banner.main-banner(style="background-image: url('assets/images/main/banner.png');")
                 .content
                     .content-title Построй свою мечту
@@ -176,13 +165,3 @@ html(lang="en")
 
                     // callback form
                     include ../mixins/callback
-
-        include ../mixins/modal.pug
-        // footer
-        include ../mixins/footer.pug
-
-    script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
-    script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js")
-    script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
-    script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
-    script(type="text/javascript", src="assets/js/app.js")
