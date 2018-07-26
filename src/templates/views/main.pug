@@ -17,7 +17,7 @@ html(lang="en")
                 .content
                     .content-title Построй свою мечту
                     p.content-subtitle в новом доме
-                    a.button.button-white(href="#")
+                    a.button.button-white.button-modal(href="#")
                         span подробнее
                         i.icon.icon-arrow
 
@@ -177,10 +177,12 @@ html(lang="en")
                     // callback form
                     include ../mixins/callback
 
+        include ../mixins/modal.pug
         // footer
         include ../mixins/footer.pug
 
     script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
+    script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js")
     script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
     script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
     script(type="text/javascript", src="assets/js/app.js")

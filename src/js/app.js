@@ -7,6 +7,7 @@ import DE from './modules/dots';
 import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
 import HEADER from './modules/header';
+import MODAL from './modules/modal';
 
 
 ( ($) => {
@@ -19,10 +20,9 @@ import HEADER from './modules/header';
     NEWS.newsSlider();
     HEADER.menuToggle();
     HEADER.searchToggle();
+    MODAL.modalToggle();
 
-    // console.log("select2", select2)
-
-    $(".select2").select2();
+    // $(".select2").select2();
   });
 
 })(jQuery);

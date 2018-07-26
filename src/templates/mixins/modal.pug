@@ -1,0 +1,16 @@
+//- In 'includes' all paths to assets should be relative to the index.pug file,
+//- like so './assets/images/image.jpg',
+//- and not './../assets/images/image.jpg'
+
+.layout_modal
+    .region_modal
+        .modal
+            .header-modal
+                span.header-modal-text Заказ обратного звонка
+                span.modal-close +
+            .modal-body
+                p.modal-message Оставьте свой телефон и мы перезвоним Вам в любое удобное для Вас время!
+                form.modal-form
+                    input.modal-input(type="text", placeholder="Имя", name="modal-name")
+                    input.modal-input.modal-input_phone(type="phone", placeholder="Телефон", name="modal-phone")
+                    input.modal-submit(type="submit", value="Отправить", name="modal-submit")

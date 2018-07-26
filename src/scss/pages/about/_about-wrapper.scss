@@ -4,4 +4,9 @@
             width: 33px;
         }
     }
+    @media (max-width: 768px) {
+        & .about-line-deal:after {
+            display: none;
+        }
+    }
 }

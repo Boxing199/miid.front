@@ -147,7 +147,7 @@
     margin: 0 10px 0 17px;
   }
   .find_input {
-    width: 230px;
+    width: 200px;
     height: 30px;
     border: 0.5px solid #C4C4C4;
     background: url("../images/glass.png") 5px 5px no-repeat #FFFFFF;
@@ -198,11 +198,11 @@
     width: 100%;
     background-color: #fff;
     margin: 0;
-    position: absolute;
-    top: 40px;
+    position: fixed;
+    top: 0;
     left: 0;
     height: 100vh;
-    z-index: 3;
+    z-index: 5;
   }
 
   .header_menu_li a {
