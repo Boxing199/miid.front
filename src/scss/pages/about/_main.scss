@@ -8,6 +8,11 @@
       padding: 26px 50px 0;
     }
   }
+  @media (max-width: 768px) {
+    & {
+      padding: 26px 10px 0;
+    }
+  }
 }
 
 .region_about {
@@ -36,6 +41,11 @@
       font-size: 20px;
       line-height: 1.5;
     }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+    white-space: normal;
   }
 }
 
@@ -84,6 +94,10 @@
       display: inline;
     }
   }
+  @media (max-width: 768px) {
+    padding-right: 0;
+    //max-width: 320px;
+  }
 }
 
 .about-image-wrapper {
@@ -103,8 +117,13 @@
   }
   @media (max-width: 768px) {
     & {
+      padding: 20px 0;
       float: none;
       display: block;
+
+      .about-img-block {
+        top: 0;
+      }
     }
   }
 }
@@ -132,6 +151,10 @@
       height: 186px;
     }
   }
+}
+
+.button-about {
+  margin-top: 25px;
 }
 
 @import "about-wrapper";
