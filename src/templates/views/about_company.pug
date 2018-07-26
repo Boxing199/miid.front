@@ -1,67 +1,47 @@
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
-    link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
-    link(media="all", rel="stylesheet", href="assets/css/style.min.css")
-  body.layout-main
-    div.layout-content
-      // header
-      include ../mixins/header.pug
+extends ../base/layout
 
-      div.region_about
-        div.about-wrapper
-          div.about
-            div.about-description
-              h3.about-title.about-line-deal Мы на рынке недвижимости
-              span.about-subtitle с 2015 года
-              .about-text-wrapper
-                div.about-image-wrapper
-                  div.about-img-block
-                  img.about-img(src="assets/images/about_company/about_compaty_img.jpg")
-                p.about-text
-                  |«Компания – это в первую очередь опытная команда профессионалов, способных
-                  |понять клиента и подобрать эффективное решение поставленных задач, будь-то
-                  |продажа квартиры или одобрение ипотеки.
-                  br
-                  |Мы любим своё дело и доводим его до конца. Обязательность и соблюдение
-                  |договорённостей – это наши основные принципы, которых мы придерживаемся в
-                  |работе. Мы ценим долгосрочные партнёрские отношения, нам доверяют ведущие
-                  |банки России:
-                  br
-                  |Сбербанк, ВТБ 24, Зенит, Росевробанк, Банк Российский капитал, СМП.
-                  |Мы благодарны нашим клиентам за оказанное доверие, поскольку мы понимаем,
-                  |что покупка квартиры – это не просто покупка квадратных метров, но и
-                  |благополучное и безопасное будущее всей семьи на долгие годы.
-                  |Рынок недвижимости полон предложений с разного рода нюансами и
-                  |подводными камнями, разобраться в которых, порой, простому человеку без
-                  |опыта в данной сфере очень сложно и долго.
-                  br
-                  |Стоит ли рисковать будущем своей семьи и тратить нервы на долгие переговоры и
-                  |проверку юридической чистоты сделки, если успех заранее не определён?
-                  br
-                  br
-                  |Доверьте эту работу профессионалам!»
-                  br
+block content
+  div.region_about
+    div.about-wrapper
+      div.about
+        div.about-description
+          h3.about-title.about-line-deal Мы на рынке недвижимости
+          span.about-subtitle с 2015 года
+          .about-text-wrapper
+            div.about-image-wrapper
+              div.about-img-block
+              img.about-img(src="assets/images/about_company/about_compaty_img.jpg")
+            p.about-text
+              |«Компания – это в первую очередь опытная команда профессионалов, способных
+              |понять клиента и подобрать эффективное решение поставленных задач, будь-то
+              |продажа квартиры или одобрение ипотеки.
+              br
+              |Мы любим своё дело и доводим его до конца. Обязательность и соблюдение
+              |договорённостей – это наши основные принципы, которых мы придерживаемся в
+              |работе. Мы ценим долгосрочные партнёрские отношения, нам доверяют ведущие
+              |банки России:
+              br
+              |Сбербанк, ВТБ 24, Зенит, Росевробанк, Банк Российский капитал, СМП.
+              |Мы благодарны нашим клиентам за оказанное доверие, поскольку мы понимаем,
+              |что покупка квартиры – это не просто покупка квадратных метров, но и
+              |благополучное и безопасное будущее всей семьи на долгие годы.
+              |Рынок недвижимости полон предложений с разного рода нюансами и
+              |подводными камнями, разобраться в которых, порой, простому человеку без
+              |опыта в данной сфере очень сложно и долго.
+              br
+              |Стоит ли рисковать будущем своей семьи и тратить нервы на долгие переговоры и
+              |проверку юридической чистоты сделки, если успех заранее не определён?
+              br
+              br
+              |Доверьте эту работу профессионалам!»
+              br
 
-                  a.button.button-about(href="#")
-                    span подробнее
-                    i.icon.icon-arrow
+              a.button.button-about(href="#")
+                span подробнее
+                i.icon.icon-arrow
 
-          // partners
-          include ../mixins/partners
+      // partners
+      include ../mixins/partners
 
-          // callback form
-          include ../mixins/callback
-
-      // footer
-      include ../mixins/footer.pug
-
-    script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
-    script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
-    script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js")
-    script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
-    script(type="text/javascript", src="assets/js/app.js")
+      // callback form
+      include ../mixins/callback

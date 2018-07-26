@@ -1,98 +1,80 @@
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
-    link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
-    link(media="all", rel="stylesheet", href="assets/css/style.min.css")
-  body
-    include ../mixins/header.pug
+extends ../base/layout
 
-    div.layout-content
-      div.region_services
-        div.services_wrapper
-          div.services
-            div.cooperation_description
-              h3.services_title.services_line_deal Сопровождение всех видов
-              span.services_subtitle сделок с недвижимостью
-              ul.services_list
-                li.services_list_item Подбор объекта недвижимости;
-                li.services_list_item Проверка юридической чистоты объекта;
-                li.services_list_item Продажа объекта;
-                li.services_list_item Подготовка документов по выбранному объекту для банка и регистрационной палаты;
-              a.button(href="#")
-                span подробнее
-                i.icon.icon-arrow
-            div.cooperation_image.cooperation_image_deal
-              div.services_image_block.services_deal_block
-              img.services_img(src="assets/images/services/services_img_1.png")
-          div.services
-            div.cooperation_image.cooperation_image_hypothec
-              div.services_image_block.services_hypothec_block
-              img.services_img(src="assets/images/services/services_img_2.png")
-            div.cooperation_description
-              h3.services_title.services_line_approval Одобрение
-              span.services_subtitle.services_subtitle_right  ипотеки
-              ul.services_list
-                li.services_list_item Проверка кредитной истории;
-                li.services_list_item Одобрение ипотечной заявки;
-                li.services_list_item Согласование выгодных ипотечных условий кредитования;
-                li.services_list_item Расчёт ежемесячного платежа по кредиту и дополнительных расходов;
-                li.services_list_item Одобрение выбранного объекта в банке;
-                li.services_list_item Ипотека без первоначального взноса;
-                li.services_list_item Ипотека + материнский капитал.
-              a.button(href="#")
-                span подробнее
-                i.icon.icon-arrow
-          div.services
-            div.cooperation_description
-              h3.services_title.services_line_insurance Страховые
-              span.services_subtitle услуги
-              ul.services_list
-                li.services_list_item Ипотечное страхование;
-                li.services_list_item Страхование жизни и здоровья заёмщика;
-                li.services_list_item Страхование объекта залога;
-                li.services_list_item Страхование титула;
-                li.services_list_item Прочие виды страхования, не связанные с ипотекой.
-              a.button(href="#")
-                span подробнее
-                i.icon.icon-arrow
-            div.cooperation_image.cooperation_image_insurance
-              div.services_image_block.services_insurance_block
-              img.services_img(src="assets/images/services/services_img_3.png")
-          div.services
-            div.cooperation_image.cooperation_image_developers
-              div.services_image_block.services_developers_block
-              img.services_img(src="assets/images/services/services_img_4.png")
-            div.cooperation_description
-              h3.services_title.line_serveces услуги
-              span.services_subtitle.services_subtitle_right застройщикам
-              ul.services_list
-                li.services_list_item Аккредитация застройщиков в банке. Расшифровка: подготовка пакета документов для банков-партнёров на предмет ипотечного кредитования розничных клиентов застройщика;
-                li.services_list_item Организация отдела продаж на объекте.
-              a.button(href="#")
-                span подробнее
-                i.icon.icon-arrow
-          div.services
-            div.cooperation_description
-              h3.services_title.services_line_property продажа
-              span.services_subtitle недвижимости
-              ul.services_list
-                li.services_list_item Обмен базой объектов недвижимости
-                li.services_list_item Одобрение ипотечных кредитов
-              a.button(href="#")
-                span подробнее
-                i.icon.icon-arrow
-            div.cooperation_image.cooperation_image_property
-              div.services_image_block.services_property_block
-              img.services_img(src="assets/images/services/services_img_5.png")
-
-
-    include ../mixins/footer.pug
-  script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
-  script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js")
-  script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
-  script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
-  script(type="text/javascript", src="assets/js/app.js")
+block content
+  div.region_services
+    div.services_wrapper
+      div.services
+        div.cooperation_description
+          h3.services_title.services_line_deal Сопровождение всех видов
+          span.services_subtitle сделок с недвижимостью
+          ul.services_list
+            li.services_list_item Подбор объекта недвижимости;
+            li.services_list_item Проверка юридической чистоты объекта;
+            li.services_list_item Продажа объекта;
+            li.services_list_item Подготовка документов по выбранному объекту для банка и регистрационной палаты;
+          a.button(href="#")
+            span подробнее
+            i.icon.icon-arrow
+        div.cooperation_image.cooperation_image_deal
+          div.services_image_block.services_deal_block
+          img.services_img(src="assets/images/services/services_img_1.png")
+      div.services
+        div.cooperation_image.cooperation_image_hypothec
+          div.services_image_block.services_hypothec_block
+          img.services_img(src="assets/images/services/services_img_2.png")
+        div.cooperation_description
+          h3.services_title.services_line_approval Одобрение
+          span.services_subtitle.services_subtitle_right  ипотеки
+          ul.services_list
+            li.services_list_item Проверка кредитной истории;
+            li.services_list_item Одобрение ипотечной заявки;
+            li.services_list_item Согласование выгодных ипотечных условий кредитования;
+            li.services_list_item Расчёт ежемесячного платежа по кредиту и дополнительных расходов;
+            li.services_list_item Одобрение выбранного объекта в банке;
+            li.services_list_item Ипотека без первоначального взноса;
+            li.services_list_item Ипотека + материнский капитал.
+          a.button(href="#")
+            span подробнее
+            i.icon.icon-arrow
+      div.services
+        div.cooperation_description
+          h3.services_title.services_line_insurance Страховые
+          span.services_subtitle услуги
+          ul.services_list
+            li.services_list_item Ипотечное страхование;
+            li.services_list_item Страхование жизни и здоровья заёмщика;
+            li.services_list_item Страхование объекта залога;
+            li.services_list_item Страхование титула;
+            li.services_list_item Прочие виды страхования, не связанные с ипотекой.
+          a.button(href="#")
+            span подробнее
+            i.icon.icon-arrow
+        div.cooperation_image.cooperation_image_insurance
+          div.services_image_block.services_insurance_block
+          img.services_img(src="assets/images/services/services_img_3.png")
+      div.services
+        div.cooperation_image.cooperation_image_developers
+          div.services_image_block.services_developers_block
+          img.services_img(src="assets/images/services/services_img_4.png")
+        div.cooperation_description
+          h3.services_title.line_serveces услуги
+          span.services_subtitle.services_subtitle_right застройщикам
+          ul.services_list
+            li.services_list_item Аккредитация застройщиков в банке. Расшифровка: подготовка пакета документов для банков-партнёров на предмет ипотечного кредитования розничных клиентов застройщика;
+            li.services_list_item Организация отдела продаж на объекте.
+          a.button(href="#")
+            span подробнее
+            i.icon.icon-arrow
+      div.services
+        div.cooperation_description
+          h3.services_title.services_line_property продажа
+          span.services_subtitle недвижимости
+          ul.services_list
+            li.services_list_item Обмен базой объектов недвижимости
+            li.services_list_item Одобрение ипотечных кредитов
+          a.button(href="#")
+            span подробнее
+            i.icon.icon-arrow
+        div.cooperation_image.cooperation_image_property
+          div.services_image_block.services_property_block
+          img.services_img(src="assets/images/services/services_img_5.png")
