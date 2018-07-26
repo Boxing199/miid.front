@@ -9,6 +9,7 @@
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
+  transition-duration: .3s;
 
   .icon {
     font-size: 23px;
@@ -18,5 +19,26 @@
   &:hover {
     background-color: #000000;
     color: #ffffff;
+  }
+
+  &_green {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #27AE60;
+    width: 100%;
+    max-width: 180px;
+    height: 60px;
+    line-height: 60px;
+    border: 0;
+
+    &:hover {
+      background: (#27AE60 - #111);
+    }
+
+    &:active {
+      background: (#27AE60 - #222);
+    }
+
   }
 }

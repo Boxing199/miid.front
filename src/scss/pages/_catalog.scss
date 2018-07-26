@@ -16,18 +16,22 @@
 
   &_header {
 
-    &_top, &_bot {
+    &_top, &_bottom {
       width: 100%;
       display: flex;
     }
 
-    &_bot {
+    &_bottom {
       margin-top: 10px;
-      justify-content: space-between;
+      align-items: center;
     }
 
     .select2 {
       width: 33.3% !important;
+    }
+
+    &_button {
+      margin-left: auto;
     }
   }
 
@@ -104,4 +108,18 @@
       color: #27AE60;
     }
   }
+
+  &_slider {
+    width: 360px;
+    display: flex;
+    margin-right: 20px;
+
+    &_input {
+      max-width: 283px;
+      flex: 1;
+      margin-left: 8px;
+      margin-top: 10px;
+    }
+  }
+
 }

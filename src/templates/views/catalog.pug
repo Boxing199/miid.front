@@ -4,7 +4,6 @@ block content
     .container
         .region_catalog
             .catalog
-
                 .catalog_header
                     .catalog_header_top
                         select.select2
@@ -17,6 +16,36 @@ block content
                             option Категория земель
 
                     .catalog_header_bottom
+                        .catalog_slider
+                            p
+                                | Площадь (М
+                                span.upper_text 2
+                                | )
+
+                            .catalog_slider_input.j-slider
+                                .j-slider-handle.ui-slider-handle
+                                    span
+                                .j-slider-handle.ui-slider-handle
+                                    span
+
+                        .catalog_slider
+                            p Цена (Р)
+                            .catalog_slider_input.j-slider
+                                .j-slider-handle.ui-slider-handle
+                                    span
+                                .j-slider-handle.ui-slider-handle
+                                    span
+
+                        .catalog_checkbox
+                            label.checkbox
+                                span.checkbox_item
+                                    input(type="checkbox" name="isWithPhoto" checked)
+                                    i.checkbox_icon
+                                | Только с фото
+
+                        button(type="button").button_green.catalog_header_button Найти
+
+
 
 
                 .banner
