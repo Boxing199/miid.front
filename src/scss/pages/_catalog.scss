@@ -58,6 +58,20 @@
     border: 1px solid #27AE60;
     cursor: pointer;
 
+    &_vip {
+      border-color: #F9C938;
+      position: relative;
+      @extend .icon-king;
+
+      &:before {
+        @extend .icon;
+        font-size: 26px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+    }
+
     img {
       display: block;
       width: 100%;

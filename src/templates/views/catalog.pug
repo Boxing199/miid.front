@@ -1,71 +1,49 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
-        link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
-        link(media="all", rel="stylesheet", href="assets/css/style.min.css")
+extends ../base/layout
 
+block content
+    .container
+        .region_catalog
+            .catalog
+                .catalog_header
+                    select.select2
+                        option Земельные участки
+                        option Коммерческая недвижимость
+                        option Загородная недвижимость
+                    select.select2
+                        option Район
+                    select.select2
+                        option Категория земель
 
-    body.layout-main
-        include ../mixins/header.pug
+                .banner
+                    img(src="/assets/images/catalog/banner.jpg" alt="")
 
-        div.layout-content
-            .container
-                .region_catalog
-                    .catalog
-                        .catalog_header
-                            select.select2
-                                option Земельные участки
-                                option Коммерческая недвижимость
-                                option Загородная недвижимость
-                            select.select2
-                                option Район
-                            select.select2
-                                option Категория земель
+                .catalog_search_result Всего найдено 185 объявлений
 
-                        .banner
-                            img(src="/assets/images/catalog/banner.jpg" alt="")
+                .catalog_body
+                    .catalog_items
+                        - var n = 0;
+                        while n < 10
+                            .catalog_item
+                                img.catalog_item_img(src="/assets/images/catalog/item.jpg" alt="")
+                                .catalog_item_content
+                                    div.catalog_item_field
+                                        span.catalog_item_name Участок 10 сот. (ИЖС)
+                                        span Сосновка
+                                    div.catalog_item_field
+                                        span.catalog_item_cost 180 000 руб.
+                                        span Сегодня 14:30
+                            -n++
 
-                        .catalog_search_result Всего найдено 185 объявлений
+                    .catalog_sidebar
+                        .catalog_item.catalog_item_vip
+                            img.catalog_item_img(src="/assets/images/catalog/item_big.jpg" alt="")
+                            .catalog_item_content
+                                div.catalog_item_field
+                                    span.catalog_item_name Участок 10 сот. (ИЖС)
+                                    span Сосновка
+                                div.catalog_item_field
+                                    span.catalog_item_cost.red 180 000 руб.
+                                    span Сегодня 14:30
 
-                        .catalog_body
-                            .catalog_items
-                                - var n = 0;
-                                while n < 10
-                                    .catalog_item
-                                        img.catalog_item_img(src="/assets/images/catalog/item.jpg" alt="")
-                                        .catalog_item_content
-                                            div.catalog_item_field
-                                                span.catalog_item_name Участок 10 сот. (ИЖС)
-                                                span Сосновка
-                                            div.catalog_item_field
-                                                span.catalog_item_cost 180 000 руб.
-                                                span Сегодня 14:30
-                                    -n++
-
-                            .catalog_sidebar
-                                .catalog_item.catalog_item_vip
-                                    img.catalog_item_img(src="/assets/images/catalog/item_big.jpg" alt="")
-                                    .catalog_item_content
-                                        div.catalog_item_field
-                                            span.catalog_item_name Участок 10 сот. (ИЖС)
-                                            span Сосновка
-                                        div.catalog_item_field
-                                            span.catalog_item_cost.red 180 000 руб.
-                                            span Сегодня 14:30
-
-                                .catalog_sidebar_banner
-                                    img(src="/assets/images/catalog/banner_2.jpg" alt="")
-
-
-    include ../mixins/footer.pug
-
-    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
-    //script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
-    //script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
-    script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
-    script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js")
-    script(type="text/javascript", src="assets/js/app.js")
+                        .catalog_sidebar_banner
+                            img(src="/assets/images/catalog/banner_2.jpg" alt="")
