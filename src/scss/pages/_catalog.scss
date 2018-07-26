@@ -15,8 +15,16 @@
   font-size: 14px;
 
   &_header {
-    width: 100%;
-    display: flex;
+
+    &_top, &_bot {
+      width: 100%;
+      display: flex;
+    }
+
+    &_bot {
+      margin-top: 10px;
+      justify-content: space-between;
+    }
 
     .select2 {
       width: 33.3% !important;

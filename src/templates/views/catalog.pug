@@ -4,15 +4,20 @@ block content
     .container
         .region_catalog
             .catalog
+
                 .catalog_header
-                    select.select2
-                        option Земельные участки
-                        option Коммерческая недвижимость
-                        option Загородная недвижимость
-                    select.select2
-                        option Район
-                    select.select2
-                        option Категория земель
+                    .catalog_header_top
+                        select.select2
+                            option Земельные участки
+                            option Коммерческая недвижимость
+                            option Загородная недвижимость
+                        select.select2
+                            option Район
+                        select.select2
+                            option Категория земель
+
+                    .catalog_header_bottom
+
 
                 .banner
                     img(src="/assets/images/catalog/banner.jpg" alt="")
@@ -21,6 +26,7 @@ block content
 
                 .catalog_body
                     .catalog_items
+
                         - var n = 0;
                         while n < 10
                             .catalog_item

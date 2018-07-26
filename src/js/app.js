@@ -8,7 +8,6 @@ import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
 import HEADER from './modules/header';
 
-
 ( ($) => {
   'use strict';
 

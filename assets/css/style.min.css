@@ -415,7 +415,7 @@ template {
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"], .icon, .catalog_item_vip:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -439,7 +439,7 @@ template {
   content: "\e902";
   color: #858585; }
 
-.icon-king:before {
+.icon-king:before, .catalog_item_vip:before {
   content: "\e903";
   color: #f9c938; }
 
@@ -1367,20 +1367,20 @@ a:hover, a:active {
           transition-duration: .3s; }
   .news-slider-arrow:hover {
     color: black; }
-  .news-slider-arrow .icon {
+  .news-slider-arrow .icon, .news-slider-arrow .catalog_item_vip:before {
     margin: 0 21px;
     font-size: 24px;
     vertical-align: -4px;
     display: inline-block; }
-    .news-slider-arrow .icon:last-child {
+    .news-slider-arrow .icon:last-child, .news-slider-arrow .catalog_item_vip:last-child:before {
       margin-right: 0; }
-    .news-slider-arrow .icon:first-child {
+    .news-slider-arrow .icon:first-child, .news-slider-arrow .catalog_item_vip:first-child:before {
       margin-left: 0; }
   .news-slider-arrow-left {
     right: 25px; }
   .news-slider-arrow-right {
     right: 135px; }
-    .news-slider-arrow-right .icon {
+    .news-slider-arrow-right .icon, .news-slider-arrow-right .catalog_item_vip:before {
       -webkit-transform: rotate(180deg);
           -ms-transform: rotate(180deg);
               transform: rotate(180deg); }
@@ -1420,13 +1420,18 @@ a:hover, a:active {
 
 .catalog {
   font-size: 14px; }
-  .catalog_header {
+  .catalog_header_top, .catalog_header_bot {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .catalog_header .select2 {
-      width: 33.3% !important; }
+  .catalog_header_bot {
+    margin-top: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .catalog_header .select2 {
+    width: 33.3% !important; }
   .catalog_body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1464,6 +1469,14 @@ a:hover, a:active {
     width: calc(50% - 8px);
     border: 1px solid #27AE60;
     cursor: pointer; }
+    .catalog_item_vip {
+      border-color: #F9C938;
+      position: relative; }
+      .catalog_item_vip:before {
+        font-size: 26px;
+        position: absolute;
+        right: 10px;
+        top: 10px; }
     .catalog_item img {
       display: block;
       width: 100%; }
@@ -1757,7 +1770,7 @@ a:hover, a:active {
 
 .footer_info_nav {
   position: relative; }
-  .footer_info_nav .icon {
+  .footer_info_nav .icon, .footer_info_nav .catalog_item_vip:before {
     position: absolute;
     top: 0;
     left: -30px;
@@ -1803,7 +1816,7 @@ a:hover, a:active {
   margin-bottom: 17px;
   padding-left: 32px; }
 
-.footer_contacts_nav .icon {
+.footer_contacts_nav .icon, .footer_contacts_nav .catalog_item_vip:before {
   position: absolute;
   left: -2px;
   font-size: 16px;
@@ -1859,7 +1872,7 @@ a:hover, a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .button .icon {
+  .button .icon, .button .catalog_item_vip:before {
     font-size: 23px;
     margin-left: 27px; }
   .button:hover {
@@ -2485,5 +2498,151 @@ a:hover, a:active {
 
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
+
+/*! jQuery UI - v1.12.1 - 2018-07-26
+* http://jqueryui.com
+* Includes: core.css, slider.css
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+  display: none; }
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none; }
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse; }
+
+.ui-helper-clearfix:after {
+  clear: both; }
+
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+  /* support: IE8 */ }
+
+.ui-front {
+  z-index: 100; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+  cursor: default !important;
+  pointer-events: none; }
+
+/* Icons
+----------------------------------*/
+.ui-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -.25em;
+  position: relative;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat; }
+
+.ui-widget-icon-block {
+  left: 50%;
+  margin-left: -8px;
+  display: block; }
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.ui-slider {
+  position: relative;
+  text-align: left; }
+
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: default;
+  -ms-touch-action: none;
+  touch-action: none; }
+
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0; }
+
+/* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+  -webkit-filter: inherit;
+          filter: inherit; }
+
+.ui-slider-horizontal {
+  height: .8em; }
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.3em;
+  margin-left: -.6em; }
+
+.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%; }
+
+.ui-slider-horizontal .ui-slider-range-min {
+  left: 0; }
+
+.ui-slider-horizontal .ui-slider-range-max {
+  right: 0; }
+
+.ui-slider-vertical {
+  width: .8em;
+  height: 100px; }
+
+.ui-slider-vertical .ui-slider-handle {
+  left: -.3em;
+  margin-left: 0;
+  margin-bottom: -.6em; }
+
+.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 100%; }
+
+.ui-slider-vertical .ui-slider-range-min {
+  bottom: 0; }
+
+.ui-slider-vertical .ui-slider-range-max {
+  top: 0; }
 
 /*# sourceMappingURL=style.min.css.map */
