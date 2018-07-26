@@ -5,10 +5,10 @@ const NEWS = {
       slidesToShow: 3,
       slidesToScroll: 3,
       nextArrow: `
-        <p class="news-slider-arrow news-slider-arrow-right">пред</p>
+        <p class="news-slider-arrow news-slider-arrow-right"><i class="icon icon-arrow"></i><span>пред</span></p>
       `,
       prevArrow: `
-         <p class="news-slider-arrow news-slider-arrow-left">след</p>
+         <p class="news-slider-arrow news-slider-arrow-left"><span>след</span><i class="icon icon-arrow"></i></p>
       `,
       responsive: [
         {

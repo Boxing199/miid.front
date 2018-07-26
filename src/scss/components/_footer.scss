@@ -67,15 +67,20 @@
   max-width: 200px;
 }
 
-.footer_adress_img, .footer_phone_img, .footer_email_img {
-  position: absolute;
-  top: 0;
-  left: -30px;
-}
 
-.footer_phone, .footer_email {
-  display: block;
+.footer_info_nav {
   position: relative;
+  .icon {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    font-size: 16px;
+
+    &-location {
+      font-size: 24px;
+      margin-left: -5px;
+    }
+  }
 }
 
 .footer_navigation {
@@ -115,9 +120,20 @@
   margin-bottom: 17px;
   padding-left: 32px;
 }
-.footer_vk_img, .footer_fb_img, .footer_tw_img, .footer_ok_img {
-  position: absolute;
-  left: 0;
+
+.footer_contacts_nav {
+  .icon {
+    position: absolute;
+    left: -2px;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+
+    &-vk {
+      font-size: 12px;
+    }
+  }
+
 }
 
 .footer_buttons {

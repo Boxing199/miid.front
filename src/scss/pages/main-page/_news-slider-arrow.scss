@@ -8,9 +8,36 @@
     right: 0;
     top: -75px;
     color: #A9A9A9;
+    cursor: pointer;
+    transition-duration: .3s;
 
     &:hover {
-        cursor: pointer;
         color: black;
+    }
+
+    .icon {
+        margin: 0 21px;
+        font-size: 24px;
+        vertical-align: -4px;
+        display: inline-block;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &-left {
+        right: 25px;
+    }
+
+    &-right {
+        right: 135px;
+        .icon {
+            transform: rotate(180deg);
+        }
     }
 }
