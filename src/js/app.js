@@ -8,6 +8,9 @@ import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
 import HEADER from './modules/header';
 
+import select2 from 'select2';
+
+
 ( ($) => {
   'use strict';
 
@@ -18,6 +21,10 @@ import HEADER from './modules/header';
     NEWS.newsSlider();
     HEADER.menuToggle();
     HEADER.searchToggle();
+
+    // console.log("select2", select2)
+
+    $(".select2").select2();
   });
 
 })(jQuery);

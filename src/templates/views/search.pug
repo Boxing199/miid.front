@@ -7,6 +7,8 @@ html(lang="en")
         title Document
         link(media="all", rel="stylesheet", href="assets/css/vendor.min.css")
         link(media="all", rel="stylesheet", href="assets/css/style.min.css")
+
+
     body.layout-main
         div.layout-content
             // header
@@ -16,19 +18,21 @@ html(lang="en")
                 div.region_search
                     div.search_wrapper
                         div.search_category
-                            select.land
+                            select.land.select2
                                 option.land_item Земельные участки
                                 option.land_item Коммерческая недвижимость
                                 option.land_item Загородная недвижимость
-                            select.area
+                            select.area.select2
                                 option.land_item Район
-                            select.land_category
+                            select.land_category.select2
                                 option.land_item Категория земель
 
 
         include ../mixins/footer.pug
 
-    script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
-    script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+    //script(type="text/javascript", src="//code.jquery.com/jquery-1.11.0.min.js")
+    //script(type="text/javascript", src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
     script(type="text/javascript", src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+    script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js")
     script(type="text/javascript", src="assets/js/app.js")
