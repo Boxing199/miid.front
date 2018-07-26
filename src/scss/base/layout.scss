@@ -30,3 +30,21 @@ a {
 a:hover, a:active {
   transition: 0.5s;
 }
+
+@media (max-width: 1180px) {
+  .container {
+    padding: 0 75px
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    padding: 0 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 12px;
+  }
+}
