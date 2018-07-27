@@ -8,6 +8,7 @@ import ABOUT from './modules/about_us';
 import NEWS from './modules/news';
 import HEADER from './modules/header';
 import MODAL from './modules/modal';
+import CALL from './modules/call';
 
 ( ($) => {
   'use strict';
@@ -20,6 +21,7 @@ import MODAL from './modules/modal';
     HEADER.menuToggle();
     HEADER.searchToggle();
     MODAL.modalToggle();
+    CALL.collButton();
 
     $(".select2").select2();
     $(".fancybox").fancybox({

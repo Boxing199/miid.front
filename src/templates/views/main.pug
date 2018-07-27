@@ -5,7 +5,7 @@ block content
             .content
                 .content-title Построй свою мечту
                 p.content-subtitle в новом доме
-                a.button.button-white.button-modal(href="#")
+                a.button.button-white.button-modal.js-button-modal(href="#")
                     span подробнее
                     i.icon.icon-arrow
 
@@ -158,6 +158,9 @@ block content
 
                     // partners
                     include ../mixins/partners
+
+                    // call widget
+                    include ../mixins/call_widget
 
                     // callback form
                     include ../mixins/callback
