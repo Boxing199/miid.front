@@ -554,7 +554,8 @@ body {
   width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
-          flex: 1 0 auto; }
+          flex: 1 0 auto;
+  overflow: hidden; }
 
 .container {
   margin: 0 auto;
@@ -1085,24 +1086,21 @@ a:hover, a:active {
   font-weight: bold;
   color: black; }
 
-.about-us {
-  padding-left: 27px;
-  padding-right: 27px; }
-  @media (max-width: 1024px) {
-    .about-us {
-      overflow: hidden;
-      width: 100%;
-      padding-top: 50px; } }
+@media (max-width: 1024px) {
+  .about-us {
+    overflow: hidden;
+    width: auto;
+    padding-top: 50px;
+    margin: 0 -75px; } }
 
 .news {
   overflow: hidden;
-  padding-top: 5px;
-  margin-right: 27px;
-  margin-left: 27px; }
-
-.main-gallery {
-  padding-left: 27px;
-  padding-right: 27px; }
+  padding-top: 5px; }
+  @media (max-width: 1024px) {
+    .news {
+      margin: 0 -75px; }
+      .news .region-title.region-title {
+        margin-left: 75px; } }
 
 .main-gallery-info {
   height: 95px;
@@ -1119,10 +1117,13 @@ a:hover, a:active {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      top: 100%;
-      -webkit-transform: translateY(-100%);
-          -ms-transform: translateY(-100%);
-              transform: translateY(-100%); } }
+      width: 100%;
+      bottom: 0;
+      top: auto;
+      margin-top: 0;
+      -webkit-transform: translateY(0%);
+          -ms-transform: translateY(0%);
+              transform: translateY(0%); } }
 
 .main-gallery-text {
   color: white;
@@ -1226,9 +1227,6 @@ a:hover, a:active {
     display: none; }
   @media (max-width: 1159px) {
     .main-gallery-wrapper {
-      padding: 0 50px; } }
-  @media (max-width: 700px) {
-    .main-gallery-wrapper {
       padding: 0; } }
   @media (min-width: 1160px) {
     .main-gallery-wrapper > :before {
@@ -1299,7 +1297,7 @@ a:hover, a:active {
 .main-about {
   max-width: 1183px;
   margin: 0 auto;
-  padding: 40px 0 120px 0; }
+  padding: 40px 0 70px 0; }
   .main-about .about-img-block {
     width: 423px;
     height: 339px; }
@@ -1307,10 +1305,11 @@ a:hover, a:active {
     top: 28px; }
   .main-about .about-line-deal:after {
     width: 243px;
-    left: 50px; }
+    left: 25px; }
   .main-about .main-image-wrapper {
     position: relative;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    margin-top: 30px; }
     .main-about .main-image-wrapper .about-img-block {
       top: 0; }
     .main-about .main-image-wrapper .about-img {
@@ -1322,12 +1321,12 @@ a:hover, a:active {
         width: 43px; }
       .main-about .about_right {
         margin-left: -27px; }
-      .main-about .about-img {
+      .main-about .main-image-wrapper .about-img {
         top: 17px;
         left: 17px; } }
   @media (max-width: 1075px) {
     .main-about {
-      padding: 40px 97px 30px 70px; }
+      padding: 40px 0 30px 0; }
       .main-about .about-line-deal:after {
         display: none; }
       .main-about .about-text {
@@ -1338,7 +1337,7 @@ a:hover, a:active {
         width: 258px;
         height: 220px; }
       .main-about .about-img {
-        width: 279px;
+        width: 265px;
         height: 238px; } }
   @media (max-width: 700px) {
     .main-about {
@@ -1359,20 +1358,22 @@ a:hover, a:active {
         width: 20px; }
       .main-about .about-img-block {
         margin-top: 0;
-        margin-bottom: 60px; } }
+        margin-bottom: 60px; }
+      .main-about .main-image-wrapper {
+        margin: 30px auto 40px; } }
 
 .main-about-wrapper {
   background: #F9F9F9; }
 
 .main-wrapper {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0 0;
   background: transparent; }
   @media (max-width: 1160px) {
     .main-wrapper .region-title {
       width: 100%;
       margin: auto;
       font-size: 20px;
-      padding-left: 70px; } }
+      padding-left: 0; } }
 
 .main-background {
   background: url("../images//main/main-background.png") center 0 no-repeat;
@@ -3788,5 +3789,8 @@ a:hover, a:active {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 16px; }
+
+.title_black {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.min.css.map */

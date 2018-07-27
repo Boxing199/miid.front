@@ -1,10 +1,8 @@
 .about-us {
-    padding-left: 27px;
-    padding-right: 27px;
-
     @media (max-width: 1024px) {
         overflow: hidden;
-        width: 100%;
+        width: auto;
         padding-top: 50px;
+        margin: 0 -75px;
     }
 }
