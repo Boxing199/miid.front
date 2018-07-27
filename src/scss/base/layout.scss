@@ -27,6 +27,59 @@ body {
   color: #27AE60;
 }
 
+.title {
+  @extend .h1;
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+
+  &.right {
+    text-align: right;
+    flex-direction: row-reverse;
+    .title_content {
+      margin-right: 0;
+      margin-left: 22px;
+    }
+  }
+
+  &_content {
+    margin-right: 22px;
+  }
+
+  &:after, &:before {
+    content: "";
+    height: 1px;
+    background: #000;
+    flex: 1;
+    margin-top: -36px;
+  }
+
+  &:before {
+    display: none;
+  }
+
+}
+
+.upper_text {
+  font-size: 8px;
+  line-height: 7px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -2px;
+}
+
+.title_green {
+  display: block;
+  color: #27AE60;
+  font-weight: bold;
+  text-transform: uppercase;
+  //font-size: 34px;
+  //line-height: 41px;
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
 }

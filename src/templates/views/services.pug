@@ -5,8 +5,12 @@ block content
     div.services_wrapper
       div.services
         div.cooperation_description
-          h3.services_title.services_line_deal Сопровождение всех видов
-          span.services_subtitle сделок с недвижимостью
+          .title
+            .title_content
+              | Сопровождение всех видов
+              br
+              span.title_green сделок с недвижимостью
+
           ul.services_list
             li.services_list_item Подбор объекта недвижимости;
             li.services_list_item Проверка юридической чистоты объекта;
@@ -18,13 +22,21 @@ block content
         div.cooperation_image.cooperation_image_deal
           div.services_image_block.services_deal_block
           img.services_img(src="assets/images/services/services_img_1.png")
-      div.services
+
+
+      div.services.right
         div.cooperation_image.cooperation_image_hypothec
           div.services_image_block.services_hypothec_block
           img.services_img(src="assets/images/services/services_img_2.png")
         div.cooperation_description
-          h3.services_title.services_line_approval Одобрение
-          span.services_subtitle.services_subtitle_right  ипотеки
+          .title.right
+            .title_content
+              | Одобрение
+              br
+              span.title_green ипотеки
+
+          //h3.services_title.services_line_approval Одобрение
+          //span.services_subtitle.services_subtitle_right  ипотеки
           ul.services_list
             li.services_list_item Проверка кредитной истории;
             li.services_list_item Одобрение ипотечной заявки;
@@ -33,13 +45,19 @@ block content
             li.services_list_item Одобрение выбранного объекта в банке;
             li.services_list_item Ипотека без первоначального взноса;
             li.services_list_item Ипотека + материнский капитал.
+
           a.button(href="#")
             span подробнее
             i.icon.icon-arrow
+
       div.services
         div.cooperation_description
-          h3.services_title.services_line_insurance Страховые
-          span.services_subtitle услуги
+          .title
+            .title_content
+              | Страховые
+              br
+              span.title_green услуги
+
           ul.services_list
             li.services_list_item Ипотечное страхование;
             li.services_list_item Страхование жизни и здоровья заёмщика;
@@ -52,23 +70,35 @@ block content
         div.cooperation_image.cooperation_image_insurance
           div.services_image_block.services_insurance_block
           img.services_img(src="assets/images/services/services_img_3.png")
-      div.services
+
+      div.services.right
+
         div.cooperation_image.cooperation_image_developers
           div.services_image_block.services_developers_block
           img.services_img(src="assets/images/services/services_img_4.png")
         div.cooperation_description
-          h3.services_title.line_serveces услуги
-          span.services_subtitle.services_subtitle_right застройщикам
+          .title.right
+            .title_content
+              | услуги
+              br
+              span.title_green застройщикам
+
           ul.services_list
             li.services_list_item Аккредитация застройщиков в банке. Расшифровка: подготовка пакета документов для банков-партнёров на предмет ипотечного кредитования розничных клиентов застройщика;
             li.services_list_item Организация отдела продаж на объекте.
           a.button(href="#")
             span подробнее
             i.icon.icon-arrow
+
       div.services
         div.cooperation_description
-          h3.services_title.services_line_property продажа
-          span.services_subtitle недвижимости
+
+          .title
+            .title_content
+              | продажа
+              br
+              span.title_green недвижимости
+
           ul.services_list
             li.services_list_item Обмен базой объектов недвижимости
             li.services_list_item Одобрение ипотечных кредитов

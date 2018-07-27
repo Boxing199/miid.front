@@ -13,10 +13,23 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 90px;
+  align-items: flex-start;
+
+  &:first-child .cooperation_image {
+    margin-top: -4px;
+  }
+
+  &.right {
+    .cooperation_description {
+      margin-right: 0;
+      max-width: 552px;
+    }
+  }
 }
 
 .cooperation_image {
   position: relative;
+  margin-top: 54px;
 }
 
 .services_deal_block {
@@ -70,6 +83,12 @@
   font-size: 14px;
   line-height: 25px;
   color: #424242;
+  display: block;
+
+  &:before {
+    content: "• ";
+    margin-right: 4px;
+  }
 }
 
 .services_image_block {
