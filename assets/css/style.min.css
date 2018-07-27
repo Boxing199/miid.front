@@ -866,6 +866,9 @@ a:hover, a:active {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 101px; }
+  @media (max-width: 768px) {
+    .about {
+      padding-bottom: 50px; } }
 
 .about_right {
   width: 465px; }
@@ -896,8 +899,7 @@ a:hover, a:active {
   margin-bottom: 25px; }
   @media (max-width: 1024px) {
     .about-subtitle {
-      font-size: 20px;
-      line-height: 1.5; } }
+      font-weight: bold; } }
 
 .about-line-deal:after {
   display: inline-block;
@@ -950,7 +952,9 @@ a:hover, a:active {
     .about-image-wrapper {
       padding: 20px 0;
       float: none;
-      display: block; }
+      display: table;
+      margin-left: auto;
+      margin-right: auto; }
       .about-image-wrapper .about-img-block {
         top: 0; } }
 
@@ -2551,7 +2555,8 @@ a:hover, a:active {
 
 @media (max-width: 1024px) {
   .partners-images {
-    margin: 24px 30px; } }
+    margin: 24px 30px;
+    display: block; } }
 
 .callback {
   padding-left: 27px;

@@ -23,6 +23,9 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 101px;
+  @media (max-width: 768px) {
+    padding-bottom: 50px;
+  }
 }
 
 .about_right {
@@ -59,8 +62,9 @@
 
   @media (max-width: 1024px) {
     & {
-      font-size: 20px;
-      line-height: 1.5;
+      font-weight: bold;
+      //font-size: 20px;
+      //line-height: 1.5;
     }
   }
 }
@@ -105,25 +109,24 @@
   float: none;
   position: relative;
   order: 2;
+
   .about-img-block {
     top: -28px;
     left: -27px;
   }
   @media (max-width: 1024px) {
-    & {
-      float: right;
-      margin-left: 37px;
-    }
+    float: right;
+    margin-left: 37px;
   }
   @media (max-width: 768px) {
-    & {
-      padding: 20px 0;
-      float: none;
-      display: block;
+    padding: 20px 0;
+    float: none;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 
-      .about-img-block {
-        top: 0;
-      }
+    .about-img-block {
+      top: 0;
     }
   }
 }
@@ -156,5 +159,6 @@
 .button-about {
   margin-top: 25px;
 }
+
 
 @import "about-wrapper";
