@@ -2116,14 +2116,10 @@ a:hover, a:active {
     .layout-footer {
       padding-top: 30px; } }
 
-.region_footer {
+.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 999px;
   margin: 0 auto;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -2211,9 +2207,7 @@ a:hover, a:active {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; } }
+      margin-right: 0; } }
 
 .footer_pro, .footer_sale_item, .footer_cont {
   display: block;
@@ -2263,6 +2257,9 @@ a:hover, a:active {
   @media (max-width: 1024px) {
     .footer_column_four {
       margin-right: 50px; } }
+  @media (max-width: 768px) {
+    .footer_column_four {
+      margin-left: 20px; } }
 
 .footer_menu_item {
   display: block;
@@ -2292,10 +2289,19 @@ a:hover, a:active {
   margin-bottom: 80px; }
   @media (max-width: 1024px) {
     .footer_buttons {
-      margin-bottom: 0px; } }
+      margin-bottom: 0; } }
 
 .footer_button {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 53px;
   line-height: 17px;
   font-size: 12px;
@@ -2304,37 +2310,36 @@ a:hover, a:active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 50px;
-  padding: 18px 43px 17px 92px;
+  width: 200px;
   margin-right: 65px; }
+  .footer_button svg, .footer_button .icon, .footer_button .catalog_item_vip:before {
+    margin-right: 12px; }
   @media (max-width: 1024px) {
     .footer_button {
       margin-right: 21px; } }
   @media (max-width: 768px) {
-    .footer_button {
-      display: block;
-      padding: 18px 33px 17px 82px;
+    .footer_button:first-child {
       margin-bottom: 20px; } }
 
 .footer_button:hover {
-  background: #A1A1A1;
-  color: #FFFFFF; }
+  text-decoration: underline; }
+  .footer_button:hover .icon, .footer_button:hover .catalog_item_vip:before {
+    text-decoration: none; }
 
-.feedback {
-  background: url(../images/todo.png) 25% 50% no-repeat; }
-
-.footer_see {
-  background: url(../images/see_map.png) 25% 50% no-repeat; }
+.feedback .icon, .feedback .catalog_item_vip:before {
+  font-size: 28px; }
 
 .site-create {
-  max-width: 999px;
   margin: auto;
   font-size: 12px;
   color: #858585;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  display: inline-block; }
+  .site-create:hover {
+    text-decoration: underline; }
   @media (max-width: 1024px) {
     .site-create {
-      padding-top: 20px;
-      padding-left: 50px; } }
+      margin-top: 20px; } }
 
 .layout_modal {
   display: none;
