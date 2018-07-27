@@ -1,0 +1,60 @@
+extends ../base/layout
+
+block content
+  .container
+    .region_details
+      .details
+        include ../mixins/catalog_header.pug
+
+        .details_container
+          .details_header
+            .details_left
+              .details_name Участок 10 сот. (ИЖС)
+              .details_info
+                span.details_info_cost 250 000 руб.
+                time размещено сегодня в 15:15
+            .details_right
+
+          .details_body
+            .details_left
+              .details_gallery
+                .details_gallery_main.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+                .details_gallery_footer
+                  .details_gallery_item.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+                  .details_gallery_item.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+                  .details_gallery_item.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+                  .details_gallery_item.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+                  .details_gallery_item.details_gallery_img(style="background-image: url(/assets/images/catalog/item.jpg)")
+
+            .details_right
+              .details_contacts
+                .details_contacts_header
+                  a(href="tel:89094378787") 8 909 437 87 87
+
+                .details_contacts_content
+                  .details_contacts_content_top
+                    .details_contacts_field
+                      div.details_contacts_title Контактное лицо
+                      p: span.green Иван
+                      p Агентство
+                      p На сайте с апреля 2017 года
+
+                    .details_contacts_field
+                      div.details_contacts_title Адрес
+                      p Москва, Мытищинский район
+
+                  a(href="#").button.details_contacts_button еще 5 объявлений пользователя
+
+          .details_content
+            .details_left
+              p Продам Участок 12 сот.находится с.Камайка. в 100м от трассы Пенза-Шемышейка с хорошим заездом.на участке возведен ленточный фундамент с плитами перекрытия 12х9 пристрои с двух сторон 6х3.фундамент под гараж 4х6.подведенно электричество.сделано межевание.собственик.
+
+              .details_map
+                iframe(src="https://api-maps.yandex.ru/frame/v1/-/CVh7YBYg?" width="100%" height="456" frameborder="0")
+
+            .details_right
+              .details_banners
+                .details_banner
+                  img(src="/assets/images/catalog/banner_2.jpg" alt="")
+                .details_banner
+                  img(src="/assets/images/catalog/banner_2.jpg" alt="")

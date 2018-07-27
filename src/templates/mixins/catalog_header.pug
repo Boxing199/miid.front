@@ -1,0 +1,43 @@
+.catalog_header
+  .catalog_header_top
+    select.select2
+      option Земельные участки
+      option Коммерческая недвижимость
+      option Загородная недвижимость
+    select.select2
+      option Район
+    select.select2
+      option Категория земель
+
+  .catalog_header_bottom
+    .catalog_slider
+      p
+        | Площадь (М
+        span.upper_text 2
+        | )
+
+      .catalog_slider_input.j-slider
+        .j-slider-handle.ui-slider-handle
+          span
+        .j-slider-handle.ui-slider-handle
+          span
+
+    .catalog_slider
+      p Цена (Р)
+      .catalog_slider_input.j-slider
+        .j-slider-handle.ui-slider-handle
+          span
+        .j-slider-handle.ui-slider-handle
+          span
+
+    .catalog_checkbox
+      label.checkbox
+        span.checkbox_item
+          input(type="checkbox" name="isWithPhoto" checked)
+          i.checkbox_icon
+        | Только с фото
+
+    button(type="button").button_green.catalog_header_button Найти
+
+.banner.catalog_banner
+  img(src="/assets/images/catalog/banner.jpg" alt="")
