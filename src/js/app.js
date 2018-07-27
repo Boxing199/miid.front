@@ -22,6 +22,14 @@ import MODAL from './modules/modal';
     MODAL.modalToggle();
 
     $(".select2").select2();
+    $(".fancybox").fancybox({
+      helpers	: {
+        thumbs	: {
+          width	: 80,
+          height: 80
+        }
+      }
+    });
 
     $.each($('.j-slider'), (index, slider) => {
       const handles = $(slider).find('.j-slider-handle span');
@@ -44,7 +52,6 @@ import MODAL from './modules/modal';
         }
       });
     })
-
   });
 
 })(jQuery);

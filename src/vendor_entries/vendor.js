@@ -8,4 +8,9 @@ module.exports = [
   './node_modules/slick-carousel/slick/slick.js',
   './src/vendor_entries/jquery-ui.min.js',
   './node_modules/jquery-mask-plugin/dist/jquery.mask.min.js',
+  './node_modules/fancybox/lib/jquery.mousewheel.pack.js',
+  // './node_modules/fancybox/dist/js/jquery.fancybox.js',
+  './src/vendor_entries/jquery.fancybox.js',
+  './src/vendor_entries/jquery.fancybox-thumbs.js',
+  // './node_modules/fancybox/dist/helpers/js/jquery.fancybox-thumbs.js',
 ];

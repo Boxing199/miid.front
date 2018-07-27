@@ -2,7 +2,8 @@
 // will be correctly compiled during `gulp` and `gulp production`
 
 //* Vendors *//
-@import './node_modules/include-media/dist/include-media';
+//@import './node_modules/include-media/dist/include-media';
+//@import './node_modules/@fancybox/dist/jquery.fancybox.css';
 
 
 //* Abstracts modules *//
@@ -29,3 +30,4 @@
 @import 'components/checkbox/checkbox';
 @import 'components/select2/core';
 @import 'components/progress/_progress';
+@import 'components/fancybox/fancybox';
