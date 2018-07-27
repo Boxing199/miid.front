@@ -33,3 +33,43 @@
     }
   }
 }
+
+@media (max-width: 1180px) {
+  .boximage {
+    margin-top: 0;
+    margin-right: 20px;
+
+    &_block {
+      width: 260px;
+      height: 186px;
+      top: 15px;
+      left: 15px;
+    }
+
+    &_border {
+      width: 255px;
+      height: 172px;
+    }
+
+    &.left, &.right {
+      .boximage_block { top: 15px; }
+    }
+
+    &.right {
+      margin-left: 20px;
+      margin-right: 0;
+      .boximage_block {
+        right: 15px;
+      }
+    }
+
+    &.left .boximage_block {
+      left: 15px;
+    }
+
+    &.left {
+      margin-right: 20px;
+      margin-left: 0;
+    }
+  }
+}

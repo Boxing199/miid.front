@@ -19,6 +19,7 @@
   &.right {
     .cooperation_description {
       margin-right: 0;
+      margin-left: 43px;
       max-width: 552px;
     }
   }
@@ -26,7 +27,6 @@
 
 .services_list {
   width: 100%;
-  padding-left: 5px;
   margin-bottom: 44px;
   list-style: disc;
 }
@@ -43,52 +43,51 @@
   }
 }
 
-
-.services_line_deal:after {
-  display: inline-block;
-  content: "";
-  border-bottom: black solid 1px;
-  width: 131px;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
-}
-
-.services_line_approval:before {
-  display: inline-block;
-  content: "";
-  border-bottom: black solid 1px;
-  width: 331px;
-}
-
-.services_line_insurance:after {
-  display: inline-block;
-  content: "";
-  border-bottom: black solid 1px;
-  width: 332px;
-}
-
-.line_serveces:before {
-  display: inline-block;
-  content: "";
-  border-bottom: black solid 1px;
-  width: 228px;
-}
-
-.services_line_property:after {
-  display: inline-block;
-  content: "";
-  border-bottom: black solid 1px;
-  width: 332px;
-}
-
 @media (max-width: 1180px) {
-  .boximage_block {
-    width: 260px;
+  .cooperation_description {
+    margin-right: 25px;
   }
 
-  .boximage_block {
-    width: 255px;
-    height: 172px;
+  .services {
+    margin-bottom: 44px;
+    &_list {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .services {
+    flex-direction: column;
+    padding-bottom: 98px;
+    position: relative;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .cooperation_description {
+      margin-right: 0;
+    }
+
+    &.right {
+      .boximage {
+        order: 2;
+      }
+      .cooperation_description {
+        margin-left: 0;
+      }
+    }
+
+    .boximage {
+      margin-top: 6px;
+    }
+
+    .button {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
   }
 }

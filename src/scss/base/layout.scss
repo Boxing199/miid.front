@@ -27,6 +27,22 @@ body {
   color: #27AE60;
 }
 
+.upper_text {
+  font-size: 8px;
+  line-height: 7px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, a {
+  transition-duration: 0.3s;
+}
+
 .title {
   @extend .h1;
   position: relative;
@@ -48,49 +64,39 @@ body {
     margin-right: 22px;
   }
 
-  &:after, &:before {
+  &:after {
     content: "";
     height: 1px;
     background: #000;
     flex: 1;
-    margin-top: -36px;
+    margin-top: -20px;
   }
 
-  &:before {
-    display: none;
+  &_green {
+    display: block;
+    color: #27AE60;
+    font-weight: bold;
+    text-transform: uppercase;
   }
-
-}
-
-.upper_text {
-  font-size: 8px;
-  line-height: 7px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -2px;
-}
-
-.title_green {
-  display: block;
-  color: #27AE60;
-  font-weight: bold;
-  text-transform: uppercase;
-  //font-size: 34px;
-  //line-height: 41px;
-  margin-bottom: 16px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  transition: 0.5s;
 }
 
 @media (max-width: 1180px) {
   .container {
     padding: 0 75px
+  }
+
+  .title {
+    &_content {
+      margin-right: 16px;
+    }
+
+    &:after {
+      margin-top: -4px;
+    }
+
+    &.right .title_content {
+      margin-left: 16px;
+    }
   }
 }
 
