@@ -24,11 +24,6 @@
   }
 }
 
-.cooperation_image {
-  position: relative;
-  margin-top: 30px;
-}
-
 .services_list {
   width: 100%;
   padding-left: 5px;
@@ -48,42 +43,6 @@
   }
 }
 
-.services_image_block {
-  width: 423px;
-  height: 339px;
-  border: solid 2px #e2e2e2;
-}
-
-.cooperation_image {
-  margin-right: 69px;
-
-  &.left, &.right {
-    .services_img { top: 28px; }
-  }
-
-  &.left {
-    .services_img {
-      left: 27px;
-    }
-  }
-
-  &.right {
-    margin-left: 69px;
-    .services_img {
-      right: 33px;
-      left: auto;
-    }
-  }
-
-}
-
-.services_img {
-  position: absolute;
-  top: -23px;
-  left: 27px;
-  z-index: 2;
-
-}
 
 .services_line_deal:after {
   display: inline-block;
@@ -124,11 +83,11 @@
 }
 
 @media (max-width: 1180px) {
-  .services_img {
+  .boximage_block {
     width: 260px;
   }
 
-  .services_image_block {
+  .boximage_block {
     width: 255px;
     height: 172px;
   }

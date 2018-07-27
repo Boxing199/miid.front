@@ -1,0 +1,35 @@
+.boximage {
+  position: relative;
+  margin-right: 69px;
+  margin-top: 30px;
+
+  &_border {
+    width: 423px;
+    height: 339px;
+    border: solid 2px #e2e2e2;
+    position: relative;
+  }
+
+  &_block {
+    position: absolute;
+    top: -23px;
+    left: 27px;
+    z-index: 2;
+  }
+
+  &.left, &.right {
+    .boximage_block { top: 28px; }
+  }
+
+  &.left .boximage_block {
+    left: 27px;
+  }
+
+  &.right {
+    margin-left: 69px;
+    .boximage_block {
+      right: 33px;
+      left: auto;
+    }
+  }
+}
