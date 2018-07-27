@@ -1,5 +1,5 @@
 ###Pages
-* [services](https://boxing199.github.io/miid-front/servises.html)
+* [services](https://boxing199.github.io/miid-front/services.html)
 * [about company](https://boxing199.github.io/miid-front/about_company.html)
 * [for developers](https://boxing199.github.io/miid-front/for_developers.html)
 * [main sliders](https://boxing199.github.io/miid-front/main.html)
