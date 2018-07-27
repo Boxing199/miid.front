@@ -4,7 +4,8 @@
 
 @media (max-width: 1024px) {
     .tablet-hidden {
-        display: none;
+        // need to rewrite js styles
+        display: none !important;
     }
 }
 

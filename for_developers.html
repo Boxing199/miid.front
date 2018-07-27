@@ -34,7 +34,10 @@
               </label>
             </li>
             <li class="header_contacts_li find_input_item">
-              <input class="find_input" type="search" name="search">
+              <form action="/" method="get">
+                <input class="find_input" type="search" name="search" autocomplete="off">
+                <input type="submit" style="display:none">
+              </form>
             </li>
           </ul>
           <div class="toggle_menu">
@@ -82,9 +85,9 @@
           <div class="partners"><img class="partners-images" src="assets/images/for_developers/partner_logo.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo_2.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo_2.png" alt="partner logo"></div>
           <div class="callback tablet-hidden">
             <p class="callback-question">Не нашли что искали?
-              <form class="callback-form callback-form" name="callback">
-                <button class="button-callback" type="submit">заявка на звонок</button>
+              <form class="callback-form callback-form" name="callback"><a class="button-callback js-button-modal" role="button">заявка на звонок</a>
                 <input class="callback-search" type="text" placeholder="Поиск" name="callback">
+                <button type="submit" style="display: none;"></button>
               </form>
             </p>
           </div>

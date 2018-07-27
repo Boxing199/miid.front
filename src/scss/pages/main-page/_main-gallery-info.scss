@@ -9,7 +9,10 @@
     @media (max-width: 1160px ) {
         height: 111px;
         display: flex;
-        top: 100%;
-        transform: translateY(-100%);
+        width: 100%;
+        bottom: 0;
+        top: auto;
+        margin-top: 0;
+        transform: translateY(0%);
     }
 }

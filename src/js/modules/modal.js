@@ -1,6 +1,6 @@
 const MODAL = {
   modalToggle: function() {
-    const button_modal= $(".button-modal");
+    const button_modal= $(".js-button-modal");
     const layout_modal= $(".layout_modal");
     const close= $(".modal-close");
 

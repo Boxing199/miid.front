@@ -5,7 +5,7 @@ block content
             .content
                 .content-title Построй свою мечту
                 p.content-subtitle в новом доме
-                a.button.button-white.button-modal(href="#")
+                a.button.button-white.button-modal.js-button-modal(href="#")
                     span подробнее
                     i.icon.icon-arrow
 
@@ -15,7 +15,7 @@ block content
                 .about.main-about
                     .cooperation_left.about_left
                         .about-title.about-line-deal.h1
-                            div Дом №1- Первый дом
+                            div.title_black Дом №1- Первый дом
                         span.title_green.h1 европейского уровня
                         p.about-text
                             | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
@@ -41,7 +41,7 @@ block content
                             i.icon.icon-arrow
         .main-background
             .container
-                .for_developers_wrapper.main-wrapper
+                .main-wrapper
                     .about_company_wrapper
 
                         // gallery
@@ -158,6 +158,9 @@ block content
 
                     // partners
                     include ../mixins/partners
+
+                    // call widget
+                    include ../mixins/call_widget
 
                     // callback form
                     include ../mixins/callback
