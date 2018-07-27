@@ -1,0 +1,52 @@
+.interested {
+  font-size: 14px;
+  max-width: 1920px;
+  margin: 86px auto 0 ;
+
+  &_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  &_container {
+    overflow-y: auto;
+    white-space: nowrap;
+    text-align: center;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+  }
+
+  &_item {
+    width: 244px;
+    margin-right: 30px;
+    display: inline-block;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    span:last-child {
+      margin-left: 6px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 14px;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  margin-top: 46px;
+}

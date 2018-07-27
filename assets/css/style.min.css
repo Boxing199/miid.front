@@ -3252,6 +3252,47 @@ a:hover, a:active {
 .ui-slider-vertical .ui-slider-range-max {
   top: 0; }
 
+.interested {
+  font-size: 14px;
+  max-width: 1920px;
+  margin: 86px auto 0; }
+  .interested_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px; }
+  .interested_container {
+    overflow-y: auto;
+    white-space: nowrap;
+    text-align: center; }
+    .interested_container::-webkit-scrollbar {
+      width: 0;
+      background: transparent; }
+  .interested_item {
+    width: 244px;
+    margin-right: 30px;
+    display: inline-block; }
+    .interested_item:last-child {
+      margin-right: 0; }
+    .interested_item span:last-child {
+      margin-left: 6px; }
+    .interested_item img {
+      display: block;
+      width: 100%;
+      margin-bottom: 14px; }
+    .interested_item div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+
+@media (max-width: 1100px) {
+  margin-top: 46px; }
+
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp {
   padding: 0;
