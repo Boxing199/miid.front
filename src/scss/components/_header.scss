@@ -91,15 +91,29 @@
   border: none;
   outline: none;
   cursor: pointer;
+  position: absolute;
+  right: 0;
   background: url("../images/glass.png") no-repeat transparent;
 }
 
+.find_input {
+  &:active, &:active {
+    background: #fff;
+  }
+}
+
 .find_input__active {
-  width: 150px;
-  height: 20px;
+  width: 325px;
+  height: 50px;
   border: 0.5px solid #C4C4C4;
   transition: width 0.3s ease-out;
-  background: none;
+  background: #fff;
+  margin-top: -15px;
+}
+
+.find_input_item {
+  width: 23px;
+  position: relative;
 }
 
 .toggle_menu {
@@ -145,6 +159,10 @@
     order: 2;
     box-sizing: border-box;
     margin: 0 10px 0 17px;
+  }
+  .find_input__active.find_input__active {
+    background: #fff;
+    margin-top: 0;
   }
   .find_input {
     width: 200px;
