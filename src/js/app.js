@@ -34,19 +34,21 @@ import CALL from './modules/call';
     });
 
     $.each($('.j-slider'), (index, slider) => {
-      const handles = $(slider).find('.j-slider-handle span');
+      const $slider = $(slider);
+      const handles = $slider.find('.j-slider-handle span');
       const leftHandle = handles.eq(0);
       const righHandle = handles.eq(1);
 
-      $(slider).slider({
+      $slider.slider({
         range: true,
         min: 0,
         max: 500,
         values: [ 75, 300 ],
 
         create: function() {
-          leftHandle.text( $( this ).slider( "values", 0 ) );
-          righHandle.text( $( this ).slider( "values", 1 ) );
+          let $this = $( this );
+          leftHandle.text( $this.slider( "values", 0 ) );
+          righHandle.text( $this.slider( "values", 1 ) );
         },
         slide: function( event, ui ) {
           leftHandle.text( ui.values[0] );
