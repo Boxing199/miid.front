@@ -2,31 +2,17 @@
 //
 // Base font styles for headings and links.
 
-//h1, .h1,
-//h2, .h2,
-//h3, .h3,
-//h4, .h4,
-//h5, .h5,
-//h6, .h6,
-//.h {
-//  font-family: map-deep-get($headings, 'fonts', 'headings-font-family');
-//  font-weight: bold;
-//  margin: 0 0 0.5em;
-//  color: map-deep-get($headings, 'fonts', 'headings-color');
-//}
-
 .h1 {
   font-size: 34px;
   line-height: (41 / 34);
   text-transform: uppercase;
   font-weight: 300;
-  //padding-bottom: 10px;
-  //font-size: map-deep-get($headings, 'sizes', 'h1-font-size');
 }
 
 .h2 {
   font-size: 25px;
   line-height: 1.42857;
+  font-weight: 300;
 }
 
 @media (max-width: 890px) {

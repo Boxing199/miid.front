@@ -28,7 +28,7 @@
 .content-title {
   font-weight: bold;
   font-size: 50px;
-  line-height: 84px;
+  line-height: (84 / 50);
   color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 35px;
@@ -42,19 +42,21 @@
   color: #FFFFFF;
 }
 
-.region_for_developers {
+.region_cooperation {
   background-image: url("../images/for_developers/bg_content_two.png");
   background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: -550px;
+  background-position: center -550px;
+  background-size: 1920px;
 }
 
-.for_developers_wrapper {
+.cooperation_wrapper {
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
-  padding: 143px 0 50px 0;
+  padding-top: 143px;
+  padding-bottom: 0;
 
   @media (max-width: 1024px) {
-    padding: 137px 0 50px 0;
+    padding-top: 137px;
+    padding-bottom: 0;
   }
 }
 
@@ -65,18 +67,17 @@
 
   &_left {
     margin-right: 40px;
+    flex: 1;
   }
 
   &_description {
-    flex: 1;
     margin-right: 50px;
     width: 100%;
   }
-}
 
-.cooperation_title {
-  display: flex;
-  justify-content: space-between;
+  &_subtitle {
+    margin-top: 25px;
+  }
 }
 
 .form_of_cooperation {

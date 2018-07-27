@@ -91,7 +91,8 @@ table {
 
 .h2 {
   font-size: 25px;
-  line-height: 1.42857; }
+  line-height: 1.42857;
+  font-weight: 300; }
 
 @media (max-width: 890px) {
   .h1, .title {
@@ -562,10 +563,13 @@ body {
 a {
   text-decoration: none; }
 
-button, a {
+button, a, input, textarea {
   -webkit-transition-duration: 0.3s;
        -o-transition-duration: 0.3s;
           transition-duration: 0.3s; }
+
+button {
+  cursor: pointer; }
 
 .title {
   position: relative;
@@ -620,7 +624,9 @@ button, a {
 
 @media (max-width: 600px) {
   .container {
-    padding: 0 12px; } }
+    padding: 0 12px; }
+  .title:after {
+    display: none; } }
 
 @media (max-width: 1024px) {
   .developer-banner .content {
@@ -674,7 +680,7 @@ button, a {
 .content-title {
   font-weight: bold;
   font-size: 50px;
-  line-height: 84px;
+  line-height: 1.68;
   color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 35px;
@@ -686,21 +692,23 @@ button, a {
   line-height: 26px;
   color: #FFFFFF; }
 
-.region_for_developers {
+.region_cooperation {
   background-image: url("../images/for_developers/bg_content_two.png");
   background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: -550px; }
+  background-position: center -550px;
+  background-size: 1920px; }
 
-.for_developers_wrapper {
+.cooperation_wrapper {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(55.8%, rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0)));
   background: -webkit-linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   background: -o-linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
-  padding: 143px 0 50px 0; }
+  padding-top: 143px;
+  padding-bottom: 0; }
   @media (max-width: 1024px) {
-    .for_developers_wrapper {
-      padding: 137px 0 50px 0; } }
+    .cooperation_wrapper {
+      padding-top: 137px;
+      padding-bottom: 0; } }
 
 .cooperation {
   display: -webkit-box;
@@ -711,21 +719,15 @@ button, a {
           justify-content: space-between;
   padding-bottom: 139px; }
   .cooperation_left {
-    margin-right: 40px; }
-  .cooperation_description {
+    margin-right: 40px;
     -webkit-box-flex: 1;
         -ms-flex: 1;
-            flex: 1;
+            flex: 1; }
+  .cooperation_description {
     margin-right: 50px;
     width: 100%; }
-
-.cooperation_title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  .cooperation_subtitle {
+    margin-top: 25px; }
 
 .form_of_cooperation {
   display: -webkit-box;

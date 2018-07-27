@@ -39,8 +39,12 @@ a {
   text-decoration: none;
 }
 
-button, a {
+button, a, input, textarea {
   transition-duration: 0.3s;
+}
+
+button {
+  cursor: pointer;
 }
 
 .title {
@@ -109,5 +113,9 @@ button, a {
 @media (max-width: 600px) {
   .container {
     padding: 0 12px;
+  }
+
+  .title:after {
+    display: none;
   }
 }

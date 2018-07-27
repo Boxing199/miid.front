@@ -12,23 +12,27 @@ block content
           | Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде,
           | руля шикарный Мерседес Тебя подталкивает бес! Итак, рули пока рулится —
           | пока в России смута прет…
-  .region_for_developers
-    .for_developers_wrapper
-      .container
-        .cooperation
-          .cooperation_left
-            .cooperation_title.services_line_deal.h1
-              div Для сотрудничества
-            span.title_green.h1 заполните форму
-            .cooperation_subtitle.h2 И наш директор
+
+  .region_cooperation
+    .container.cooperation_wrapper
+      .cooperation
+        .cooperation_left
+
+          .title
+            .title_content
+              | Для сотрудничества
               br
-              | обязательно свяжется с Вами
-          form.form_of_cooperation(name="cooperation")
-            input.cooperation_input(type="text", placeholder="ИМЯ", name="cooperation")
-            input.cooperation_input(type="text", placeholder="ТЕЛЕФОН", name="cooperation")
-            input.cooperation_input(type="text", placeholder="E-MAIL", name="cooperation")
-            input.cooperation_input.input_last(type="text", placeholder="КОМПАНИЯ", name="cooperation")
-            button.button_send(type="submit", name="cooperation") отправить
+              span.title_green заполните форму
+
+          .cooperation_subtitle.h2 И наш директор
+            br
+            | обязательно свяжется с Вами
+        form.form_of_cooperation
+          input.cooperation_input(type="text", placeholder="ИМЯ", name="name")
+          input.cooperation_input(type="text", placeholder="ТЕЛЕФОН", name="phone")
+          input.cooperation_input(type="email", placeholder="E-MAIL", name="email")
+          input.cooperation_input.input_last(type="text", placeholder="КОМПАНИЯ", name="company")
+          button.button_send(type="submit") отправить
 
 
     .container
