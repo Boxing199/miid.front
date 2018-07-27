@@ -433,8 +433,8 @@ template {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("/assets/fonts/icomoon.eot");
-  src: url("/assets/fonts/icomoon.eot#iefix") format("embedded-opentype"), url("/assets/fonts/icomoon.ttf") format("truetype"), url("/assets/fonts/icomoon.woff") format("woff"), url("/assets/fonts/icomoon.svg#icomoon") format("svg");
+  src: url("assets/fonts/icomoon.eot");
+  src: url("assets/fonts/icomoon.eot#iefix") format("embedded-opentype"), url("assets/fonts/icomoon.ttf") format("truetype"), url("assets/fonts/icomoon.woff") format("woff"), url("assets/fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1375,7 +1375,7 @@ a:hover, a:active {
       padding-left: 70px; } }
 
 .main-background {
-  background: url("/assets/images/main/main-background.png") center 0 no-repeat;
+  background: url("assets/images/main/main-background.png") center 0 no-repeat;
   background-size: 1920px; }
 
 .news-slider {
@@ -3404,6 +3404,7 @@ a:hover, a:active {
     margin-bottom: 16px; }
   .interested_container {
     overflow-y: auto;
+    overflow-x: visible;
     white-space: nowrap;
     text-align: center; }
     .interested_container::-webkit-scrollbar {
@@ -3492,7 +3493,7 @@ a:hover, a:active {
   max-height: 100%; }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("/assets/images/fancybox/fancybox_sprite.png"); }
+  background-image: url("assets/images/fancybox/fancybox_sprite.png"); }
 
 #fancybox-loading {
   position: fixed;
@@ -3508,7 +3509,7 @@ a:hover, a:active {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("/assets/images/fancybox/fancybox_loading.gif") center center no-repeat; }
+  background: url("assets/images/fancybox/fancybox_loading.gif") center center no-repeat; }
 
 .fancybox-close {
   position: absolute;
@@ -3526,7 +3527,7 @@ a:hover, a:active {
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url("/assets/images/fancybox/blank.gif");
+  background: transparent url("assets/images/fancybox/blank.gif");
   /* helps IE */
   -webkit-tap-highlight-color: transparent;
   z-index: 8040; }
@@ -3584,7 +3585,7 @@ a:hover, a:active {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("/assets/images/fancybox/fancybox_overlay.png"); }
+  background: url("assets/images/fancybox/fancybox_overlay.png"); }
 
 .fancybox-overlay-fixed {
   position: fixed;
@@ -3648,11 +3649,11 @@ a:hover, a:active {
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("/assets/images/fancybox/fancybox_sprite@2x.png");
+    background-image: url("assets/images/fancybox/fancybox_sprite@2x.png");
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/ }
   #fancybox-loading div {
-    background-image: url("/assets/images/fancybox/fancybox_loading@2x.gif");
+    background-image: url("assets/images/fancybox/fancybox_loading@2x.gif");
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/ } }
 
