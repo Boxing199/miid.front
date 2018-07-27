@@ -1,5 +1,8 @@
 .main-gallery-item {
     margin-top: 35px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @media (max-width: 1160px ) {
         height: 230px;
