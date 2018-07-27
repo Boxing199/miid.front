@@ -1,27 +1,28 @@
 extends ../base/layout
 
 block content
-  div.region-banner.developer-banner(style="background-image: url('assets/images/for_developers/bg_content_one.png');")
-    div.content
-      div.content-title
-        | Мы сотрудничаем с крупнейшими застройщиками Москвы и Московской Области
-      p.content-subtitle
-        | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
-        | а думаешь, что голова Тебе всегда, такой вальяжной, усмешечка кривила рот…
-        | Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде,
-        | руля шикарный Мерседес Тебя подталкивает бес! Итак, рули пока рулится —
-        | пока в России смута прет…
-  div.region_for_developers
-    div.for_developers_wrapper
-      div.cooperation
-        div.cooperation_left
-          div.cooperation_title.services_line_deal
-            div Для сотрудничества
-          span заполните форму
-          div.cooperation_subtitle И наш директор
-            br
-            | обязательно свяжется с Вами
-        div.cooperation_right
+  .region-banner.developer-banner(style="background-image: url('assets/images/for_developers/bg_content_one.png');")
+    .content
+      .container
+        .content-title
+          | Мы сотрудничаем с крупнейшими застройщиками Москвы и Московской Области
+        p.content-subtitle
+          | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
+          | а думаешь, что голова Тебе всегда, такой вальяжной, усмешечка кривила рот…
+          | Но разве сволочи продажной известен истины полет??? Измазав рыло в шоколаде,
+          | руля шикарный Мерседес Тебя подталкивает бес! Итак, рули пока рулится —
+          | пока в России смута прет…
+  .region_for_developers
+    .for_developers_wrapper
+      .container
+        .cooperation
+          .cooperation_left
+            .cooperation_title.services_line_deal.h1
+              div Для сотрудничества
+            span.title_green.h1 заполните форму
+            .cooperation_subtitle.h2 И наш директор
+              br
+              | обязательно свяжется с Вами
           form.form_of_cooperation(name="cooperation")
             input.cooperation_input(type="text", placeholder="ИМЯ", name="cooperation")
             input.cooperation_input(type="text", placeholder="ТЕЛЕФОН", name="cooperation")

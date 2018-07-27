@@ -82,6 +82,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.h1 {
+  font-size: 34px;
+  line-height: 1.20588;
+  text-transform: uppercase; }
+
+.h2 {
+  font-size: 25px;
+  line-height: 1.42857; }
+
+@media (max-width: 890px) {
+  .h1 {
+    font-size: 20px; }
+  .h2 {
+    font-size: 14px; } }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -644,9 +659,7 @@ a:hover, a:active {
   background: -webkit-linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   background: -o-linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
-  max-width: 1183px;
-  margin: 0 auto;
-  padding: 143px 23px 50px 23px; }
+  padding: 143px 0 50px 0; }
   @media (max-width: 1024px) {
     .for_developers_wrapper {
       padding: 137px 0 50px 0; } }
@@ -659,6 +672,8 @@ a:hover, a:active {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 139px; }
+  .cooperation_left {
+    margin-right: 40px; }
 
 .cooperation_title {
   display: -webkit-box;
@@ -666,15 +681,7 @@ a:hover, a:active {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-size: 34px;
-  line-height: 41px;
-  text-transform: uppercase;
-  padding-bottom: 10px; }
-
-.cooperation_subtitle {
-  font-size: 25px;
-  line-height: 36px; }
+          justify-content: space-between; }
 
 .form_of_cooperation {
   display: -webkit-box;
@@ -684,7 +691,13 @@ a:hover, a:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 5px; }
+  padding-top: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
 
 .cooperation_input {
   max-width: 582px;
@@ -716,7 +729,6 @@ a:hover, a:active {
   width: 100%;
   background-color: #27AE60;
   padding: 12px 64px 13px 63px;
-  margin-left: 340px;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 25px;
@@ -727,6 +739,38 @@ a:hover, a:active {
     background-color: #1c894a; }
   .button_send:active {
     background-color: #176638; }
+
+@media (max-width: 890px) {
+  .cooperation_left {
+    margin-right: 0; }
+  .cooperation_input {
+    max-width: 332px; }
+  .cooperation_title.services_line_deal:after {
+    width: 55px;
+    bottom: 16px; } }
+
+@media (max-width: 600px) {
+  .region_for_developers {
+    background: none; }
+  .for_developers_wrapper {
+    padding-top: 12px;
+    background: none;
+    padding-bottom: 0; }
+  .cooperation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 50px; }
+    .cooperation_left {
+      margin-bottom: 12px; }
+    .cooperation_input {
+      max-width: 100%; }
+  .form_of_cooperation {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; } }
 
 .region_services {
   background: url("../images/services/backgroundServices.png") no-repeat; }
@@ -2551,7 +2595,7 @@ a:hover, a:active {
           flex-wrap: wrap;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-      margin: 25px auto; } }
+      margin: 25px auto 0; } }
 
 @media (max-width: 1024px) {
   .partners-images {
@@ -3680,5 +3724,12 @@ a:hover, a:active {
   border: 0;
   padding: 0;
   max-width: none; }
+
+.title_green {
+  display: block;
+  color: #27AE60;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px; }
 
 /*# sourceMappingURL=style.min.css.map */

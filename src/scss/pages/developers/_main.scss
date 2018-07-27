@@ -51,9 +51,7 @@
 
 .for_developers_wrapper {
   background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.7) 55.8%, rgba(255, 255, 255, 0) 100%);
-  max-width: 1183px;
-  margin: 0 auto;
-  padding: 143px 23px 50px 23px;
+  padding: 143px 0 50px 0;
 
   @media (max-width: 1024px) {
     padding: 137px 0 50px 0;
@@ -64,26 +62,23 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 139px;
+
+  &_left {
+    margin-right: 40px;
+  }
 }
 
 .cooperation_title {
   display: flex;
   justify-content: space-between;
-  font-size: 34px;
-  line-height: 41px;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-}
-
-.cooperation_subtitle {
-  font-size: 25px;
-  line-height: 36px;
 }
 
 .form_of_cooperation {
   display: flex;
   flex-direction: column;
   padding-top: 5px;
+  flex: 1;
+  align-items: flex-end;
 }
 
 .cooperation_input {
@@ -117,7 +112,7 @@
   width: 100%;
   background-color: #27AE60;
   padding: 12px 64px 13px 63px;
-  margin-left: 340px;
+  //margin-left: 340px;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 25px;
@@ -131,4 +126,46 @@
     &:active {
       background-color: #176638;
     }
+}
+
+@media (max-width: 890px) {
+  .cooperation_left {
+    margin-right: 0;
+  }
+  .cooperation_input {
+    max-width: 332px;
+  }
+
+  .cooperation_title.services_line_deal:after {
+    width: 55px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .region_for_developers {
+    background: none;
+  }
+  .for_developers_wrapper {
+    padding-top: 12px;
+    background: none;
+    padding-bottom: 0;
+  }
+ .cooperation {
+   flex-direction: column;
+   padding-bottom: 0;
+   margin-bottom: 50px;
+
+   &_left {
+     margin-bottom: 12px;
+   }
+
+   &_input {
+     max-width: 100%;
+   }
+ }
+
+  .form_of_cooperation {
+    align-items: flex-start;
+  }
 }
