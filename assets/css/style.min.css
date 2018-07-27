@@ -814,7 +814,8 @@ a:hover, a:active {
             align-items: flex-start; } }
 
 .region_services {
-  background: url("../images/services/backgroundServices.png") no-repeat; }
+  background: url("../images/services/backgroundServices.png") no-repeat;
+  background-size: 1920px; }
 
 .services_wrapper {
   background: rgba(255, 255, 255, 0.5);
@@ -829,59 +830,19 @@ a:hover, a:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 90px;
+  margin-bottom: 120px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start; }
-  .services:first-child .cooperation_image {
-    margin-top: -4px; }
   .services.right .cooperation_description {
     margin-right: 0;
     max-width: 552px; }
 
 .cooperation_image {
   position: relative;
-  margin-top: 54px; }
-
-.services_deal_block {
-  left: -20px;
-  top: 35px; }
-
-.services_hypothec_block, .services_developers_block {
-  right: -25px;
-  top: -25px; }
-
-.services_insurance_block, .services_property_block {
-  left: -25px;
-  top: -25px; }
-
-.services_title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 34px;
-  line-height: 41px;
-  padding-bottom: 10px; }
-
-.services_subtitle {
-  display: block;
-  color: #27AE60;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 34px;
-  line-height: 41px;
-  margin-bottom: 16px; }
-
-.services_subtitle_right {
-  text-align: right; }
+  margin-top: 30px; }
 
 .services_list {
-  max-width: 500px;
   width: 100%;
   padding-left: 5px;
   margin-bottom: 44px;
@@ -897,13 +858,26 @@ a:hover, a:active {
     margin-right: 4px; }
 
 .services_image_block {
-  position: absolute;
   width: 423px;
   height: 339px;
   border: solid 2px #e2e2e2; }
 
+.cooperation_image {
+  margin-right: 69px; }
+  .cooperation_image.left .services_img, .cooperation_image.right .services_img {
+    top: 28px; }
+  .cooperation_image.left .services_img {
+    left: 27px; }
+  .cooperation_image.right {
+    margin-left: 69px; }
+    .cooperation_image.right .services_img {
+      right: 33px;
+      left: auto; }
+
 .services_img {
-  position: relative;
+  position: absolute;
+  top: -23px;
+  left: 27px;
   z-index: 2; }
 
 .services_line_deal:after {
@@ -938,6 +912,13 @@ a:hover, a:active {
   content: "";
   border-bottom: black solid 1px;
   width: 332px; }
+
+@media (max-width: 1180px) {
+  .services_img {
+    width: 260px; }
+  .services_image_block {
+    width: 255px;
+    height: 172px; } }
 
 .about-wrapper {
   padding: 27px 20px 0;
