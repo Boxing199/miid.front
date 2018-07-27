@@ -1374,6 +1374,10 @@ a:hover, a:active {
       font-size: 20px;
       padding-left: 70px; } }
 
+.main-background {
+  background: url("/assets/images/main/main-background.png") center 0 no-repeat;
+  background-size: 1920px; }
+
 .news-slider {
   margin: 48px 0 124px 0; }
   .news-slider .slick-slide {
