@@ -633,10 +633,11 @@ button {
   .developer-banner .content {
     padding: 80px 80px 65px 80px; }
   .developer-banner .content-title {
-    font-size: 40px; }
-  .developer-banner .content-subtitle {
     font-size: 30px;
-    line-height: 50px; }
+    line-height: 43px; }
+  .developer-banner .content-subtitle {
+    font-size: 18px;
+    line-height: 23px; }
   .developer-banner .button {
     padding: 17px 90px 17px 21px; }
   .developer-banner .button-img {
@@ -710,6 +711,12 @@ button {
     .cooperation_wrapper {
       padding-top: 137px;
       padding-bottom: 0; } }
+  @media (max-width: 890px) {
+    .cooperation_wrapper {
+      padding-top: 30px; } }
+  @media (max-width: 600px) {
+    .cooperation_wrapper {
+      padding-top: 12px; } }
 
 .cooperation {
   display: -webkit-box;
@@ -770,6 +777,10 @@ button {
 
 .input_last {
   margin-bottom: 19px; }
+
+@media (max-width: 890px) {
+  .for-developer-content .cooperation_left {
+    margin-right: 10px; } }
 
 .button_send {
   max-width: 205px;
