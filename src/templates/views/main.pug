@@ -14,9 +14,16 @@ block content
             .container
                 .about.main-about
                     .cooperation_left.about_left
-                        .about-title.about-line-deal.h1
-                            div.title_black Дом №1- Первый дом
-                        span.title_green.h1 европейского уровня
+
+                        .title
+                            .title_content
+                                | Дом №1- Первый дом
+                                br
+                                span.title_green европейского уровня
+
+                        //.about-title.about-line-deal.h1
+                        //    div.title_black Дом №1- Первый дом
+                        //span.title_green.h1 европейского уровня
                         p.about-text
                             | Молчи, паскудная Европа и не «качай» свои права! Ты у РОССИИ — просто ж*,
                             | а думаешь, что голова.
@@ -31,9 +38,13 @@ block content
                             span подробнее
                             i.icon.icon-arrow
 
-                    .main-image-wrapper
-                        .about-img-block
-                        img.about-img(src="assets/images/main/about.png")
+                    div.boximage.left
+                        div.boximage_border
+                        img.boximage_block(src="assets/images/main/about.png")
+
+                    //.main-image-wrapper
+                    //    .about-img-block
+                    //    img.about-img(src="assets/images/main/about.png")
 
                     div
                         a.button.hidden.mobile-show(href="#")

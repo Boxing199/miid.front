@@ -1,32 +1,26 @@
 .about-wrapper {
-  padding: 27px 20px 0;
+  padding-top: 26px;
   background-image: radial-gradient(white 35%, rgba(0,0,0,0));
-  max-width: 1183px;
-  margin: 0 auto;
-  @media (max-width: 1024px) {
-    & {
-      padding: 26px 50px 0;
-    }
-  }
-  @media (max-width: 768px) {
-    & {
-      padding: 26px 10px 0;
-    }
-  }
 }
 
 .region_about {
-  background: url("../images/about_company/bg_about.png") 50% -130px no-repeat;
+  background: url("../images/about_company/bg_about.jpg") 50% -130px no-repeat;
 }
 
 .about {
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
+  justify-content: stretch;
   padding-bottom: 101px;
   @media (max-width: 768px) {
     padding-bottom: 50px;
   }
+
+  &-description {
+    width: 100%;
+  }
 }
+
 
 .about_right {
   width: 465px;
@@ -35,6 +29,7 @@
 .about-title {
   margin-bottom: 10px;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .about-subtitle {
@@ -59,18 +54,19 @@
 }
 
 .about-text {
-  font-size: 14px;
   line-height: 25px;
   color: #AEAEAE;
   margin-bottom: 47px;
   padding-right: 80px;
   max-width: 630px;
   order: 1;
+  @media (max-width: 1000px) {
+    color: #424242;
+  }
+
   @media (max-width: 768px) {
     padding-right: 0;
   }
-
-
 }
 
 .about-image-wrapper {
@@ -78,14 +74,19 @@
   float: none;
   position: relative;
   order: 2;
+  right: -69px;
+  margin-top: -57px;
 
   .about-img-block {
     top: -28px;
     left: -27px;
   }
+
   @media (max-width: 1024px) {
     float: right;
     margin-left: 37px;
+    right: -20px;
+    //margin-top: 0;
   }
   @media (max-width: 768px) {
     padding: 20px 0;
@@ -93,6 +94,7 @@
     display: table;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -10px;
 
     .about-img-block {
       top: 0;
@@ -106,7 +108,7 @@
   position: absolute;
   z-index: 2;
   border: solid 2px #E2E2E2;
-  @media (max-width: 1024px) {
+  @media (max-width: 1180px) {
     & {
       width: 240px;
       height: 172px;
@@ -117,7 +119,7 @@
 .about-img {
   position: relative;
   z-index: 3;
-  @media (max-width: 1024px) {
+  @media (max-width: 1180px) {
     & {
       width: 260px;
       height: 186px;
