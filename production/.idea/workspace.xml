@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04770fad-8f72-4cd7-9751-42a12456420d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" afterPath="$PROJECT_DIR$/assets/css/style.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="_callback-search.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/mixins/header.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="773">
+              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <marker date="1532736644854" expanded="true" signature="168:1502" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/components/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="214" column="12" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/views/about.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="207">
+                <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/views/services.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callback.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/mixins/callback.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.main-gallery-text</find>
+      <find>main-gallery-info</find>
+      <find>.main-about</find>
+      <find>top: 0;</find>
+      <find>.main-gallery-wrapper &gt; :nth-child(1):before</find>
+      <find>.main-gallery-wrapper</find>
+      <find>.layout-content</find>
+      <find>.main-image-wrapper</find>
+      <find>margin-bottom</find>
+      <find>call-widget</find>
+      <find>.developer-banner</find>
+      <find>.cooperation_wrapper</find>
+      <find>600</find>
+      <find>@media (max-width: 600px) {</find>
+      <find>cooper</find>
+      <find>cooperator</find>
+      <find>cooperation_left</find>
+      <find>cooperation</find>
+      <find>cooperation_wrapper</find>
+      <find>89</find>
+      <find>url('..</find>
+      <find>.callback-search</find>
+      <find>url(&quot;</find>
+      <find>800</find>
+      <find>.toggle_menu</find>
+      <find>.nav_phone_item</find>
+      <find>padding-right:</find>
+      <find>.header_contacts_li</find>
+      <find>toggle_menu</find>
+      <find>services_img_1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>assets/images/</replace>
+      <replace>a.button</replace>
+      <replace>button</replace>
+      <replace>about-img-block</replace>
+      <replace>about-img</replace>
+      <replace>about-line-deal</replace>
+      <replace>button-img</replace>
+      <replace>.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scss/pages/_about_company.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-about-wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/services/_services-about.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/services/_main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/about/_about-wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/about/_main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_news-slider-description.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-background.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-background.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more-text.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more-search-icon.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-text.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-item.scss" />
+        <option value="$PROJECT_DIR$/src/scss/base/region/_region-title.scss" />
+        <option value="$PROJECT_DIR$/src/templates/views/about_company.pug" />
+        <option value="$PROJECT_DIR$/src/scss/components/partners/_partners.scss" />
+        <option value="$PROJECT_DIR$/src/scss/components/callback/_callback.scss" />
+        <option value="$PROJECT_DIR$/src/js/modules/header.js" />
+        <option value="$PROJECT_DIR$/src/vendor_entries/vendor.js" />
+        <option value="$PROJECT_DIR$/src/scss/components/_modal.scss" />
+        <option value="$PROJECT_DIR$/src/js/modules/modal.js" />
+        <option value="$PROJECT_DIR$/src/templates/mixins/catalog_header.pug" />
+        <option value="$PROJECT_DIR$/src/templates/mixins/call_widget.html" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/scss/base/_meddia.scss" />
+        <option value="$PROJECT_DIR$/src/scss/components/_call-widget.scss" />
+        <option value="$PROJECT_DIR$/src/templates/mixins/call_widget.pug" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery.scss" />
+        <option value="$PROJECT_DIR$/src/templates/views/main.pug" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_about-us.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_news-slider.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_news.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-info.scss" />
+        <option value="$PROJECT_DIR$/src/scss/base/layout.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/main-page/_main-about.scss" />
+        <option value="$PROJECT_DIR$/src/js/modules/call.js" />
+        <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/developers/_developer-banner.scss" />
+        <option value="$PROJECT_DIR$/src/templates/views/for_developers.pug" />
+        <option value="$PROJECT_DIR$/src/scss/pages/developers/_main.scss" />
+        <option value="$PROJECT_DIR$/src/templates/mixins/callback.pug" />
+        <option value="$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss" />
+        <option value="$PROJECT_DIR$/src/templates/mixins/header.pug" />
+        <option value="$PROJECT_DIR$/src/scss/components/_header.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/templates/views/services.pug" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="callback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="SearchEverywhereHistoryKey" value="about_company&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/templates/views/about_company.pug&#10;for&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/templates/views/for_developers.pug&#10;_main-a&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/scss/pages/main-page/_main-about.scss&#10;sprite&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/assets/images/fancybox/fancybox_sprite.png&#10;footer.scss&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/scss/components/_footer.scss&#10;header.&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/scss/components/_header.scss&#10;button-img&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/scss/components/button/_button-img.scss&#10;service&#9;FILE&#9;file:///Users/mishagavela/work/miid.front/src/templates/views/services.pug&#10;.layout-footer&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/services" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/images/main" />
+      <recent name="$PROJECT_DIR$/src/images/" />
+      <recent name="$PROJECT_DIR$/src/images/call.png" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js/modules" />
+      <recent name="$PROJECT_DIR$/src/templates/views" />
+      <recent name="$PROJECT_DIR$/miid/src/scss/base" />
+      <recent name="$PROJECT_DIR$/miid/src/templates/mixins" />
+      <recent name="$PROJECT_DIR$/miid/src/templates" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/about_company.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/style.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/for_developers/partner_logo_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/vendor.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/for_developers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ground_section.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/for_developers/partner_logo_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/js/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/js/modules/news.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/abstracts/_variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_fonts.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_meddia.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_reset.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_typography.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/layout.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/region/_region-title.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/_footer.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/_header.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_about-us-slider.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_about-us.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_news-slider-arrow.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_news-slider-description.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_news.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/style.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/callback.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/footer.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/header.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/partners.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/about_company.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/for_developers.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/ground_section.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/main.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor_entries/vendor.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/demo-files/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/demo-files/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/demo.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/icomoon.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/icomoon.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/icomoon.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/icomoon.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/ArrowSelect.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/catalog/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/catalog/banner_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/catalog/item.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/catalog/item_big.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/blank.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/fancybox_loading.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/fancybox_loading@2x.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/fancybox_overlay.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/fancybox_sprite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fancybox/fancybox_sprite@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/about.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/banner.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/gallery-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/gallery-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/gallery-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/gallery-4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/gallery-5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/image.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/main-background.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/main/zoom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/search/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/backgroundServices.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/services_img_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/services_img_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/services_img_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/services_img_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/services/services_img_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/backgroundServices.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/arrow.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/close.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/fb.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/king.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/label.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/location.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/loop.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/mail.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/messag.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/od.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/phone.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/phone_big.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/search.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/tw.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/user.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/svg/vk.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/arrow.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/close.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/fb.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/king.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/label.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/location.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/loop.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/mail.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/messag.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/od.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/phone.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/phone_big.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/search.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/tw.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/user.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/untitled folder/vk.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/catalog.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/details.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package-lock.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/search.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/services.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/demo-files/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/demo-files/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/demo.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/icomoon.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/icomoon.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/icomoon.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/fonts/icomoon.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/catalog/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/catalog/banner_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/catalog/item.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/catalog/item_big.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/blank.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/fancybox_loading.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/fancybox_loading@2x.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/fancybox_overlay.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/fancybox_sprite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fancybox/fancybox_sprite@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/about.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/banner.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/gallery-1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/gallery-2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/gallery-3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/gallery-4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/gallery-5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/main-background.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/main/zoom.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/backgroundServices.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/services_img_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/services_img_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/services_img_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/services_img_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/services/services_img_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/arrow.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/close.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/fb.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/king.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/label.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/location.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/loop.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/mail.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/messag.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/od.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/phone.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/phone_big.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/search.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/tw.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/user.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/svg/vk.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/js/modules/header.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/js/modules/modal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/base/_icomoon.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/_layout-main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/_modal.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/button/_button-img.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/button/_button-white.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/button/_button.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/button/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_callback-button.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_callback-form.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_callback-question.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_callback.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/checkbox/_checkbox.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/fancybox/_fancybox.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/interested/_interested.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/partners/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/partners/_partners-images.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/partners/_partners.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/progress/_progress.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/progress/jquery-ui.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/_dropdown.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/_multiple.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/_single.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/core.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/mixins/_gradients.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/classic/_defaults.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/classic/_multiple.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/classic/_single.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/classic/layout.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/default/_multiple.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/default/_single.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/select2/theme/default/layout.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_catalog.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_details.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/about/_about-wrapper.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/about/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/developers/_developer-banner.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/developers/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-about-wrapper.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-about.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-banner.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-background.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-info.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-item.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more-search-icon.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more-text.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-more.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-text.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-wrapper.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_main-wrapper.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/services/_main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/base/layout.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/catalog_header.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/interested.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/mixins/modal.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/catalog.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/details.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/services.pug</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor_entries/jquery-ui.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor_entries/jquery.fancybox-thumbs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor_entries/jquery.fancybox.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor_entries/jquery.ui.touch-punch.min.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/style.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Arrow (1).png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Vector (4).png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/Vector.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/fb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/mail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/ok.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/phone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/see_map.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/servises_img_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/servises_img_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/servises_img_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/servises_img_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/servises/servises_img_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/tw.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/images/vk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/servises.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/Arrow (1).png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/Arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/Vector (4).png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/Vector.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/fb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/mail.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/ok.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/phone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/see_map.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/servises/servises_img_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/servises/servises_img_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/servises/servises_img_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/servises/servises_img_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/servises/servises_img_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/tw.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/vk.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/callback.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/components/partners.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_about_company.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_for_developers.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/_servises.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_news-slider-arrow-left.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scss/pages/main-page/_news-slider-arrow-righ.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/templates/views/servises.pug</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.507326" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.492674" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.507326" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.492674" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: a little bit refactoring" />
+    <MESSAGE value="feat: added the slider on about us page" />
+    <MESSAGE value="feat: added the news slider on main page" />
+    <MESSAGE value="feat: start to implement main page" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Boxing199/miid.front into features/main-page&#10;&#10;# Conflicts:&#10;#&#9;assets/css/style.min.css.map" />
+    <MESSAGE value="feat: corrected button" />
+    <MESSAGE value="feat: corrected simple bugs" />
+    <MESSAGE value="Merge branches 'features/main-page' and 'master' of https://github.com/Boxing199/miid.front into features/main-page&#10;&#10;# Conflicts:&#10;#&#9;assets/css/style.min.css&#10;#&#9;assets/css/style.min.css.map&#10;#&#9;for_developers.html&#10;#&#9;main.html&#10;#&#9;src/scss/style.scss" />
+    <MESSAGE value="feat: added gallery on main page" />
+    <MESSAGE value="feat: added  adaptive to gallery on main page" />
+    <MESSAGE value="feat: fixed header" />
+    <MESSAGE value="fix: corrected js for the search input in header" />
+    <MESSAGE value="feat: added call widget and provided animation for popup" />
+    <MESSAGE value="fix: fixed adaptive on main page" />
+    <MESSAGE value="feat: rebuild for gh pages" />
+    <MESSAGE value="fix: corrected adaptive for developer page" />
+    <MESSAGE value="fix: added search icon" />
+    <MESSAGE value="fix: changed image for the mobile menu" />
+    <MESSAGE value="fix: rename file" />
+    <MESSAGE value="fix: added jpg images" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: added jpg images" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/templates/views/search.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/partners/_partners.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1231">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor_entries/jquery.fancybox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="228" column="18" lean-forward="true" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor_entries/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/catalog_header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/services/services_img_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/fancybox/fancybox_sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/main/call.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/about_us.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1532368687393" expanded="true" signature="397:526" ph="..." />
+            <marker date="1532368687393" expanded="true" signature="573:700" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#170#202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/call_widget.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/dots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/base/_meddia.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/views/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="1235" column="4" lean-forward="false" selection-start-line="1235" selection-start-column="4" selection-end-line="1235" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-wrapper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_about-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_news-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_news.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-text.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-wrapper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-gallery-info.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/base/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <marker date="1532731681428" expanded="true" signature="1516:1521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/main-page/_main-about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/modules/call.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_call-widget.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/developers/_developer-banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/views/for_developers.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/developers/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/callback.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/menu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <marker date="1532736644854" expanded="true" signature="168:1502" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="214" column="12" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/views/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/services/services_img_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/services/services_img_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/services/services_img_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/views/services.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
