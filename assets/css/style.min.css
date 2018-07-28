@@ -900,7 +900,7 @@ button {
   background-image: radial-gradient(white 35%, rgba(0, 0, 0, 0)); }
 
 .region_about {
-  background: url("../images/about_company/bg_about.png") 50% -130px no-repeat; }
+  background: url("../images/about_company/bg_about.jpg") 50% -130px no-repeat; }
 
 .about {
   display: -webkit-box;
@@ -955,6 +955,9 @@ button {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1; }
+  @media (max-width: 1000px) {
+    .about-text {
+      color: #424242; } }
   @media (max-width: 768px) {
     .about-text {
       padding-right: 0; } }
@@ -3521,7 +3524,8 @@ button {
   .interested_item {
     width: 244px;
     margin-right: 30px;
-    display: inline-block; }
+    display: inline-block;
+    color: #000; }
     .interested_item:last-child {
       margin-right: 0; }
     .interested_item span:last-child {
@@ -3542,7 +3546,9 @@ button {
               justify-content: space-between; }
   @media (max-width: 1100px) {
     .interested {
-      margin-top: 46px; } }
+      margin-top: 46px; }
+      .interested .interested_item {
+        width: 344px; } }
   @media (max-width: 560px) {
     .interested {
       margin-top: 20px; } }
