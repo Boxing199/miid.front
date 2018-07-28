@@ -1,10 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04770fad-8f72-4cd7-9751-42a12456420d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" afterPath="$PROJECT_DIR$/assets/css/style.min.css" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+    <list default="true" id="04770fad-8f72-4cd7-9751-42a12456420d" name="Default" comment="fix: added production dir">
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vendor.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/demo-files/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/demo-files/demo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/miid.front.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/watcherTasks.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/css/style.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/css/vendor.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo-files/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo-files/demo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/ArrowSelect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/Ellipse.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/Group 4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/Group.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/Line.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/Polygon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/Arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/about_compaty_img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/bg_about.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/about_us-avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/call.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/banner.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/banner_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/item.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/item_big.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/enter_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_loading@2x.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_sprite@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/find.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/bg_content_one.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/bg_content_two.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/partner_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/partner_logo_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/search_img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/glass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/header_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image 6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image 7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image 8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image 9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image_1.1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image_2.1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image_3.1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/image_4.1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/about.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/arrow_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/arrow_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/banner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/call.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/main-background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news_arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news_arrow_black.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/user_avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/main/zoom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/pd-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/search/banner.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/backgroundServices.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/servises/backgroundServices.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/arrow.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/close.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/fb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/king.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/label.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/location.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/loop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/mail.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/messag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/od.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/phone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/phone_big.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/search.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/tw.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/user.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/vk.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/todo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/arrow.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/close.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/fb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/king.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/label.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/location.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/loop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/mail.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/messag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/od.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/phone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/phone_big.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/search.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/tw.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/user.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/vk.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/assets/js/vendor.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/catalog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/details.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/for_developers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/ground_section.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/services.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/production/yarn.lock" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,97 +155,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_callback-search.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/mixins/header.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="18" />
-              <folding>
-                <marker date="1532736644854" expanded="true" signature="168:1502" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/components/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="214" column="12" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/views/about.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
-                <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/views/services.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="callback.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/mixins/callback.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.main-gallery-text</find>
       <find>main-gallery-info</find>
       <find>.main-about</find>
       <find>top: 0;</find>
@@ -134,6 +188,7 @@
       <find>.header_contacts_li</find>
       <find>toggle_menu</find>
       <find>services_img_1</find>
+      <find>gulp production</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/images/</replace>
@@ -246,92 +301,6 @@
             <path>
               <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
               <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="callback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miid.front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miid.front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -771,7 +740,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.507326" order="7" side_tool="true" content_ui="tabs" />
@@ -779,7 +747,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -844,7 +812,8 @@
     <MESSAGE value="fix: changed image for the mobile menu" />
     <MESSAGE value="fix: rename file" />
     <MESSAGE value="fix: added jpg images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: added jpg images" />
+    <MESSAGE value="fix: added production dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: added production dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1163,62 +1132,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/mixins/callback.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/menu.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/mixins/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <marker date="1532736644854" expanded="true" signature="168:1502" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="214" column="12" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/views/about.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/services/services_img_2.png">
@@ -1236,6 +1152,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/views/services.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
@@ -1244,10 +1168,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/views/about.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="15" />
+        <state relative-caret-position="336">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="214" column="12" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/callback/_callback-search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mixins/callback.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
