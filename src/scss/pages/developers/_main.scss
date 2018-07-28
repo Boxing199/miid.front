@@ -58,6 +58,14 @@
     padding-top: 137px;
     padding-bottom: 0;
   }
+
+  @media (max-width: 890px) {
+    padding-top: 30px;
+  }
+
+  @media (max-width: 600px) {
+    padding-top: 12px;
+  }
 }
 
 .cooperation {
@@ -112,6 +120,14 @@
 
 .input_last {
   margin-bottom: 19px;
+}
+
+.for-developer-content {
+  @media (max-width: 890px) {
+    .cooperation_left {
+      margin-right: 10px;
+    }
+  }
 }
 
 .button_send {

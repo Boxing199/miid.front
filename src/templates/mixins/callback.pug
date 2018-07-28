@@ -2,5 +2,6 @@ div.callback.tablet-hidden
     p.callback-question Не нашли что искали?
         form.callback-form(name="callback" class="callback-form")
             a.button-callback.js-button-modal(role="button") заявка на звонок
-            input.callback-search(type="text", placeholder="Поиск", name="callback")
+            .callback-search-wrapper
+                input.callback-search(type="text", placeholder="Поиск", name="callback")
             button(type="submit", style="display: none;")
