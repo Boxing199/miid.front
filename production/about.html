@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
+    <link media="all" rel="stylesheet" href="assets/css/style.min.css">
+    <link media="all" rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  </head>
+  <body class="layout-main">
+    <div class="layout_header">
+      <div class="region_header">
+        <div class="header">
+          <div class="header_logo"><a class="header_logo_a" href="#"><img src="assets/images/logo.png" alt="miid logo"></a></div>
+          <ul class="header_menu">
+            <li class="header_menu_li"><a class="header_menu_item" href="#">главная</a></li>
+            <li class="header_menu_li"><a class="header_menu_item" href="#">услуги</a></li>
+            <li class="header_menu_li"><a class="header_menu_item" href="#">недвижимость</a></li>
+            <li class="header_menu_li"><a class="header_menu_item" href="#">застройщикам</a></li>
+            <li class="header_menu_li"><a class="header_menu_item" href="#">о компании</a></li>
+            <li class="header_menu_li"><a class="header_menu_item" href="#">контакты</a></li>
+          </ul>
+          <ul class="header_contacts">
+            <li class="header_contacts_li nav_phone_item"><a class="nav_phone" href="tel:+74952499040">+7 (495) 249-90-40</a></li>
+            <li class="header_contacts_li nav_enter_item"><a class="nav_enter" href="#">войти</a></li>
+            <li class="header_contacts_li nav_lang_item">
+              <label class="nav_lang_label">
+                <select class="nav_lang">
+                  <option class="nav_lang_item"><a href="#">EN</a></option>
+                  <option class="nav_lang_item"><a href="#">RU</a></option>
+                </select>
+              </label>
+            </li>
+            <li class="header_contacts_li find_input_item">
+              <form action="/" method="get">
+                <input class="find_input" type="search" name="search" autocomplete="off">
+                <input type="submit" style="display:none">
+              </form>
+            </li>
+          </ul>
+          <div class="toggle_menu"></div>
+        </div>
+      </div>
+    </div>
+    <div class="layout-content">
+      <div class="region_about">
+        <div class="about-wrapper">
+          <div class="about">
+            <div class="about-description">
+              <h3 class="about-title about-line-deal h1">Мы на рынке недвижимости</h3><span class="about-subtitle h1 title_green">с 2015 года</span>
+              <div class="about-text-wrapper">
+                <div class="about-image-wrapper">
+                  <div class="about-img-block"></div><img class="about-img" src="assets/images/about_company/about_compaty_img.jpg">
+                </div>
+                <p class="about-text">
+                  «Компания – это в первую очередь опытная команда профессионалов, способных
+                  понять клиента и подобрать эффективное решение поставленных задач, будь-то
+                  продажа квартиры или одобрение ипотеки.<br>Мы любим своё дело и доводим его до конца. Обязательность и соблюдение
+                  договорённостей – это наши основные принципы, которых мы придерживаемся в
+                  работе. Мы ценим долгосрочные партнёрские отношения, нам доверяют ведущие
+                  банки России:<br>Сбербанк, ВТБ 24, Зенит, Росевробанк, Банк Российский капитал, СМП.
+                  Мы благодарны нашим клиентам за оказанное доверие, поскольку мы понимаем,
+                  что покупка квартиры – это не просто покупка квадратных метров, но и
+                  благополучное и безопасное будущее всей семьи на долгие годы.
+                  Рынок недвижимости полон предложений с разного рода нюансами и
+                  подводными камнями, разобраться в которых, порой, простому человеку без
+                  опыта в данной сфере очень сложно и долго.<br>Стоит ли рисковать будущем своей семьи и тратить нервы на долгие переговоры и
+                  проверку юридической чистоты сделки, если успех заранее не определён?<br><br>Доверьте эту работу профессионалам!»<br><a class="button button-about" href="#"><span>подробнее</span><i class="icon icon-arrow"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- partners-->
+          <div class="partners"><img class="partners-images" src="assets/images/for_developers/partner_logo.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo_2.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo.png" alt="partner logo"><img class="partners-images" src="assets/images/for_developers/partner_logo_2.png" alt="partner logo"></div>
+          <!-- callback form-->
+          <div class="callback tablet-hidden">
+            <p class="callback-question">Не нашли что искали?
+              <form class="callback-form callback-form" name="callback"><a class="button-callback js-button-modal" role="button">заявка на звонок</a>
+                <div class="callback-search-wrapper">
+                  <input class="callback-search" type="text" placeholder="Поиск" name="callback">
+                </div>
+                <button type="submit" style="display: none;"></button>
+              </form>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layout_modal">
+      <div class="region_modal">
+        <div class="modal">
+          <div class="header-modal"><span class="header-modal-text">Заказ обратного звонка</span><span class="modal-close">+</span></div>
+          <div class="modal-body">
+            <p class="modal-message">Оставьте свой телефон и мы перезвоним Вам в любое удобное для Вас время!</p>
+            <form class="modal-form">
+              <input class="modal-input" type="text" placeholder="Имя" name="modal-name">
+              <input class="modal-input modal-input_phone" type="phone" placeholder="Телефон" name="modal-phone">
+              <input class="modal-submit" type="submit" value="Отправить" name="modal-submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layout-footer">
+      <div class="container">
+        <div class="region_footer">
+          <div class="footer">
+            <div class="footer_column_one">
+              <div class="footer_logo"><a class="footer_logo_link" href="#"><img class="footer_logo_img" src="assets/images/logo.png" alt="Footer logo"></a></div><a class="footer_about_us" href="#">Информация о нашей компании</a>
+              <ul class="footer_info">
+                <li class="footer_info_nav"><a class="footer_adress" href="#">Мытищи. Олимпийский проспект, строение 10. Бизнес-центр Альта. Офис 1201<i class="icon icon-location"></i></a></li>
+                <li class="footer_info_nav"><a class="footer_phone" href="#">+7 (495) 249-90-40<i class="icon icon-phone"></i></a></li>
+                <li class="footer_info_nav"><a class="footer_email" href="#">sales@miid-realty.ru<i class="icon icon-mail"></i></a></li>
+              </ul>
+            </div>
+            <div class="footer_navigation">
+              <div class="footer_columns">
+                <div class="wrapper_project_sale">
+                  <div class="footer_column_two">
+                    <h3><a class="footer_pro" href="#">ПРОЕКТЫ</a></h3>
+                    <ul class="footer_projects">
+                      <li class="footer_projects_nav"><a class="footer_our_pro footer_menu_item" href="#">Наши проекты</a></li>
+                      <li class="footer_projects_nav"><a class="footer_best footer_menu_item" href="#">Лучшее</a></li>
+                      <li class="footer_projects_nav"><a class="footer_news footer_menu_item" href="#">Новости</a></li>
+                      <li class="footer_projects_nav"><a class="footer_reviews footer_menu_item" href="#">Отзывы</a></li>
+                      <li class="footer_projects_nav"><a class="footer_partners footer_menu_item" href="#">Партнеры</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer_column_tree">
+                    <h3><a class="footer_sale_item" href="#">ПРОДАЖА</a></h3>
+                    <ul class="footer_sale">
+                      <li class="footer_sale_nav"><a class="footer_new_housing footer_menu_item" href="#">Новое жилье</a></li>
+                      <li class="footer_sale_nav"><a class="footer_secondary_housing footer_menu_item" href="#">Вторичное жилье</a></li>
+                      <li class="footer_sale_nav"><a class="footer_commercial footer_menu_item" href="#">Комерческая недвижимость</a></li>
+                      <li class="footer_sale_nav"><a class="footer_country_estate footer_menu_item" href="#">Загородная недвижимость</a></li>
+                      <li class="footer_sale_nav"><a class="footer_ground footer_menu_item" href="#">Земельные участки</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer_column_four">
+                  <h3><a class="footer_cont" href="#">КОНТАКТЫ</a></h3>
+                  <ul class="footer_info footer_info_contacts">
+                    <li class="footer_info_nav"><a class="footer_adress" href="#">Мытищи. Олимпийский проспект, строение 10. Бизнес-центр Альта. Офис 1201<i class="icon icon-location"></i></a></li>
+                    <li class="footer_info_nav"><a class="footer_phone" href="#">+7 (495) 249-90-40<i class="icon icon-phone"></i></a></li>
+                    <li class="footer_info_nav"><a class="footer_email" href="#">sales@miid-realty.ru<i class="icon icon-mail"></i></a></li>
+                  </ul>
+                  <ul class="footer_contacts">
+                    <li class="footer_contacts_nav"><a class="footer_vk footer_social" href="#">Фейсбук<i class="icon icon-fb"></i></a></li>
+                    <li class="footer_contacts_nav"><a class="footer_fb footer_social" href="#">Вконтакте<i class="icon icon-vk"></i></a></li>
+                    <li class="footer_contacts_nav"><a class="footer_tw footer_social" href="#">Твиттер<i class="icon icon-tw"></i></a></li>
+                    <li class="footer_contacts_nav"><a class="footer_ok footer_social" href="#">Одноклассники<i class="icon icon-od"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer_buttons"><a class="feedback footer_button" href="#"><i class="icon-messag icon"></i>Обратная связь</a><a class="footer_see footer_button" href="#">
+                  <svg width="31" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.49956 0C13.1938 0 16.9306 3.86696 16.9991 8.63594C17.0979 15.5143 8.80433 24 8.49956 24C8.17186 24.0001 0 14.8114 0 8.63594C0 3.86648 3.80537 0 8.49956 0ZM8.49994 3.02151C11.0107 3.02151 13.0462 5.08958 13.0462 7.64079C13.0462 10.192 11.0107 12.2601 8.49994 12.2601C5.98914 12.2601 3.95375 10.1919 3.95375 7.6407C3.95375 5.08958 5.98914 3.02151 8.49994 3.02151Z" transform="translate(7)" fill="#858585"/>
+<path d="M8.51935 0C5.51935 0.166667 -0.380647 1.2 0.0193527 4C0.419353 6.8 10.1861 7.5 15.0194 7.5C20.5194 7.5 29.5194 6.4 29.5194 4C29.5194 1.6 23.5194 0.333333 20.5194 0" transform="translate(0.480469 20.5)" stroke="#858585" stroke-width="0.5"/>
+</svg>
+                  Смотреть карту</a></div>
+            </div>
+          </div>
+        </div><a class="site-create" href="#">Сайт создан веб-студией Ancient</a>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="assets/js/vendor.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</html>
