@@ -1,152 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04770fad-8f72-4cd7-9751-42a12456420d" name="Default" comment="fix: added production dir">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/demo-files/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/demo-files/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vendor.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/miid.front.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/watcherTasks.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/css/style.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/css/vendor.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo-files/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo-files/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/fonts/icomoon.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/ArrowSelect.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/Ellipse.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/Group 4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/Group.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/Line.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/Polygon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/Arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/about_compaty_img.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/about_company/bg_about.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/about_us-avatar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/call.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/banner_2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/item.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/catalog/item_big.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/enter_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/blank.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_loading@2x.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_overlay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/fancybox/fancybox_sprite@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/find.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/bg_content_one.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/bg_content_two.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/partner_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/partner_logo_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/for_developers/search_img.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/glass.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/header_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image 6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image 7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image 8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image 9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image_1.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image_2.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image_3.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/image_4.1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/about.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/arrow_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/arrow_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/banner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/call.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/gallery-5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/main-background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news_arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/news_arrow_black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/user_avatar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/main/zoom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/menu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/pd-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/search.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/search/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/backgroundServices.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/services/services_img_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/servises/backgroundServices.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/close.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/fb.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/king.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/label.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/location.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/loop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/mail.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/messag.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/od.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/phone.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/phone_big.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/search.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/tw.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/user.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/svg/vk.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/todo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/close.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/fb.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/king.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/label.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/location.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/loop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/mail.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/messag.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/od.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/phone.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/phone_big.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/search.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/tw.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/user.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/images/untitled folder/vk.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/assets/js/vendor.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/catalog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/details.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/for_developers.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/ground_section.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/search.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/services.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/yarn.lock" afterPath="" />
-    </list>
+    <list default="true" id="04770fad-8f72-4cd7-9751-42a12456420d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -742,12 +597,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.507326" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.492674" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.509768" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.490232" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26495728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1071,7 +926,7 @@
         <state relative-caret-position="391">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <marker date="1532731681428" expanded="true" signature="1516:1521" ph="{...}" />
+            <marker date="1532739824924" expanded="true" signature="1566:1571" ph="{...}" />
           </folding>
         </state>
       </provider>
