@@ -57,19 +57,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     });
 
     $.each($('.j-slider'), function (index, slider) {
-      var handles = $(slider).find('.j-slider-handle span');
+      var $slider = $(slider);
+      var handles = $slider.find('.j-slider-handle span');
       var leftHandle = handles.eq(0);
       var righHandle = handles.eq(1);
 
-      $(slider).slider({
+      $slider.slider({
         range: true,
         min: 0,
         max: 500,
         values: [75, 300],
 
         create: function create() {
-          leftHandle.text($(this).slider("values", 0));
-          righHandle.text($(this).slider("values", 1));
+          var $this = $(this);
+          leftHandle.text($this.slider("values", 0));
+          righHandle.text($this.slider("values", 1));
         },
         slide: function slide(event, ui) {
           leftHandle.text(ui.values[0]);
