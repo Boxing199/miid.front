@@ -11,12 +11,10 @@
     }
 
     @media (max-width: 1024px) {
-        & {
-            max-width: 640px;
-            width: 100%;
-            margin: 48px auto 124px auto;
+        max-width: 640px;
+        width: 100%;
+        margin: 12px auto 84px;
 
-        }
 
         .slick-list {
             overflow: visible;
@@ -24,7 +22,8 @@
     }
 
     @media (max-width: 720px) {
-      max-width: 240px;
-      width: 100%;
+        max-width: 240px;
+        width: 100%;
+        margin: 14px auto 24px;
    }
 }
