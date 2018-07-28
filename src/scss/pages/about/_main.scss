@@ -60,6 +60,10 @@
   padding-right: 80px;
   max-width: 630px;
   order: 1;
+  @media (max-width: 1000px) {
+    color: #424242;
+  }
+
   @media (max-width: 768px) {
     padding-right: 0;
   }
