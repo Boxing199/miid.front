@@ -1817,7 +1817,14 @@ button {
     margin: 0 0 16px;
     width: calc(50% - 8px);
     border: 1px solid #27AE60;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    transition: border-color .3s; }
+    .catalog_item:hover {
+      border-color: #FF6B00; }
+      .catalog_item:hover .catalog_item_cost {
+        color: #FF6B00; }
     .catalog_item_vip {
       border-color: #F9C938;
       position: relative; }
@@ -1844,6 +1851,9 @@ button {
     .catalog_item_name, .catalog_item_cost {
       font-weight: bold; }
     .catalog_item_cost {
+      -webkit-transition: color .3s;
+      -o-transition: color .3s;
+      transition: color .3s;
       color: #27AE60; }
   .catalog_slider {
     width: 360px;
