@@ -4,7 +4,76 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media (max-width: 1160px ) {
+    .main-gallery-more {
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition-duration: .3s;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.65);
+            transition-duration: .3s;
+        }
+
+        &-text {
+            position: relative;
+            z-index: 2;
+            font-size: 25px;
+            line-height: 30px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        &-search-icon {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            background: #27AE60;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2;
+            margin-top: 20px;
+
+            &:after {
+                width: 60px;
+                height: 60px;
+                content: "";
+                display: inline-block;
+                background: url(../images/main/zoom.png);
+                background-size: contain;
+                margin: auto;
+            }
+        }
+    }
+
+    &:hover {
+        .main-gallery-more {
+            opacity: 1;
+        }
+
+        .main-gallery-info {
+            opacity: 0;
+            transition-duration: .3s;
+        }
+    }
+
+
+    @media (max-width: 1160px) {
         height: 230px;
         flex: 0 calc(50% - 19px);
     }
