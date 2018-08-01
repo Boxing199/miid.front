@@ -230,7 +230,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var MODAL = {
   modalToggle: function modalToggle() {
-    var button_modal = $(".js-button-modal");
+    var button_modal = $(".js-button_modal");
     var layout_modal = $(".layout_modal");
     var close = $(".modal-close");
 
